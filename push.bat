@@ -4,18 +4,8 @@ title Push images to GitHub
 
 cd /d "%~dp0"
 
-echo.
-echo   Repo    https://github.com/Babar-Meet/coc-img
-echo   Branch  main
-echo.
-echo   main is served raw, so a successful push puts these images
-echo   live for the app immediately.
-echo.
-
 set "AHEAD=0"
 for /f %%c in ('git rev-list --count origin/main..HEAD 2^>nul') do set "AHEAD=%%c"
-echo   Commits waiting to be pushed:  !AHEAD!
-echo.
 
 git add .
 if errorlevel 1 goto :adderr
@@ -53,38 +43,24 @@ set "MSG=!MSG: =_!"
 
 git commit -m "%MSG%"
 if errorlevel 1 goto :comiterr
-echo.
-echo   Committed as:  %MSG%
-goto :topush
 
 :nothing
-echo.
-echo   Nothing new to commit. Carrying on to the push.
-
-:topush
-echo.
-echo   Pushing to origin main...
 git push origin main
 if errorlevel 1 goto :pusherr
-echo.
-echo   PUSH OK. Your images are live on the CDN now.
-echo   Closing in 10 seconds.
-timeout /t 10 /nobreak >nul 2>&1
+echo   PUSH OK   !MSG!
 exit /b 0
 
 :adderr
-echo.
 echo   ERROR: git add failed. Nothing was sent.
 goto :failed
 
 :comiterr
-echo.
 echo   ERROR: commit failed. Nothing was sent.
 goto :failed
 
 :pusherr
 echo.
-echo   PUSH FAILED. Nothing was published. The git error is printed above.
+echo   PUSH FAILED. Nothing was published. Git error is above.
 goto :failed
 
 :failed
