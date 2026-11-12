@@ -15,7 +15,10 @@ const TABS: { id: TabId; label: string; icon: React.ReactNode }[] = [
 
 export default function App() {
   const [tab, setTab] = useState<TabId>('editor')
-  const { items, addItem, removeItem, updateNote, updateTags } = useLibrary()
+  const {
+    items, addItem, removeItem, updateNote, updateTags,
+    fetchState, fetchError, lastFetched, refetch,
+  } = useLibrary()
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', overflow: 'hidden', background: 'var(--bg-base)' }}>
@@ -48,9 +51,10 @@ export default function App() {
                 color: tab === t.id ? 'var(--text-hi)' : 'var(--text-lo)',
                 fontWeight: tab === t.id ? 600 : 400,
                 fontSize: 12,
+                borderTop: 'none', borderLeft: 'none', borderRight: 'none',
                 borderBottom: tab === t.id ? '2px solid var(--accent)' : '2px solid transparent',
                 borderRadius: '6px 6px 0 0',
-                border: 'none',
+                cursor: 'pointer',
                 transition: 'all .12s',
               }}>
               {t.icon}{t.label}
@@ -69,7 +73,18 @@ export default function App() {
 
       <main style={{ flex: 1, display: 'flex', overflow: 'hidden' }}>
         {tab === 'editor'  && <EditorTab onExported={addItem} />}
-        {tab === 'library' && <LibraryTab items={items} onRemove={removeItem} onUpdateNote={updateNote} onUpdateTags={updateTags} />}
+        {tab === 'library' && (
+          <LibraryTab
+            items={items}
+            onRemove={removeItem}
+            onUpdateNote={updateNote}
+            onUpdateTags={updateTags}
+            fetchState={fetchState}
+            fetchError={fetchError}
+            lastFetched={lastFetched}
+            onRefetch={refetch}
+          />
+        )}
         {tab === 'publish' && <PublishTab />}
       </main>
 
