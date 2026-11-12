@@ -5,6 +5,7 @@ import EditorTab from './components/EditorTab'
 import LibraryTab from './components/LibraryTab'
 import PublishTab from './components/PublishTab'
 import { useLibrary } from './hooks/useLibrary'
+import { useCategories } from './hooks/useCategories'
 import './index.css'
 
 const TABS: { id: TabId; label: string; icon: React.ReactNode }[] = [
@@ -15,6 +16,7 @@ const TABS: { id: TabId; label: string; icon: React.ReactNode }[] = [
 
 export default function App() {
   const [tab, setTab] = useState<TabId>('editor')
+  const categories = useCategories()
   const {
     items, addItem, removeItem, updateNote, updateTags,
     fetchState, fetchError, lastFetched, refetch,
@@ -26,10 +28,9 @@ export default function App() {
       <header style={{
         height: 46, flexShrink: 0,
         background: 'var(--bg-panel)',
-        borderBottom: '1px solid var(--border)',
+        borderBottomWidth: 1, borderBottomStyle: 'solid', borderBottomColor: 'var(--border)',
         display: 'flex', alignItems: 'center',
-        padding: '0 14px',
-        gap: 12,
+        padding: '0 14px', gap: 12,
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginRight: 8 }}>
           <div style={{ width: 26, height: 26, borderRadius: 6, background: 'var(--accent)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -43,20 +44,19 @@ export default function App() {
 
         <nav style={{ display: 'flex', gap: 2 }}>
           {TABS.map(t => (
-            <button key={t.id} onClick={() => setTab(t.id)}
-              style={{
-                display: 'flex', alignItems: 'center', gap: 6,
-                padding: '5px 14px',
-                background: tab === t.id ? 'var(--bg-hover)' : 'transparent',
-                color: tab === t.id ? 'var(--text-hi)' : 'var(--text-lo)',
-                fontWeight: tab === t.id ? 600 : 400,
-                fontSize: 12,
-                borderTop: 'none', borderLeft: 'none', borderRight: 'none',
-                borderBottom: tab === t.id ? '2px solid var(--accent)' : '2px solid transparent',
-                borderRadius: '6px 6px 0 0',
-                cursor: 'pointer',
-                transition: 'all .12s',
-              }}>
+            <button key={t.id} onClick={() => setTab(t.id)} style={{
+              display: 'flex', alignItems: 'center', gap: 6,
+              padding: '5px 14px',
+              background: tab === t.id ? 'var(--bg-hover)' : 'transparent',
+              color: tab === t.id ? 'var(--text-hi)' : 'var(--text-lo)',
+              fontWeight: tab === t.id ? 600 : 400,
+              fontSize: 12,
+              borderTopWidth: 0, borderLeftWidth: 0, borderRightWidth: 0,
+              borderBottomWidth: 2, borderBottomStyle: 'solid',
+              borderBottomColor: tab === t.id ? 'var(--accent)' : 'transparent',
+              borderRadius: '6px 6px 0 0',
+              cursor: 'pointer', transition: 'all .12s',
+            }}>
               {t.icon}{t.label}
             </button>
           ))}
@@ -72,7 +72,7 @@ export default function App() {
       </header>
 
       <main style={{ flex: 1, display: 'flex', overflow: 'hidden' }}>
-        {tab === 'editor'  && <EditorTab onExported={addItem} />}
+        {tab === 'editor'  && <EditorTab onExported={addItem} categories={categories.toCategoryRoots()} />}
         {tab === 'library' && (
           <LibraryTab
             items={items}
@@ -83,6 +83,7 @@ export default function App() {
             fetchError={fetchError}
             lastFetched={lastFetched}
             onRefetch={refetch}
+            categories={categories}
           />
         )}
         {tab === 'publish' && <PublishTab />}
@@ -91,7 +92,7 @@ export default function App() {
       <footer style={{
         height: 24, flexShrink: 0,
         background: 'var(--bg-panel)',
-        borderTop: '1px solid var(--border)',
+        borderTopWidth: 1, borderTopStyle: 'solid', borderTopColor: 'var(--border)',
         display: 'flex', alignItems: 'center',
         padding: '0 14px', gap: 16,
       }}>

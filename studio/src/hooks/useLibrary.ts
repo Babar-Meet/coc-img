@@ -57,7 +57,9 @@ export function useLibrary() {
           node.type === 'blob' &&
           IMAGE_EXTS.some(ext => node.path.toLowerCase().endsWith(ext)) &&
           // skip root-level logos / icons, only repo image folders
-          (node.path.startsWith('Bases_img/') || node.path.startsWith('army_img/'))
+          (node.path.startsWith('Bases_img/') || node.path.startsWith('army_img/') ||
+            // also catch any path that has a TH_xx segment (user-added categories)
+            /\/TH_\d+\//.test(node.path))
         )
         .map(node => ({
           path:     node.path,

@@ -1,16 +1,17 @@
 import { useState, useRef, useCallback } from 'react'
 import { Upload, Image, Download, RotateCcw } from 'lucide-react'
 import type { FolderPath, LibraryItem } from './types'
-import { CATEGORY_ROOTS, TH_LEVELS, makeRawUrl, randomId, sanitizeFilename } from './constants'
+import { TH_LEVELS, makeRawUrl, randomId, sanitizeFilename } from './constants'
 import Canvas from './Canvas'
 import LayerPanel from './LayerPanel'
 import { useLayers } from '../hooks/useLayers'
 
 interface Props {
   onExported: (item: LibraryItem) => void
+  categories: Record<string, { label: string; thPath: (th: string) => string; subs: string[] }>
 }
 
-export default function EditorTab({ onExported }: Props) {
+export default function EditorTab({ onExported, categories }: Props) {
   const [baseImage, setBaseImage] = useState<string | null>(null)
   const [baseFilename, setBaseFilename] = useState('')
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
@@ -20,8 +21,8 @@ export default function EditorTab({ onExported }: Props) {
   const [exportNote, setExportNote] = useState('')
   const [lastExport, setLastExport] = useState<string | null>(null)
 
-  const rootKeys = Object.keys(CATEGORY_ROOTS)
-  const currentRoot = CATEGORY_ROOTS[folder.root]
+  const rootKeys = Object.keys(categories)
+  const currentRoot = categories[folder.root] ?? Object.values(categories)[0]
 
   const handleDrop = useCallback((e: React.DragEvent) => {
     e.preventDefault()
@@ -143,7 +144,7 @@ export default function EditorTab({ onExported }: Props) {
           <div className="section-label" style={{ marginBottom: 8 }}>Export Destination</div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
             {[
-              { label: 'Category', value: folder.root, opts: rootKeys.map(k => ({ v: k, l: CATEGORY_ROOTS[k].label })), onChange: (v: string) => setFolder(f => ({ ...f, root: v, sub: CATEGORY_ROOTS[v]?.subs[0] || '' })) },
+              { label: 'Category', value: folder.root, opts: rootKeys.map(k => ({ v: k, l: categories[k].label })), onChange: (v: string) => setFolder(f => ({ ...f, root: v, sub: categories[v]?.subs[0] || '' })) },
               { label: 'Town Hall', value: folder.th, opts: TH_LEVELS.map(t => ({ v: t, l: t.replace('_', ' ') })), onChange: (v: string) => setFolder(f => ({ ...f, th: v })) },
               { label: 'Sub-folder', value: folder.sub, opts: (currentRoot?.subs || []).map(s => ({ v: s, l: s })), onChange: (v: string) => setFolder(f => ({ ...f, sub: v })) },
             ].map(({ label, value, opts, onChange }) => (
