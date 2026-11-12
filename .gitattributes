@@ -1,0 +1,7 @@
+# ==============================================================================
+# Clash of Clans Image Repository - Git Attributes
+# ==============================================================================
+
+# Ensure git hooks always retain LF line endings on Windows checkout
+.githooks/* text eol=lf
+*.sh text eol=lf

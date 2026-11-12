@@ -1,0 +1,106 @@
+#!/bin/sh
+# ==============================================================================
+# .githooks/pre-push
+# Clash of Clans Image Repository - Pre-Push Security Hook
+# Cross-platform POSIX script for Git on Windows, Linux, and macOS
+# ==============================================================================
+
+set -e
+
+# Terminal ANSI color escape codes (suppressed if non-interactive)
+if [ -t 1 ]; then
+  RED='\033[1;31m'
+  YELLOW='\033[1;33m'
+  GREEN='\033[1;32m'
+  CYAN='\033[1;36m'
+  BOLD='\033[1m'
+  NC='\033[0m'
+else
+  RED=''
+  YELLOW=''
+  GREEN=''
+  CYAN=''
+  BOLD=''
+  NC=''
+fi
+
+REMOTE="$1"
+REMOTE_URL="$2"
+FAILED=0
+ZERO_OID="0000000000000000000000000000000000000000"
+
+SECRET_REGEX='github_pat_[a-zA-Z0-9_]{50,120}|ghp_[a-zA-Z0-9]{36}|AKIA[0-9A-Z]{16}|-----BEGIN (RSA|OPENSSH|EC|DSA|PGP)? ?PRIVATE KEY-----'
+FORBIDDEN_FILE_REGEX='(\.env($|\.)|\.pem$|\.key$|\.pkcs12$|\.p12$|\.pfx$|(^|/)id_(rsa|dsa|ecdsa|ed25519)|credentials\.json|client[-_]secret.*\.json|service[-_]account.*\.json|\.(keystore|jks)$|\.netrc$|\.(bash_history|zsh_history)$|\.token$|\.secret$|(^|/)token\.txt$)'
+
+# Standard input format: <local_ref> <local_sha> <remote_ref> <remote_sha>
+while read -r local_ref local_sha remote_ref remote_sha; do
+  # Skip branch deletion pushes
+  if [ "$local_sha" = "$ZERO_OID" ]; then
+    continue
+  fi
+
+  # Determine commit range
+  if [ "$remote_sha" = "$ZERO_OID" ]; then
+    # New remote branch: scan commits not reachable on remote
+    COMMITS=$(git rev-list "$local_sha" --not --remotes="$REMOTE" 2>/dev/null || git rev-list "$local_sha" -n 50 2>/dev/null || true)
+  else
+    COMMITS=$(git rev-list "$remote_sha..$local_sha" 2>/dev/null || true)
+  fi
+
+  if [ -z "$COMMITS" ]; then
+    continue
+  fi
+
+  for COMMIT in $COMMITS; do
+    # 1. Inspect filenames added or modified in this commit
+    CHANGED_FILES=$(git diff-tree --no-commit-id --name-only --diff-filter=ACM -r "$COMMIT" 2>/dev/null || true)
+    if [ -n "$CHANGED_FILES" ]; then
+      BLOCKED_FILES=$(echo "$CHANGED_FILES" | grep -v -E '^(scripts/verify-secrets\.mjs|\.githooks/)' | grep -E -i "$FORBIDDEN_FILE_REGEX" || true)
+      if [ -n "$BLOCKED_FILES" ]; then
+        FAILED=1
+        SHORT_COMMIT=$(git rev-parse --short "$COMMIT" 2>/dev/null || echo "$COMMIT")
+        printf "\n${RED}================================================================================\n" >&2
+        printf "${BOLD}[SECURITY ALERT] Outgoing Commit %s Contains Sensitive File(s)!\n" "$SHORT_COMMIT" >&2
+        printf "================================================================================${NC}\n" >&2
+        echo "$BLOCKED_FILES" | while IFS= read -r f; do
+          printf "  ${RED}✖ %s${NC}\n" "$f" >&2
+        done
+      fi
+    fi
+
+    # 2. Inspect added diff content in this commit
+    ADDED_LINES=$(git diff-tree -p -U0 "$COMMIT" -- . ":(exclude)tests/harness" 2>/dev/null | grep -E '^\+[^+]' || true)
+    if [ -n "$ADDED_LINES" ]; then
+      MATCHES=$(echo "$ADDED_LINES" | grep -E -e "$SECRET_REGEX" || true)
+      if [ -n "$MATCHES" ]; then
+        FAILED=1
+        SHORT_COMMIT=$(git rev-parse --short "$COMMIT" 2>/dev/null || echo "$COMMIT")
+        printf "\n${RED}================================================================================\n" >&2
+        printf "${BOLD}[SECURITY ALERT] Outgoing Commit %s Contains Prohibited Secret Pattern!\n" "$SHORT_COMMIT" >&2
+        printf "================================================================================${NC}\n" >&2
+        printf "${YELLOW}Commit: %s${NC}\n" "$COMMIT" >&2
+        printf "${CYAN}Run: git show %s to review offending lines.${NC}\n" "$SHORT_COMMIT" >&2
+      fi
+    fi
+  done
+done
+
+# ------------------------------------------------------------------------------
+# 3. Secondary Deep Scan: Node.js Verification Engine (if available)
+# ------------------------------------------------------------------------------
+if [ "$FAILED" -eq 0 ] && command -v node >/dev/null 2>&1 && [ -f "scripts/verify-secrets.mjs" ]; then
+  if ! node scripts/verify-secrets.mjs --commits; then
+    FAILED=1
+  fi
+fi
+
+# ------------------------------------------------------------------------------
+# 4. Final Disposition
+# ------------------------------------------------------------------------------
+if [ "$FAILED" -ne 0 ]; then
+  printf "\n${RED}${BOLD}[PUSH BLOCKED] Outgoing push cancelled due to detected security violations.${NC}\n" >&2
+  printf "${YELLOW}Clean up commit history or reset offending commits before pushing to GitHub.${NC}\n\n" >&2
+  exit 1
+fi
+
+exit 0

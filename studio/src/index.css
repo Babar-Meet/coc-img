@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+:root {
+  --bg-base:    #0f1117;
+  --bg-panel:   #161b25;
+  --bg-card:    #1e2535;
+  --bg-hover:   #252d3d;
+  --border:     #2a3348;
+  --accent:     #f4a443;
+  --accent-dim: #c47d28;
+  --text-hi:    #eef0f5;
+  --text-mid:   #9aa3b8;
+  --text-lo:    #566072;
+  --ok:         #3ecf8e;
+  --warn:       #f4a443;
+  --danger:     #ef4444;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg-base);
+  color: var(--text-hi);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 13px;
+  overflow: hidden;
+  height: 100vh;
+  user-select: none;
+}
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: var(--bg-base); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-lo); }
+
+input, textarea {
+  background: var(--bg-base);
+  border: 1px solid var(--border);
+  color: var(--text-hi);
+  border-radius: 6px;
+  padding: 6px 10px;
+  outline: none;
+  font-size: 12px;
+  transition: border-color .15s;
+  user-select: text;
+}
+input:focus, textarea:focus { border-color: var(--accent); }
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all .15s;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #0f1117;
+  border-radius: 6px;
+  padding: 7px 14px;
+  font-weight: 600;
+}
+.btn-primary:hover { background: #e09030; }
+.btn-primary:disabled { opacity: .4; cursor: not-allowed; }
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text-mid);
+  border-radius: 6px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+}
+.btn-ghost:hover { background: var(--bg-hover); color: var(--text-hi); border-color: var(--text-lo); }
+
+.btn-icon {
+  background: transparent;
+  color: var(--text-mid);
+  border-radius: 5px;
+  padding: 5px;
+  display: flex; align-items: center; justify-content: center;
+}
+.btn-icon:hover { background: var(--bg-hover); color: var(--text-hi); }
+.btn-icon.danger:hover { background: #2a1515; color: var(--danger); }
+
+.panel {
+  background: var(--bg-panel);
+  border-right: 1px solid var(--border);
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.tag {
+  background: var(--bg-hover);
+  color: var(--accent);
+  border-radius: 4px;
+  padding: 2px 7px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .3px;
+}
+
+.section-label {
+  color: var(--text-lo);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
