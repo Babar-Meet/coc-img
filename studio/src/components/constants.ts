@@ -1,16 +1,14 @@
-// constants
-export const REPO_OWNER = 'Babar-Meet'
-export const REPO_NAME  = 'coc-img'
-export const BRANCH     = 'main'
-export const RAW_BASE   = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}`
+// Client-facing constants. Shared values live in src/shared/studioConfig.ts and are re-exported here.
+import { ALLOWED_CATEGORIES, rawUrlForPath, sanitizeStem } from '../shared/studioConfig'
 
-export const TH_LEVELS = Array.from({ length: 18 }, (_, i) => `TH_${i + 1}`)
-export const BASES_SUBS = ['War', 'Farming', 'Progress', 'Art', 'Rank']
-export const ARMY_SUBS  = ['War', 'Farming', 'Rank', 'Simple']
+export * from '../shared/studioConfig'
+
+export const BASES_SUBS = [...ALLOWED_CATEGORIES['Bases_img/home_village_bases'].subs]
+export const ARMY_SUBS = [...ALLOWED_CATEGORIES.army_img.subs]
 
 export const CATEGORY_ROOTS: Record<string, { label: string; thPath: (th: string) => string; subs: string[] }> = {
-  'Bases_img/home_village_bases': { label: 'Home Village Bases', thPath: (th: string) => `Bases_img/home_village_bases/${th}`, subs: BASES_SUBS },
-  'army_img':                     { label: 'Army Images',        thPath: (th: string) => `army_img/${th}`,                     subs: ARMY_SUBS  },
+  'Bases_img/home_village_bases': { label: ALLOWED_CATEGORIES['Bases_img/home_village_bases'].label, thPath: (th: string) => `Bases_img/home_village_bases/${th}`, subs: BASES_SUBS },
+  'army_img':                     { label: ALLOWED_CATEGORIES.army_img.label,                     thPath: (th: string) => `army_img/${th}`,                     subs: ARMY_SUBS  },
 }
 
 export const WATERMARK_SOURCES = [
@@ -21,8 +19,7 @@ export const WATERMARK_SOURCES = [
 ]
 
 export function makeRawUrl(repoRelPath: string): string {
-  const encoded = repoRelPath.split('/').map(encodeURIComponent).join('/')
-  return `${RAW_BASE}/${encoded}`
+  return rawUrlForPath(repoRelPath)
 }
 
 export function randomId(n = 6): string {
@@ -30,5 +27,5 @@ export function randomId(n = 6): string {
 }
 
 export function sanitizeFilename(raw: string): string {
-  return raw.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '') || 'image'
+  return sanitizeStem(raw)
 }

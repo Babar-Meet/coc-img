@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { GitMerge, Shield, CheckCircle, XCircle, Loader, AlertTriangle } from 'lucide-react'
+import { GitMerge, Shield, CheckCircle, XCircle, Loader } from 'lucide-react'
 
 interface PublishResult {
   ok: boolean
@@ -17,62 +17,62 @@ export default function PublishTab() {
 
   async function runPublish() {
     setRunning(true); setResult(null); setLog([])
-    appendLog('▶ Publish workflow initiated')
+    appendLog('▶ Convert & Push is the primary publish flow')
     appendLog('')
-    appendLog('The studio runs in the browser — git operations run via push.bat:')
+    appendLog('In the Editor tab:')
+    appendLog('  1. Drop a phone screenshot. It is fitted to the 1600 × 800 canvas.')
+    appendLog('  2. Move/scale the photo and place your watermark layers.')
+    appendLog('  3. Choose Category, Town Hall and Type, then type a name stem.')
+    appendLog('  4. Press Convert & Push and confirm the card.')
     appendLog('')
-    appendLog('  cd /d B:\\_Git\\DEV\\Babar-Meet\\coc-img')
-    appendLog('  push.bat')
+    appendLog('The local studio server then:')
+    appendLog('  • writes the .webp into the exact folder (creating it if needed)')
+    appendLog('  • runs scripts/verify-secrets.mjs --staged against a temporary git index')
+    appendLog('  • commits ONLY that new image')
+    appendLog('  • pushes origin/main and returns the raw URL')
+    appendLog('  • copies the raw URL to your clipboard')
     appendLog('')
-    appendLog('What push.bat does automatically:')
-    appendLog('  git add .                    — stages all new images')
-    appendLog('  git commit -m "Add X images" — structured commit message')
-    appendLog('  git push origin main         — publishes to GitHub CDN')
-    appendLog('')
-    appendLog('✓ Security checks are enforced by pre-commit hooks in .githooks/')
-    appendLog('✓ .env and secrets are blocked by .gitignore')
-    appendLog('')
-    appendLog('After push: your raw GitHub URLs will be live immediately.')
-    setResult({ ok: true, message: 'Instructions ready — run push.bat to publish.' })
+    appendLog('push.bat remains available for CLI batches of files you add outside the studio.')
+    appendLog('It stages everything in the working tree, so review git status before running it.')
+    setResult({ ok: true, message: 'Instructions ready — Convert & Push in the Editor publishes in one step.' })
     setRunning(false)
   }
 
   async function checkSecurity() {
     setRunning(true); setLog([]); setResult(null)
-    appendLog('▶ Security verification scan')
+    appendLog('▶ Publish safeguards')
     appendLog('')
     await new Promise(r => setTimeout(r, 300))
-    appendLog('✓ .env excluded from git tracking')
-    appendLog('✓ *.secret, *.token, *.key, *.pem excluded')
-    appendLog('✓ node_modules/ excluded')
-    appendLog('✓ studio/dist/ excluded')
-    appendLog('✓ *.keystore, *.jks excluded')
-    appendLog('✓ Pre-commit hook: .githooks/pre-commit active')
-    appendLog('✓ Pre-push hook: .githooks/pre-push active')
-    appendLog('✓ .gitattributes configured')
+    appendLog('✓ Publish API requires the X-Studio-Request header and same-origin JSON requests')
+    appendLog('✓ Destination is allowlisted (Base/Army → TH_1..TH_18 → type); client paths are ignored')
+    appendLog('✓ Filenames match <stem>_<six digits>.webp and existing files are never overwritten')
+    appendLog('✓ The commit uses a temporary git index, so unrelated work cannot ride along')
+    appendLog('✓ scripts/verify-secrets.mjs --staged runs before every commit')
+    appendLog('✓ git runs with GIT_TERMINAL_PROMPT=0 and per-step timeouts: no credential-prompt hangs')
+    appendLog('✓ Download WebP writes nothing and needs no server')
     appendLog('')
-    appendLog('✓ All security checks passed — repository is safe to push.')
-    setResult({ ok: true, message: 'All security checks passed.' })
+    appendLog('Pre-commit and pre-push hooks in .githooks/ still run on top of these checks.')
+    setResult({ ok: true, message: 'These are the checks the local publish server performs.' })
     setRunning(false)
   }
 
   return (
     <div style={{ display: 'flex', flex: 1, overflow: 'hidden' }}>
       {/* Left: Actions */}
-      <div className="panel" style={{ width: 280, flexShrink: 0, padding: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
+      <div className="panel" style={{ width: 300, flexShrink: 0, padding: 20, display: 'flex', flexDirection: 'column', gap: 16 }}>
         <div>
-          <div className="section-label" style={{ marginBottom: 10 }}>Git Publish Workflow</div>
+          <div className="section-label" style={{ marginBottom: 10 }}>Publishing</div>
           <div style={{ color: 'var(--text-mid)', fontSize: 12, lineHeight: 1.6, marginBottom: 14 }}>
-            After exporting WebP images from the Editor tab, run <strong style={{ color: 'var(--accent)' }}>push.bat</strong> to commit and push to GitHub.
+            <strong style={{ color: 'var(--accent)' }}>Convert &amp; Push</strong> in the Editor tab is the primary flow: it writes the WebP, commits only that file and pushes origin/main. <strong style={{ color: 'var(--accent)' }}>push.bat</strong> stays available for CLI batches.
           </div>
 
           <div style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', borderRadius: 8, padding: 12, marginBottom: 12 }}>
-            <div style={{ fontWeight: 600, fontSize: 12, color: 'var(--text-hi)', marginBottom: 8 }}>Steps</div>
+            <div style={{ fontWeight: 600, fontSize: 12, color: 'var(--text-hi)', marginBottom: 8 }}>Editor flow</div>
             {[
-              'Export WebP from Editor (auto-downloaded)',
-              'Move file to correct folder in repo',
-              'Double-click push.bat in repo root',
-              'Image is live on GitHub CDN! ✓',
+              'Drop a screenshot — it fits the 1600 × 800 canvas',
+              'Move/scale the photo, place watermark layers',
+              'Pick Category, Town Hall, Type and type a name',
+              'Convert & Push → confirm → raw URL is copied',
             ].map((s, i) => (
               <div key={i} style={{ display: 'flex', gap: 8, alignItems: 'flex-start', marginBottom: 6 }}>
                 <span style={{ background: 'var(--accent)', color: '#0f1117', borderRadius: '50%', width: 18, height: 18, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 10, fontWeight: 700, flexShrink: 0 }}>{i + 1}</span>
@@ -90,7 +90,7 @@ export default function PublishTab() {
           </button>
           <button className="btn-ghost" disabled={running} onClick={checkSecurity}
             style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, padding: '9px 0' }}>
-            <Shield size={14} /> Verify Security Rules
+            <Shield size={14} /> What Publish Enforces
           </button>
         </div>
 
@@ -102,8 +102,8 @@ export default function PublishTab() {
         )}
 
         <div style={{ marginTop: 'auto', borderTop: '1px solid var(--border)', paddingTop: 14 }}>
-          <div className="section-label" style={{ marginBottom: 8 }}>Security Status</div>
-          {['.env secrets excluded', 'Private keys excluded', 'node_modules excluded', 'Pre-commit hooks active', 'studio/dist excluded'].map(label => (
+          <div className="section-label" style={{ marginBottom: 8 }}>Runtime</div>
+          {['Local Vite dev server only', 'Allowlisted folders and TH levels', 'One new file per commit', 'Secret scan before commit', 'Download WebP needs no server'].map(label => (
             <div key={label} style={{ display: 'flex', alignItems: 'center', gap: 7, marginBottom: 5 }}>
               <CheckCircle size={12} style={{ color: 'var(--ok)' }} />
               <span style={{ fontSize: 11, color: 'var(--text-mid)' }}>{label}</span>

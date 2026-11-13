@@ -27,6 +27,25 @@ interface Props {
   categories: CategoriesHandle
 }
 
+// ── CopyBtn: any button that flashes ✓ on copy ────────────────────────────
+function CopyBtn({
+  text, label = 'Copy URL', className = 'btn-ghost', style = {},
+}: { text: string; label?: string; className?: string; style?: React.CSSProperties }) {
+  const [copied, setCopied] = useState(false)
+  function handle() {
+    copyText(text)
+    setCopied(true)
+    setTimeout(() => setCopied(false), 1800)
+  }
+  return (
+    <button className={className} onClick={handle}
+      style={{ display: 'flex', alignItems: 'center', gap: 5, justifyContent: 'center', transition: 'color .15s', color: copied ? 'var(--ok)' : undefined, ...style }}>
+      {copied ? <Check size={11} /> : <Copy size={11} />}
+      {copied ? 'Copied!' : label}
+    </button>
+  )
+}
+
 // ── Helpers ────────────────────────────────────────────────────────────────
 function parsePath(path: string, catKeys: string[]): { category: string; th: string; sub: string } {
   const thMatch = path.match(/TH_(\d+)/)
@@ -370,8 +389,8 @@ export default function LibraryTab({
           {genResult && (
             <div style={{ background: 'var(--bg-card)', borderWidth: 1, borderStyle: 'solid', borderColor: 'var(--ok)', borderRadius: 6, padding: 8 }}>
               <div style={{ fontSize: 10, color: 'var(--ok)', marginBottom: 4 }}>✓ Copied to clipboard</div>
-              <div style={{ fontSize: 10, color: 'var(--accent)', wordBreak: 'break-all', cursor: 'pointer' }}
-                onClick={() => copyText(genResult)}>{genResult}</div>
+              <CopyBtn text={genResult} label={genResult} className="btn-ghost"
+                style={{ fontSize: 10, color: 'var(--accent)', wordBreak: 'break-all', textAlign: 'left', padding: 0, justifyContent: 'flex-start', width: '100%' }} />
             </div>
           )}
 
@@ -558,11 +577,7 @@ export default function LibraryTab({
 
                   {/* Actions */}
                   <div style={{ display: 'flex', gap: 5, marginTop: 'auto', borderTopWidth: 1, borderTopStyle: 'solid', borderTopColor: 'var(--border)', paddingTop: 8 }}>
-                    <button className="btn-ghost"
-                      style={{ flex: 1, fontSize: 11, display: 'flex', alignItems: 'center', gap: 5, justifyContent: 'center' }}
-                      onClick={() => copyText(item.rawUrl)}>
-                      <Copy size={11} /> Copy URL
-                    </button>
+                    <CopyBtn text={item.rawUrl} label="Copy URL" className="btn-ghost" style={{ flex: 1, fontSize: 11 }} />
                     <button className="btn-icon" title="Check CDN" onClick={() => checkStatus(item)}>
                       <ExternalLink size={12} />
                     </button>

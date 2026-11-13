@@ -82,6 +82,8 @@ button {
   display: flex; align-items: center; justify-content: center;
 }
 .btn-icon:hover { background: var(--bg-hover); color: var(--text-hi); }
+.btn-icon:disabled { opacity: .35; cursor: not-allowed; }
+.btn-icon:disabled:hover { background: transparent; color: var(--text-mid); }
 .btn-icon.danger:hover { background: #2a1515; color: var(--danger); }
 
 .panel {

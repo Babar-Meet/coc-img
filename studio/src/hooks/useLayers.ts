@@ -1,17 +1,29 @@
 import { useState, useCallback } from 'react'
-import type { WatermarkLayer } from '../components/types'
+import type { LayerSnapshot, WatermarkLayer } from '../components/types'
 import { randomId } from '../components/constants'
+import { preloadImage } from '../components/scene'
+
+const DEFAULT_WIDTH = 160
+const DEFAULT_HEIGHT = 100
 
 export function useLayers() {
   const [layers, setLayers] = useState<WatermarkLayer[]>([])
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
-  const addLayer = useCallback((src: string, label: string) => {
+  const addLayer = useCallback(async (src: string, label: string) => {
+    const img = await preloadImage(src)
+    const width = DEFAULT_WIDTH
+    const height = img && img.naturalWidth > 0
+      ? Math.max(20, Math.round(DEFAULT_WIDTH * img.naturalHeight / img.naturalWidth))
+      : DEFAULT_HEIGHT
+    const initial: LayerSnapshot = { x: 40, y: 40, width, height, rotation: 0, opacity: 1 }
     const id = randomId(8)
     const layer: WatermarkLayer = {
       id, src, label,
-      x: 40, y: 40, width: 160, height: 100,
-      rotation: 0, opacity: 0.85, visible: true, flipX: false, flipY: false,
+      ...initial,
+      visible: true, flipX: false, flipY: false,
+      lockAspect: true,
+      initial,
     }
     setLayers(prev => [...prev, layer])
     setSelectedId(id)
@@ -44,5 +56,8 @@ export function useLayers() {
 
   const clearLayers = useCallback(() => { setLayers([]); setSelectedId(null) }, [])
 
-  return { layers, selectedId, setSelectedId, addLayer, updateLayer, removeLayer, moveUp, moveDown, clearLayers }
+  /** Replace the whole stack, for undo/redo and applying the saved template. */
+  const replaceLayers = useCallback((next: WatermarkLayer[]) => { setLayers(next) }, [])
+
+  return { layers, selectedId, setSelectedId, addLayer, updateLayer, removeLayer, moveUp, moveDown, clearLayers, replaceLayers }
 }

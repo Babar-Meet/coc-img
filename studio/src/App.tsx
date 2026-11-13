@@ -72,7 +72,10 @@ export default function App() {
       </header>
 
       <main style={{ flex: 1, display: 'flex', overflow: 'hidden' }}>
-        {tab === 'editor'  && <EditorTab onExported={addItem} categories={categories.toCategoryRoots()} />}
+        {/* Kept mounted so switching tabs preserves the loaded photo, layers and publish card */}
+        <div style={{ display: tab === 'editor' ? 'flex' : 'none', flex: 1, overflow: 'hidden' }}>
+          <EditorTab onExported={addItem} categories={categories.toCategoryRoots()} />
+        </div>
         {tab === 'library' && (
           <LibraryTab
             items={items}
