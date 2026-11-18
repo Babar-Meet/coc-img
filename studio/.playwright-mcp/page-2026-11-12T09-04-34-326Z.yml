@@ -1,0 +1,444 @@
+- generic [active] [ref=f134e1]:
+  - list:
+    - listitem:
+      - link "Skip to main content" [ref=f134e2] [cursor=pointer]:
+        - /url: "#content"
+    - listitem:
+      - link "Skip to search" [ref=f134e3] [cursor=pointer]:
+        - /url: "#mdn-search"
+  - banner [ref=f134e7]:
+    - navigation [ref=f134e8]:
+      - link "MDN" [ref=f134e10] [cursor=pointer]:
+        - /url: /en-US/
+        - img "MDN" [ref=f134e11]
+      - button "Search the site" [ref=f134e17] [cursor=pointer]
+      - button "Toggle navigation" [ref=f134e21] [cursor=pointer]
+      - text: (external) (external)
+    - generic [ref=f134e22]:
+      - button "Toggle sidebar" [ref=f134e25] [cursor=pointer]
+      - list [ref=f134e29]:
+        - listitem [ref=f134e30]:
+          - link "Web" [ref=f134e31] [cursor=pointer]:
+            - /url: /en-US/docs/Web
+        - listitem [ref=f134e32]:
+          - link "Web APIs" [ref=f134e33] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API
+        - listitem [ref=f134e34]:
+          - link "CanvasRenderingContext2D" [ref=f134e35] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/CanvasRenderingContext2D
+        - listitem [ref=f134e36]:
+          - link "imageSmoothingQuality" [ref=f134e37] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingQuality
+      - button "Switch color theme" [ref=f134e41] [cursor=pointer]:
+        - generic [ref=f134e42]: Theme
+      - generic [ref=f134e45]:
+        - button "English (US)" [ref=f134e46] [cursor=pointer]
+        - generic: Remember language
+  - main [ref=f134e50]:
+    - generic [ref=f134e51]:
+      - 'heading "CanvasRenderingContext2D: imageSmoothingQuality property" [level=1] [ref=f134e52]'
+      - group [ref=f134e53]:
+        - generic "Baseline Cross Limited availability Chrome check Edge check Firefox cross Safari check" [ref=f134e54] [cursor=pointer]:
+          - img "Baseline Cross" [ref=f134e55]
+          - generic [ref=f134e56]: Limited availability
+          - generic [ref=f134e57]:
+            - generic "Supported in Chrome and Edge" [ref=f134e58]:
+              - img "Chrome check" [ref=f134e59]
+              - img "Edge check" [ref=f134e60]
+            - generic "Not widely supported in Firefox" [ref=f134e61]:
+              - img "Firefox cross" [ref=f134e62]
+            - generic "Supported in Safari" [ref=f134e63]:
+              - img "Safari check" [ref=f134e64]
+      - generic [ref=f134e66]:
+        - paragraph [ref=f134e67]:
+          - text: The
+          - strong [ref=f134e68]:
+            - code [ref=f134e69]: imageSmoothingQuality
+          - text: property of the
+          - link [ref=f134e70] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/CanvasRenderingContext2D
+            - code [ref=f134e71]: CanvasRenderingContext2D
+          - text: interface, part of the
+          - link "Canvas API" [ref=f134e72] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/Canvas_API
+          - text: ", lets you set the quality of image smoothing."
+        - paragraph [ref=f134e74]:
+          - strong [ref=f134e75]: "Note:"
+          - text: For this property to have an effect,
+          - link [ref=f134e76] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled
+            - code [ref=f134e77]: imageSmoothingEnabled
+          - text: must be
+          - code [ref=f134e78]: "true"
+          - text: .
+    - complementary [ref=f134e79]:
+      - navigation [ref=f134e80]:
+        - heading "In this article" [level=2] [ref=f134e81]
+        - list [ref=f134e82]:
+          - listitem [ref=f134e83]:
+            - link "Value" [ref=f134e84] [cursor=pointer]:
+              - /url: "#value"
+          - listitem [ref=f134e85]:
+            - link "Examples" [ref=f134e86] [cursor=pointer]:
+              - /url: "#examples"
+          - listitem [ref=f134e87]:
+            - link "Specifications" [ref=f134e88] [cursor=pointer]:
+              - /url: "#specifications"
+          - listitem [ref=f134e89]:
+            - link "Browser compatibility" [ref=f134e90] [cursor=pointer]:
+              - /url: "#browser_compatibility"
+          - listitem [ref=f134e91]:
+            - link "See also" [ref=f134e92] [cursor=pointer]:
+              - /url: "#see_also"
+    - generic [ref=f134e93]:
+      - region "Value" [ref=f134e94]:
+        - heading [level=2] [ref=f134e95]:
+          - link "Value" [ref=f134e96] [cursor=pointer]:
+            - /url: "#value"
+        - paragraph [ref=f134e97]: "One of the following:"
+        - generic [ref=f134e98]:
+          - term [ref=f134e99]:
+            - link [ref=f134e100] [cursor=pointer]:
+              - /url: "#low"
+              - code [ref=f134e101]: "\"low\""
+          - definition [ref=f134e102]:
+            - paragraph [ref=f134e103]: Low quality.
+          - term [ref=f134e104]:
+            - link [ref=f134e105] [cursor=pointer]:
+              - /url: "#medium"
+              - code [ref=f134e106]: "\"medium\""
+          - definition [ref=f134e107]:
+            - paragraph [ref=f134e108]: Medium quality.
+          - term [ref=f134e109]:
+            - link [ref=f134e110] [cursor=pointer]:
+              - /url: "#high"
+              - code [ref=f134e111]: "\"high\""
+          - definition [ref=f134e112]:
+            - paragraph [ref=f134e113]: High quality.
+        - paragraph [ref=f134e114]:
+          - text: The default value is
+          - code [ref=f134e115]: "\"low\""
+          - text: .
+      - region "Examples" [ref=f134e116]:
+        - heading [level=2] [ref=f134e117]:
+          - link "Examples" [ref=f134e118] [cursor=pointer]:
+            - /url: "#examples"
+      - region "Setting image smoothing quality" [ref=f134e119]:
+        - heading [level=3] [ref=f134e120]:
+          - link "Setting image smoothing quality" [ref=f134e121] [cursor=pointer]:
+            - /url: "#setting_image_smoothing_quality"
+        - paragraph [ref=f134e122]:
+          - text: This example uses the
+          - code [ref=f134e123]: imageSmoothingQuality
+          - text: property with a scaled image.
+        - heading "HTML" [level=4] [ref=f134e124]
+        - generic [ref=f134e126]:
+          - generic [ref=f134e127]:
+            - generic [ref=f134e128]: html
+            - button "Copy" [ref=f134e131] [cursor=pointer]
+            - generic "Run example in MDN Playground (opens in new tab)" [ref=f134e133]:
+              - link "Play" [ref=f134e134] [cursor=pointer]:
+                - /url: https://developer.mozilla.org/en-US/play?uuid=e6334279a5472239788207f91d6a0b30f24efb1c&state=RZBBa8MwDIX%2FitAphZBlG7u0dQ4bO%2FQ4djUUYwvHxZZLoi4tpf99OMkYCPRA730SumMvKeIW99bwjxkhOKVx0Rq7%2FdMiO81Yox1H3CLWeCrdZh4F1pgCl%2B0lEUvjST4jFfl%2BO7jqn7bZaV5DcgW1Rov%2FI7PQVSqNL27xaY4kEJIHBUwTHJLxVJVJSL4ZBwsK%2FshHO5AROp6NCA3cnNlrXJ2ZYzYOFFQbUB3cNUPZ3oTC%2B045Sx%2FYf11MDHKbmTFPc3rxucFMy%2B6QfA3tXK9tW8PzW1vOeezm10hPiXCLMfhe8PEL&srcPrefix=%2Fen-US%2Fdocs%2FWeb%2FAPI%2FCanvasRenderingContext2D%2FimageSmoothingQuality%2F
+          - code [ref=f134e137]:
+            - generic [ref=f134e138]:
+              - generic [ref=f134e139]: <canvas
+              - text: id
+              - generic [ref=f134e140]: ="canvas"
+              - text: ">"
+            - generic [ref=f134e141]:
+              - generic [ref=f134e142]: </canvas
+              - text: ">"
+        - heading "JavaScript" [level=4] [ref=f134e143]
+        - generic [ref=f134e145]:
+          - generic [ref=f134e146]:
+            - generic [ref=f134e147]: js
+            - button "Copy" [ref=f134e150] [cursor=pointer]
+            - generic "Run example in MDN Playground (opens in new tab)" [ref=f134e152]:
+              - link "Play" [ref=f134e153] [cursor=pointer]:
+                - /url: https://developer.mozilla.org/en-US/play?uuid=e6334279a5472239788207f91d6a0b30f24efb1c&state=RZBBa8MwDIX%2FitAphZBlG7u0dQ4bO%2FQ4djUUYwvHxZZLoi4tpf99OMkYCPRA730SumMvKeIW99bwjxkhOKVx0Rq7%2FdMiO81Yox1H3CLWeCrdZh4F1pgCl%2B0lEUvjST4jFfl%2BO7jqn7bZaV5DcgW1Rov%2FI7PQVSqNL27xaY4kEJIHBUwTHJLxVJVJSL4ZBwsK%2FshHO5AROp6NCA3cnNlrXJ2ZYzYOFFQbUB3cNUPZ3oTC%2B045Sx%2FYf11MDHKbmTFPc3rxucFMy%2B6QfA3tXK9tW8PzW1vOeezm10hPiXCLMfhe8PEL&srcPrefix=%2Fen-US%2Fdocs%2FWeb%2FAPI%2FCanvasRenderingContext2D%2FimageSmoothingQuality%2F
+          - code [ref=f134e156]: "const canvas = document.getElementById(\"canvas\"); const ctx = canvas.getContext(\"2d\"); let img = new Image(); img.src = \"canvas_create_pattern.png\"; img.onload = () => { ctx.imageSmoothingQuality = \"low\"; ctx.drawImage(img, 0, 0, 300, 150); };"
+        - heading "Result" [level=4] [ref=f134e157]
+        - generic [ref=f134e159]:
+          - generic "Run example in MDN Playground (opens in new tab)" [ref=f134e161]:
+            - link "Play" [ref=f134e162] [cursor=pointer]:
+              - /url: https://developer.mozilla.org/en-US/play?uuid=e6334279a5472239788207f91d6a0b30f24efb1c&state=RZBBa8MwDIX%2FitAphZBlG7u0dQ4bO%2FQ4djUUYwvHxZZLoi4tpf99OMkYCPRA730SumMvKeIW99bwjxkhOKVx0Rq7%2FdMiO81Yox1H3CLWeCrdZh4F1pgCl%2B0lEUvjST4jFfl%2BO7jqn7bZaV5DcgW1Rov%2FI7PQVSqNL27xaY4kEJIHBUwTHJLxVJVJSL4ZBwsK%2FshHO5AROp6NCA3cnNlrXJ2ZYzYOFFQbUB3cNUPZ3oTC%2B045Sx%2FYf11MDHKbmTFPc3rxucFMy%2B6QfA3tXK9tW8PzW1vOeezm10hPiXCLMfhe8PEL&srcPrefix=%2Fen-US%2Fdocs%2FWeb%2FAPI%2FCanvasRenderingContext2D%2FimageSmoothingQuality%2F
+          - iframe [ref=f134e165]
+      - region "Specifications" [ref=f134e166]:
+        - heading [level=2] [ref=f134e167]:
+          - link "Specifications" [ref=f134e168] [cursor=pointer]:
+            - /url: "#specifications"
+        - table [ref=f134e169]:
+          - rowgroup [ref=f134e170]:
+            - row [ref=f134e171]:
+              - columnheader "Specification" [ref=f134e172]
+          - rowgroup [ref=f134e173]:
+            - row [ref=f134e174]:
+              - cell [ref=f134e175]:
+                - 'link "HTML # dom-context-2d-imagesmoothingquality-dev (external)" [ref=f134e176] [cursor=pointer]':
+                  - /url: https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-imagesmoothingquality-dev
+                  - text: HTML# dom-context-2d-imagesmoothingquality-dev (external)
+      - region "Browser compatibility" [ref=f134e177]:
+        - heading [level=2] [ref=f134e178]:
+          - link "Browser compatibility" [ref=f134e179] [cursor=pointer]:
+            - /url: "#browser_compatibility"
+        - generic [ref=f134e181]:
+          - figure [ref=f134e182]:
+            - figure [ref=f134e183]:
+              - generic [ref=f134e184]:
+                - generic [ref=f134e185]:
+                  - link "Report problems with this compatibility data (external)" [ref=f134e186] [cursor=pointer]:
+                    - /url: https://github.com/mdn/browser-compat-data/issues/new?mdn-url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAPI%2FCanvasRenderingContext2D%2FimageSmoothingQuality&metadata=%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+page+report+details%3C%2Fsummary%3E%0A%0A*+Query%3A+%60api.CanvasRenderingContext2D.imageSmoothingQuality%60%0A*+Report+started%3A+2026-11-12T09%3A04%3A33.416Z%0A%0A%3C%2Fdetails%3E&title=api.CanvasRenderingContext2D.imageSmoothingQuality+-+%3CSUMMARIZE+THE+PROBLEM%3E&template=data-problem.yml
+                  - text: •
+                  - link "View data on GitHub (external)" [ref=f134e187] [cursor=pointer]:
+                    - /url: https://github.com/mdn/browser-compat-data/tree/main/api/CanvasRenderingContext2D.json
+                - generic [ref=f134e188]:
+                  - button "Settings" [ref=f134e190] [cursor=pointer]
+                  - generic:
+                    - generic: Restore defaults
+                    - generic: Cancel
+                    - generic: Save
+              - table [ref=f134e196]:
+                - rowgroup [ref=f134e197]:
+                  - row [ref=f134e198]:
+                    - cell [ref=f134e199]
+                    - columnheader "desktop" [ref=f134e200]
+                    - columnheader "mobile" [ref=f134e203]
+                  - row [ref=f134e206]:
+                    - cell [ref=f134e207]
+                    - columnheader "Chrome" [ref=f134e208]
+                    - columnheader "Edge" [ref=f134e211]
+                    - columnheader "Firefox" [ref=f134e214]
+                    - columnheader "Opera" [ref=f134e217]
+                    - columnheader "Safari" [ref=f134e220]
+                    - columnheader "Chrome Android" [ref=f134e223]
+                    - columnheader "Firefox for Android" [ref=f134e226]
+                    - columnheader "Opera Android" [ref=f134e229]
+                    - columnheader "Safari on iOS" [ref=f134e232]
+                    - columnheader "Samsung Browser" [ref=f134e235]
+                    - columnheader "WebView Android" [ref=f134e238]
+                    - columnheader "WebView on iOS" [ref=f134e241]
+                - rowgroup [ref=f134e244]:
+                  - row [ref=f134e245]:
+                    - rowheader "imageSmoothingQuality" [ref=f134e246]:
+                      - code [ref=f134e248]: imageSmoothingQuality
+                    - cell [ref=f134e249]:
+                      - button "54" [ref=f134e250] [cursor=pointer]:
+                        - generic [ref=f134e251]:
+                          - generic "Chrome – Full support" [ref=f134e254]
+                          - 'generic "Chrome 54 – Release date: 2016-10-12" [ref=f134e256]': "54"
+                    - cell [ref=f134e257]:
+                      - button "79" [ref=f134e258] [cursor=pointer]:
+                        - generic [ref=f134e259]:
+                          - generic "Edge – Full support" [ref=f134e262]
+                          - 'generic "Edge 79 – Release date: 2020-01-15" [ref=f134e264]': "79"
+                    - cell [ref=f134e265]:
+                      - button "No" [ref=f134e266] [cursor=pointer]:
+                        - generic [ref=f134e267]:
+                          - generic "Firefox – No support" [ref=f134e270]
+                          - generic [ref=f134e271]: "No"
+                    - cell [ref=f134e273]:
+                      - button "41" [ref=f134e274] [cursor=pointer]:
+                        - generic [ref=f134e275]:
+                          - generic "Opera – Full support" [ref=f134e278]
+                          - 'generic "Opera 41 – Release date: 2016-10-25" [ref=f134e280]': "41"
+                    - cell [ref=f134e281]:
+                      - button "9.1" [ref=f134e282] [cursor=pointer]:
+                        - generic [ref=f134e283]:
+                          - generic "Safari – Full support" [ref=f134e286]
+                          - 'generic "Safari 9.1 – Release date: 2016-03-21" [ref=f134e288]': "9.1"
+                    - cell [ref=f134e289]:
+                      - button "54" [ref=f134e290] [cursor=pointer]:
+                        - generic [ref=f134e291]:
+                          - generic "Chrome Android – Full support" [ref=f134e294]
+                          - 'generic "Chrome Android 54 – Release date: 2016-10-19" [ref=f134e296]': "54"
+                    - cell [ref=f134e297]:
+                      - button "No" [ref=f134e298] [cursor=pointer]:
+                        - generic [ref=f134e299]:
+                          - generic "Firefox for Android – No support" [ref=f134e302]
+                          - generic [ref=f134e303]: "No"
+                    - cell [ref=f134e305]:
+                      - button "41" [ref=f134e306] [cursor=pointer]:
+                        - generic [ref=f134e307]:
+                          - generic "Opera Android – Full support" [ref=f134e310]
+                          - 'generic "Opera Android 41 – Release date: 2016-10-25" [ref=f134e312]': "41"
+                    - cell [ref=f134e313]:
+                      - button "9.3" [ref=f134e314] [cursor=pointer]:
+                        - generic [ref=f134e315]:
+                          - generic "Safari on iOS – Full support" [ref=f134e318]
+                          - 'generic "Safari on iOS 9.3 – Release date: 2016-03-21" [ref=f134e320]': "9.3"
+                    - cell [ref=f134e321]:
+                      - button "6" [ref=f134e322] [cursor=pointer]:
+                        - generic [ref=f134e323]:
+                          - generic "Samsung Browser – Full support" [ref=f134e326]
+                          - 'generic "Samsung Browser 6.0 – Release date: 2017-08-23" [ref=f134e328]': "6"
+                    - cell [ref=f134e329]:
+                      - button "54" [ref=f134e330] [cursor=pointer]:
+                        - generic [ref=f134e331]:
+                          - generic "WebView Android – Full support" [ref=f134e334]
+                          - 'generic "WebView Android 54 – Release date: 2016-10-19" [ref=f134e336]': "54"
+                    - cell [ref=f134e337]:
+                      - button "9.3" [ref=f134e338] [cursor=pointer]:
+                        - generic [ref=f134e339]:
+                          - generic "WebView on iOS – Full support" [ref=f134e342]
+                          - 'generic "WebView on iOS 9.3 – Release date: 2016-03-21" [ref=f134e344]': "9.3"
+          - generic [ref=f134e345]:
+            - heading "Legend" [level=3] [ref=f134e346]
+            - paragraph [ref=f134e347]: "Tip: you can click/tap on a cell for more information."
+            - generic [ref=f134e348]:
+              - generic [ref=f134e349]:
+                - term [ref=f134e350]:
+                  - generic "Full support" [ref=f134e352]
+                - definition [ref=f134e354]: Full support
+              - generic [ref=f134e355]:
+                - term [ref=f134e356]:
+                  - generic "No support" [ref=f134e358]
+                - definition [ref=f134e360]: No support
+      - region "See also" [ref=f134e361]:
+        - heading [level=2] [ref=f134e362]:
+          - link "See also" [ref=f134e363] [cursor=pointer]:
+            - /url: "#see_also"
+        - list [ref=f134e364]:
+          - listitem [ref=f134e365]:
+            - text: "The interface defining this property:"
+            - link [ref=f134e366] [cursor=pointer]:
+              - /url: /en-US/docs/Web/API/CanvasRenderingContext2D
+              - code [ref=f134e367]: CanvasRenderingContext2D
+          - listitem [ref=f134e368]:
+            - link [ref=f134e369] [cursor=pointer]:
+              - /url: /en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled
+              - code [ref=f134e370]: CanvasRenderingContext2D.imageSmoothingEnabled
+          - listitem [ref=f134e371]:
+            - link [ref=f134e372] [cursor=pointer]:
+              - /url: /en-US/docs/Web/CSS/Reference/Properties/image-rendering
+              - code [ref=f134e373]: image-rendering
+      - region "Help improve MDN" [ref=f134e374]:
+        - generic [ref=f134e375]:
+          - heading "Help improve MDN" [level=2] [ref=f134e383]
+          - group [ref=f134e385]:
+            - generic [ref=f134e386]: Was this page helpful to you?
+            - generic [ref=f134e387]:
+              - button "Yes" [ref=f134e389] [cursor=pointer]
+              - button "No" [ref=f134e395] [cursor=pointer]
+          - link "Learn how to contribute" [ref=f134e400] [cursor=pointer]:
+            - /url: /en-US/docs/MDN/Community/Getting_started
+          - paragraph [ref=f134e401]:
+            - text: This page was last modified on
+            - time [ref=f134e402]: Sep 25, 2025
+            - text: by
+            - link "MDN contributors" [ref=f134e403] [cursor=pointer]:
+              - /url: /en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingQuality/contributors.txt
+            - text: .
+          - generic [ref=f134e404]:
+            - link "View this page on GitHub (external)" [ref=f134e405] [cursor=pointer]:
+              - /url: https://github.com/mdn/content/blob/main/files/en-us/web/api/canvasrenderingcontext2d/imagesmoothingquality/index.md?plain=1
+            - text: •
+            - link "Report a problem with this content (external)" [ref=f134e406] [cursor=pointer]:
+              - /url: https://github.com/mdn/content/issues/new?template=page-report.yml&mdn-url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAPI%2FCanvasRenderingContext2D%2FimageSmoothingQuality&metadata=%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EPage+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Fapi%2Fcanvasrenderingcontext2d%2Fimagesmoothingquality%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAPI%2FCanvasRenderingContext2D%2FimageSmoothingQuality%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Fapi%2Fcanvasrenderingcontext2d%2Fimagesmoothingquality%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2Fa7265fc3effa7c25b9997135104370c057a65293%0A*+Document+last+modified%3A+2025-09-25T16%3A11%3A52.000Z%0A%0A%3C%2Fdetails%3E
+  - contentinfo [ref=f134e408]:
+    - generic [ref=f134e409]:
+      - generic [ref=f134e410]:
+        - link "MDN logo" [ref=f134e411] [cursor=pointer]:
+          - /url: /
+          - img "MDN" [ref=f134e412]
+        - paragraph [ref=f134e414]: Your blueprint for a better internet.
+      - list [ref=f134e415]:
+        - listitem [ref=f134e416]:
+          - link "MDN on GitHub" [ref=f134e417] [cursor=pointer]:
+            - /url: https://github.com/mdn/
+        - listitem [ref=f134e418]:
+          - link "MDN on Bluesky" [ref=f134e419] [cursor=pointer]:
+            - /url: https://bsky.app/profile/developer.mozilla.org
+        - listitem [ref=f134e420]:
+          - link "MDN on X" [ref=f134e421] [cursor=pointer]:
+            - /url: https://x.com/mozdevnet
+        - listitem [ref=f134e422]:
+          - link "MDN on Mastodon" [ref=f134e423] [cursor=pointer]:
+            - /url: https://mastodon.social/@mdn
+        - listitem [ref=f134e424]:
+          - link "MDN blog RSS feed" [ref=f134e425] [cursor=pointer]:
+            - /url: /en-US/blog/rss.xml
+      - generic [ref=f134e426]:
+        - term [ref=f134e427]: MDN
+        - definition [ref=f134e428]:
+          - list [ref=f134e429]:
+            - listitem [ref=f134e430]:
+              - link "About" [ref=f134e431] [cursor=pointer]:
+                - /url: /en-US/about
+            - listitem [ref=f134e432]:
+              - link "Blog" [ref=f134e433] [cursor=pointer]:
+                - /url: /en-US/blog/
+            - listitem [ref=f134e434]:
+              - link "Mozilla careers (external)" [ref=f134e435] [cursor=pointer]:
+                - /url: https://www.mozilla.org/en-US/careers/listings/
+            - listitem [ref=f134e436]:
+              - link "Advertise with us" [ref=f134e437] [cursor=pointer]:
+                - /url: /en-US/advertising
+            - listitem [ref=f134e438]:
+              - link "MDN Plus" [ref=f134e439] [cursor=pointer]:
+                - /url: /en-US/plus
+            - listitem [ref=f134e440]:
+              - link "Product help (external)" [ref=f134e441] [cursor=pointer]:
+                - /url: https://support.mozilla.org/products/mdn-plus
+      - generic [ref=f134e442]:
+        - term [ref=f134e443]: Contribute
+        - definition [ref=f134e444]:
+          - list [ref=f134e445]:
+            - listitem [ref=f134e446]:
+              - link "MDN Community" [ref=f134e447] [cursor=pointer]:
+                - /url: /en-US/community
+            - listitem [ref=f134e448]:
+              - link "Community resources" [ref=f134e449] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Community
+            - listitem [ref=f134e450]:
+              - link "Writing guidelines" [ref=f134e451] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Writing_guidelines
+            - listitem [ref=f134e452]:
+              - link "MDN Discord (external)" [ref=f134e453] [cursor=pointer]:
+                - /url: /discord
+            - listitem [ref=f134e454]:
+              - link "MDN on GitHub (external)" [ref=f134e455] [cursor=pointer]:
+                - /url: https://github.com/mdn
+      - generic [ref=f134e456]:
+        - term [ref=f134e457]: Developers
+        - definition [ref=f134e458]:
+          - list [ref=f134e459]:
+            - listitem [ref=f134e460]:
+              - link "Web technologies" [ref=f134e461] [cursor=pointer]:
+                - /url: /en-US/docs/Web
+            - listitem [ref=f134e462]:
+              - link "Learn web development" [ref=f134e463] [cursor=pointer]:
+                - /url: /en-US/docs/Learn_web_development
+            - listitem [ref=f134e464]:
+              - link "Guides" [ref=f134e465] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Guides
+            - listitem [ref=f134e466]:
+              - link "Tutorials" [ref=f134e467] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Tutorials
+            - listitem [ref=f134e468]:
+              - link "Glossary" [ref=f134e469] [cursor=pointer]:
+                - /url: /en-US/docs/Glossary
+            - listitem [ref=f134e470]:
+              - link "Hacks blog (external)" [ref=f134e471] [cursor=pointer]:
+                - /url: https://hacks.mozilla.org/
+    - generic [ref=f134e472]:
+      - link "Mozilla logo" [ref=f134e473] [cursor=pointer]:
+        - /url: https://www.mozilla.org/
+        - img "Mozilla" [ref=f134e474]
+      - list [ref=f134e476]:
+        - listitem [ref=f134e477]:
+          - link "Website Privacy Notice (external)" [ref=f134e478] [cursor=pointer]:
+            - /url: https://www.mozilla.org/privacy/websites/
+        - listitem [ref=f134e479]:
+          - link "Telemetry Settings (external)" [ref=f134e480] [cursor=pointer]:
+            - /url: https://www.mozilla.org/en-US/privacy/websites/data-preferences/
+        - listitem [ref=f134e481]:
+          - link "Legal (external)" [ref=f134e482] [cursor=pointer]:
+            - /url: https://www.mozilla.org/about/legal/terms/mozilla
+        - listitem [ref=f134e483]:
+          - link "Community Participation Guidelines (external)" [ref=f134e484] [cursor=pointer]:
+            - /url: https://www.mozilla.org/about/governance/policies/participation/
+      - paragraph [ref=f134e485]:
+        - text: Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under
+        - link "a Creative Commons license" [ref=f134e486] [cursor=pointer]:
+          - /url: /docs/MDN/Writing_guidelines/Attrib_copyright_license
+        - text: .

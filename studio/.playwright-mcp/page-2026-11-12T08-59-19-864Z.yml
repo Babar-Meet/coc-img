@@ -1,0 +1,360 @@
+- generic [active] [ref=f112e1]:
+  - list:
+    - listitem:
+      - link "Skip to main content" [ref=f112e2] [cursor=pointer]:
+        - /url: "#content"
+    - listitem:
+      - link "Skip to search" [ref=f112e3] [cursor=pointer]:
+        - /url: "#mdn-search"
+  - banner [ref=f112e7]:
+    - navigation [ref=f112e8]:
+      - link "MDN" [ref=f112e10] [cursor=pointer]:
+        - /url: /en-US/
+        - img "MDN" [ref=f112e11]
+      - button "Search the site" [ref=f112e17] [cursor=pointer]
+      - button "Toggle navigation" [ref=f112e21] [cursor=pointer]
+      - text: (external) (external)
+    - generic [ref=f112e22]:
+      - button "Toggle sidebar" [ref=f112e25] [cursor=pointer]
+      - list [ref=f112e29]:
+        - listitem [ref=f112e30]:
+          - link "Web" [ref=f112e31] [cursor=pointer]:
+            - /url: /en-US/docs/Web
+        - listitem [ref=f112e32]:
+          - link "Web APIs" [ref=f112e33] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API
+        - listitem [ref=f112e34]:
+          - link "Element" [ref=f112e35] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/Element
+        - listitem [ref=f112e36]:
+          - link "setPointerCapture()" [ref=f112e37] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/Element/setPointerCapture
+      - button "Switch color theme" [ref=f112e41] [cursor=pointer]:
+        - generic [ref=f112e42]: Theme
+      - generic [ref=f112e45]:
+        - button "English (US)" [ref=f112e46] [cursor=pointer]
+        - generic: Remember language
+  - main [ref=f112e50]:
+    - generic [ref=f112e51]:
+      - 'heading "Element: setPointerCapture() method" [level=1] [ref=f112e52]'
+      - group [ref=f112e53]:
+        - generic "Baseline Check Baseline Widely available Chrome check Edge check Firefox check Safari check" [ref=f112e54] [cursor=pointer]:
+          - img "Baseline Check" [ref=f112e55]
+          - generic [ref=f112e56]: Baseline
+          - generic [ref=f112e57]: Widely available
+          - generic [ref=f112e58]:
+            - generic "Supported in Chrome and Edge" [ref=f112e59]:
+              - img "Chrome check" [ref=f112e60]
+              - img "Edge check" [ref=f112e61]
+            - generic "Supported in Firefox" [ref=f112e62]:
+              - img "Firefox check" [ref=f112e63]
+            - generic "Supported in Safari" [ref=f112e64]:
+              - img "Safari check" [ref=f112e65]
+      - generic [ref=f112e67]:
+        - paragraph [ref=f112e68]:
+          - text: The
+          - strong [ref=f112e69]:
+            - code [ref=f112e70]: setPointerCapture()
+          - text: method of the
+          - link [ref=f112e71] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/Element
+            - code [ref=f112e72]: Element
+          - text: interface is used to designate a specific element as the
+          - emphasis [ref=f112e73]: capture target
+          - text: of future pointer events. Subsequent events for the pointer will be targeted at the capture element until capture is released (via
+          - link [ref=f112e74] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/Element/releasePointerCapture
+            - code [ref=f112e75]: Element.releasePointerCapture()
+          - text: or the
+          - link [ref=f112e76] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/Element/pointerup_event
+            - code [ref=f112e77]: pointerup
+          - text: event is fired).
+        - paragraph [ref=f112e78]:
+          - text: See
+          - link "pointer events" [ref=f112e79] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/Pointer_events#pointer_capture
+          - text: for an overview and examples of how pointer capture works.
+    - complementary [ref=f112e80]:
+      - navigation [ref=f112e81]:
+        - heading "In this article" [level=2] [ref=f112e82]
+        - list [ref=f112e83]:
+          - listitem [ref=f112e84]:
+            - link "Syntax" [ref=f112e85] [cursor=pointer]:
+              - /url: "#syntax"
+          - listitem [ref=f112e86]:
+            - link "Examples" [ref=f112e87] [cursor=pointer]:
+              - /url: "#examples"
+          - listitem [ref=f112e88]:
+            - link "Specifications" [ref=f112e89] [cursor=pointer]:
+              - /url: "#specifications"
+          - listitem [ref=f112e90]:
+            - link "Browser compatibility" [ref=f112e91] [cursor=pointer]:
+              - /url: "#browser_compatibility"
+          - listitem [ref=f112e92]:
+            - link "See also" [ref=f112e93] [cursor=pointer]:
+              - /url: "#see_also"
+    - generic [ref=f112e94]:
+      - region "Syntax" [ref=f112e95]:
+        - heading [level=2] [ref=f112e96]:
+          - link "Syntax" [ref=f112e97] [cursor=pointer]:
+            - /url: "#syntax"
+        - generic [ref=f112e99]:
+          - generic [ref=f112e100]:
+            - generic [ref=f112e101]: js
+            - button "Copy" [ref=f112e104] [cursor=pointer]
+          - code [ref=f112e107]: setPointerCapture(pointerId)
+      - region "Parameters" [ref=f112e108]:
+        - heading [level=3] [ref=f112e109]:
+          - link "Parameters" [ref=f112e110] [cursor=pointer]:
+            - /url: "#parameters"
+        - generic [ref=f112e111]:
+          - term [ref=f112e112]:
+            - link [ref=f112e113] [cursor=pointer]:
+              - /url: "#pointerid"
+              - code [ref=f112e114]: pointerId
+          - definition [ref=f112e115]:
+            - paragraph [ref=f112e116]:
+              - text: The
+              - link [ref=f112e117] [cursor=pointer]:
+                - /url: /en-US/docs/Web/API/PointerEvent/pointerId
+                - code [ref=f112e118]: pointerId
+              - text: of a
+              - link [ref=f112e119] [cursor=pointer]:
+                - /url: /en-US/docs/Web/API/PointerEvent
+                - code [ref=f112e120]: PointerEvent
+              - text: object.
+      - region "Return value" [ref=f112e121]:
+        - heading [level=3] [ref=f112e122]:
+          - link "Return value" [ref=f112e123] [cursor=pointer]:
+            - /url: "#return_value"
+        - paragraph [ref=f112e124]:
+          - text: None (
+          - link [ref=f112e125] [cursor=pointer]:
+            - /url: /en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined
+            - code [ref=f112e126]: undefined
+          - text: ).
+      - region "Exceptions" [ref=f112e127]:
+        - heading [level=3] [ref=f112e128]:
+          - link "Exceptions" [ref=f112e129] [cursor=pointer]:
+            - /url: "#exceptions"
+        - generic [ref=f112e130]:
+          - term [ref=f112e131]:
+            - code [ref=f112e132]: NotFoundError
+            - link [ref=f112e133] [cursor=pointer]:
+              - /url: /en-US/docs/Web/API/DOMException
+              - code [ref=f112e134]: DOMException
+          - definition [ref=f112e135]:
+            - paragraph [ref=f112e136]:
+              - text: Thrown if
+              - code [ref=f112e137]: pointerId
+              - text: does not match any active pointer.
+      - region "Examples" [ref=f112e138]:
+        - heading [level=2] [ref=f112e139]:
+          - link "Examples" [ref=f112e140] [cursor=pointer]:
+            - /url: "#examples"
+        - paragraph [ref=f112e141]:
+          - text: This example sets pointer capture on a
+          - link [ref=f112e142] [cursor=pointer]:
+            - /url: /en-US/docs/Web/HTML/Reference/Elements/div
+            - code [ref=f112e143]: <div>
+          - text: when you press down on it. This lets you slide the element horizontally, even when your pointer moves outside of its boundaries.
+      - region "HTML" [ref=f112e144]:
+        - heading [level=3] [ref=f112e145]:
+          - link "HTML" [ref=f112e146] [cursor=pointer]:
+            - /url: "#html"
+        - generic [ref=f112e148]:
+          - generic [ref=f112e149]:
+            - generic [ref=f112e150]: html
+            - button "Copy" [ref=f112e153] [cursor=pointer]
+          - code [ref=f112e156]: <div id="slider">SLIDE ME</div>
+      - region "CSS" [ref=f112e157]:
+        - heading [level=3] [ref=f112e158]:
+          - link "CSS" [ref=f112e159] [cursor=pointer]:
+            - /url: "#css"
+        - generic [ref=f112e161]:
+          - generic [ref=f112e162]:
+            - generic [ref=f112e163]: css
+            - button "Copy" [ref=f112e166] [cursor=pointer]
+          - code [ref=f112e169]: "div { width: 140px; height: 50px; display: flex; align-items: center; justify-content: center; background: #ffbbee; touch-action: none; }"
+      - region "JavaScript" [ref=f112e170]:
+        - heading [level=3] [ref=f112e171]:
+          - link "JavaScript" [ref=f112e172] [cursor=pointer]:
+            - /url: "#javascript"
+        - generic [ref=f112e174]:
+          - generic [ref=f112e175]:
+            - generic [ref=f112e176]: js
+            - button "Copy" [ref=f112e179] [cursor=pointer]
+          - code [ref=f112e182]: "const slider = document.getElementById(\"slider\"); function beginSliding(e) { slider.onpointermove = slide; slider.setPointerCapture(e.pointerId); } function stopSliding(e) { slider.onpointermove = null; slider.releasePointerCapture(e.pointerId); } function slide(e) { slider.style.transform = `translate(${e.clientX - 70}px)`; } slider.onpointerdown = beginSliding; slider.onpointerup = stopSliding;"
+      - region "Result" [ref=f112e183]:
+        - heading [level=3] [ref=f112e184]:
+          - link "Result" [ref=f112e185] [cursor=pointer]:
+            - /url: "#result"
+        - iframe [ref=f112e188]
+      - region "Specifications" [ref=f112e189]:
+        - heading [level=2] [ref=f112e190]:
+          - link "Specifications" [ref=f112e191] [cursor=pointer]:
+            - /url: "#specifications"
+        - table [ref=f112e192]:
+          - rowgroup [ref=f112e193]:
+            - row [ref=f112e194]:
+              - columnheader "Specification" [ref=f112e195]
+          - rowgroup [ref=f112e196]:
+            - row [ref=f112e197]:
+              - cell [ref=f112e198]:
+                - 'link "Pointer Events # dom-element-setpointercapture (external)" [ref=f112e199] [cursor=pointer]':
+                  - /url: https://w3c.github.io/pointerevents/#dom-element-setpointercapture
+                  - text: Pointer Events# dom-element-setpointercapture (external)
+      - region "Browser compatibility" [ref=f112e200]:
+        - heading [level=2] [ref=f112e201]:
+          - link "Browser compatibility" [ref=f112e202] [cursor=pointer]:
+            - /url: "#browser_compatibility"
+        - generic:
+          - paragraph
+      - region "See also" [ref=f112e203]:
+        - heading [level=2] [ref=f112e204]:
+          - link "See also" [ref=f112e205] [cursor=pointer]:
+            - /url: "#see_also"
+        - list [ref=f112e206]:
+          - listitem [ref=f112e207]:
+            - link [ref=f112e208] [cursor=pointer]:
+              - /url: /en-US/docs/Web/API/Element/hasPointerCapture
+              - code [ref=f112e209]: Element.hasPointerCapture()
+          - listitem [ref=f112e210]:
+            - link [ref=f112e211] [cursor=pointer]:
+              - /url: /en-US/docs/Web/API/Element/releasePointerCapture
+              - code [ref=f112e212]: Element.releasePointerCapture()
+          - listitem [ref=f112e213]:
+            - link "Pointer events" [ref=f112e214] [cursor=pointer]:
+              - /url: /en-US/docs/Web/API/Pointer_events
+      - region "Help improve MDN" [ref=f112e215]:
+        - generic [ref=f112e216]:
+          - heading "Help improve MDN" [level=2] [ref=f112e224]
+          - group [ref=f112e226]:
+            - generic [ref=f112e227]: Was this page helpful to you?
+            - generic [ref=f112e228]:
+              - button "Yes" [ref=f112e230] [cursor=pointer]
+              - button "No" [ref=f112e236] [cursor=pointer]
+          - link "Learn how to contribute" [ref=f112e241] [cursor=pointer]:
+            - /url: /en-US/docs/MDN/Community/Getting_started
+          - paragraph [ref=f112e242]:
+            - text: This page was last modified on
+            - time [ref=f112e243]: Oct 1, 2025
+            - text: by
+            - link "MDN contributors" [ref=f112e244] [cursor=pointer]:
+              - /url: /en-US/docs/Web/API/Element/setPointerCapture/contributors.txt
+            - text: .
+          - generic [ref=f112e245]:
+            - link "View this page on GitHub (external)" [ref=f112e246] [cursor=pointer]:
+              - /url: https://github.com/mdn/content/blob/main/files/en-us/web/api/element/setpointercapture/index.md?plain=1
+            - text: •
+            - link "Report a problem with this content (external)" [ref=f112e247] [cursor=pointer]:
+              - /url: https://github.com/mdn/content/issues/new?template=page-report.yml&mdn-url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAPI%2FElement%2FsetPointerCapture&metadata=%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EPage+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Fapi%2Felement%2Fsetpointercapture%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAPI%2FElement%2FsetPointerCapture%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Fapi%2Felement%2Fsetpointercapture%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F6ba4f3b350be482ba22726f31bbcf8ad3c92a9c6%0A*+Document+last+modified%3A+2025-10-01T13%3A56%3A32.000Z%0A%0A%3C%2Fdetails%3E
+  - contentinfo [ref=f112e249]:
+    - generic [ref=f112e250]:
+      - generic [ref=f112e251]:
+        - link "MDN logo" [ref=f112e252] [cursor=pointer]:
+          - /url: /
+          - img "MDN" [ref=f112e253]
+        - paragraph [ref=f112e255]: Your blueprint for a better internet.
+      - list [ref=f112e256]:
+        - listitem [ref=f112e257]:
+          - link "MDN on GitHub" [ref=f112e258] [cursor=pointer]:
+            - /url: https://github.com/mdn/
+        - listitem [ref=f112e259]:
+          - link "MDN on Bluesky" [ref=f112e260] [cursor=pointer]:
+            - /url: https://bsky.app/profile/developer.mozilla.org
+        - listitem [ref=f112e261]:
+          - link "MDN on X" [ref=f112e262] [cursor=pointer]:
+            - /url: https://x.com/mozdevnet
+        - listitem [ref=f112e263]:
+          - link "MDN on Mastodon" [ref=f112e264] [cursor=pointer]:
+            - /url: https://mastodon.social/@mdn
+        - listitem [ref=f112e265]:
+          - link "MDN blog RSS feed" [ref=f112e266] [cursor=pointer]:
+            - /url: /en-US/blog/rss.xml
+      - generic [ref=f112e267]:
+        - term [ref=f112e268]: MDN
+        - definition [ref=f112e269]:
+          - list [ref=f112e270]:
+            - listitem [ref=f112e271]:
+              - link "About" [ref=f112e272] [cursor=pointer]:
+                - /url: /en-US/about
+            - listitem [ref=f112e273]:
+              - link "Blog" [ref=f112e274] [cursor=pointer]:
+                - /url: /en-US/blog/
+            - listitem [ref=f112e275]:
+              - link "Mozilla careers (external)" [ref=f112e276] [cursor=pointer]:
+                - /url: https://www.mozilla.org/en-US/careers/listings/
+            - listitem [ref=f112e277]:
+              - link "Advertise with us" [ref=f112e278] [cursor=pointer]:
+                - /url: /en-US/advertising
+            - listitem [ref=f112e279]:
+              - link "MDN Plus" [ref=f112e280] [cursor=pointer]:
+                - /url: /en-US/plus
+            - listitem [ref=f112e281]:
+              - link "Product help (external)" [ref=f112e282] [cursor=pointer]:
+                - /url: https://support.mozilla.org/products/mdn-plus
+      - generic [ref=f112e283]:
+        - term [ref=f112e284]: Contribute
+        - definition [ref=f112e285]:
+          - list [ref=f112e286]:
+            - listitem [ref=f112e287]:
+              - link "MDN Community" [ref=f112e288] [cursor=pointer]:
+                - /url: /en-US/community
+            - listitem [ref=f112e289]:
+              - link "Community resources" [ref=f112e290] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Community
+            - listitem [ref=f112e291]:
+              - link "Writing guidelines" [ref=f112e292] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Writing_guidelines
+            - listitem [ref=f112e293]:
+              - link "MDN Discord (external)" [ref=f112e294] [cursor=pointer]:
+                - /url: /discord
+            - listitem [ref=f112e295]:
+              - link "MDN on GitHub (external)" [ref=f112e296] [cursor=pointer]:
+                - /url: https://github.com/mdn
+      - generic [ref=f112e297]:
+        - term [ref=f112e298]: Developers
+        - definition [ref=f112e299]:
+          - list [ref=f112e300]:
+            - listitem [ref=f112e301]:
+              - link "Web technologies" [ref=f112e302] [cursor=pointer]:
+                - /url: /en-US/docs/Web
+            - listitem [ref=f112e303]:
+              - link "Learn web development" [ref=f112e304] [cursor=pointer]:
+                - /url: /en-US/docs/Learn_web_development
+            - listitem [ref=f112e305]:
+              - link "Guides" [ref=f112e306] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Guides
+            - listitem [ref=f112e307]:
+              - link "Tutorials" [ref=f112e308] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Tutorials
+            - listitem [ref=f112e309]:
+              - link "Glossary" [ref=f112e310] [cursor=pointer]:
+                - /url: /en-US/docs/Glossary
+            - listitem [ref=f112e311]:
+              - link "Hacks blog (external)" [ref=f112e312] [cursor=pointer]:
+                - /url: https://hacks.mozilla.org/
+    - generic [ref=f112e313]:
+      - link "Mozilla logo" [ref=f112e314] [cursor=pointer]:
+        - /url: https://www.mozilla.org/
+        - img "Mozilla" [ref=f112e315]
+      - list [ref=f112e317]:
+        - listitem [ref=f112e318]:
+          - link "Website Privacy Notice (external)" [ref=f112e319] [cursor=pointer]:
+            - /url: https://www.mozilla.org/privacy/websites/
+        - listitem [ref=f112e320]:
+          - link "Telemetry Settings (external)" [ref=f112e321] [cursor=pointer]:
+            - /url: https://www.mozilla.org/en-US/privacy/websites/data-preferences/
+        - listitem [ref=f112e322]:
+          - link "Legal (external)" [ref=f112e323] [cursor=pointer]:
+            - /url: https://www.mozilla.org/about/legal/terms/mozilla
+        - listitem [ref=f112e324]:
+          - link "Community Participation Guidelines (external)" [ref=f112e325] [cursor=pointer]:
+            - /url: https://www.mozilla.org/about/governance/policies/participation/
+      - paragraph [ref=f112e326]:
+        - text: Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under
+        - link "a Creative Commons license" [ref=f112e327] [cursor=pointer]:
+          - /url: /docs/MDN/Writing_guidelines/Attrib_copyright_license
+        - text: .

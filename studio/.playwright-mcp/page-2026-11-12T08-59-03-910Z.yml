@@ -1,0 +1,293 @@
+- generic [ref=f100e3]:
+  - generic [ref=f100e4]:
+    - text: "| | | | |"
+    - generic [ref=f100e8]:
+      - paragraph [ref=f100e9]:
+        - paragraph [ref=f100e10]:
+          - strong [ref=f100e11]: Join us at Adobe MAX — The Creativity Conference Nov 10–12 in Miami Beach.
+      - link "Learn more" [ref=f100e12] [cursor=pointer]:
+        - /url: https://max.adobe.com/?promoid=49F59961&mv=other&mv2=helpx
+    - banner [ref=f100e13]:
+      - navigation "Main" [ref=f100e15]:
+        - generic [ref=f100e16]:
+          - text: ☰
+          - link "Adobe" [ref=f100e17] [cursor=pointer]:
+            - /url: https://www.adobe.com/
+            - img "Adobe, Inc." [ref=f100e19]
+        - list [ref=f100e21]:
+          - listitem [ref=f100e22]:
+            - button "Creativity & Design" [ref=f100e23] [cursor=pointer]
+            - text: "| | |"
+          - listitem [ref=f100e24]:
+            - button "PDFs & E-signatures" [ref=f100e25] [cursor=pointer]
+          - listitem [ref=f100e26]:
+            - button "Marketing & Commerce" [ref=f100e27] [cursor=pointer]
+            - text: "| | |"
+          - listitem [ref=f100e28]:
+            - button "Learn & Support" [ref=f100e29] [cursor=pointer]
+            - text: "| | |"
+          - listitem [ref=f100e30]
+  - generic [ref=f100e39]:
+    - generic [ref=f100e42]:
+      - link [ref=f100e43] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/desktop.html
+        - img "Photoshop" [ref=f100e44]
+      - paragraph [ref=f100e46]:
+        - link "Photoshop Help" [ref=f100e47] [cursor=pointer]:
+          - /url: /content/help/in/en/photoshop/desktop.html
+    - generic [ref=f100e51]:
+      - link "Desktop" [ref=f100e53] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/desktop.html
+      - link "Tablet" [ref=f100e57] [cursor=pointer]:
+        - /url: /photoshop/ipad.html
+      - link "Mobile" [ref=f100e61] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/mobile.html
+      - link "Web" [ref=f100e65] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/web.html
+    - generic [ref=f100e68]:
+      - generic [ref=f100e69] [cursor=pointer]
+      - generic [ref=f100e71] [cursor=pointer]
+      - link "Photoshop Open app" [ref=f100e73] [cursor=pointer]:
+        - /url: https://www.adobe.com/download/photoshop
+  - main [ref=f100e74]:
+    - generic [ref=f100e76]:
+      - generic [ref=f100e82]:
+        - heading "Zoom images in Photoshop" [level=1] [ref=f100e85]
+        - generic [ref=f100e86]: Last updated on Oct 6, 2026
+        - generic [ref=f100e97]:
+          - paragraph [ref=f100e100]:
+            - text: Learn how to use the
+            - generic [ref=f100e101]: Zoom
+            - text: tool, keyboard shortcuts, and view commands to control image magnification at precise levels.
+          - generic [ref=f100e104]:
+            - paragraph [ref=f100e105]: Photoshop provides multiple ways to magnify or reduce your view of an image, from preset zoom levels to continuous magnification. Precise zoom control helps you work accurately at any scale, from viewing the full canvas to examining individual pixels for detailed retouching work.
+            - paragraph [ref=f100e106]:
+              - text: Zoom operations change only your view of the image, not the actual image dimensions or resolution. The zoom level ranges from 1 pixel minimum to 3200% maximum magnification. A 100% zoom setting provides the most accurate view because each image pixel displays as one monitor pixel. For continuous zoom features, your graphics card must support OpenGL (verify in
+              - generic [ref=f100e107]: Edit
+              - text: ">"
+              - generic [ref=f100e108]: Preferences
+              - text: ">"
+              - generic [ref=f100e109]: Performance
+              - text: under GPU Settings).
+            - paragraph [ref=f100e110]:
+              - text: Most zoom operations work with the
+              - generic [ref=f100e111]: Zoom
+              - text: tool or through menu commands and keyboard shortcuts. The
+              - generic [ref=f100e113]: Zoom
+              - text: tool provides interactive control with visual feedback, while keyboard shortcuts offer the fastest access during active workflows. You can also control zoom levels by entering specific percentages in the zoom field at the lower-left corner of the document window, or by using the Navigator panel for combined zoom and navigation control.
+            - heading "Zoom to a preset magnification level" [level=2] [ref=f100e115]
+          - generic [ref=f100e118]:
+            - paragraph [ref=f100e122]:
+              - text: Select the
+              - generic [ref=f100e123]: Zoom
+              - text: tool in the toolbar, or press
+              - generic [ref=f100e125]: Z
+              - text: .
+            - paragraph [ref=f100e129]:
+              - text: In the options bar, select
+              - generic [ref=f100e130]: Zoom In
+              - text: to magnify or
+              - generic [ref=f100e132]: Zoom Out
+              - text: to reduce the view.
+            - paragraph [ref=f100e137]: Click the area you want to magnify or reduce.
+            - paragraph [ref=f100e141]:
+              - text: Each click changes the view to the next preset percentage and centers on the point you clicked. To quickly switch to zoom out mode, hold
+              - generic [ref=f100e142]: Alt
+              - text: (Windows) or
+              - generic [ref=f100e143]: Option
+              - text: (macOS) while clicking.
+          - heading "View images at 100% magnification" [level=2] [ref=f100e146]
+          - generic [ref=f100e149]:
+            - paragraph [ref=f100e153]:
+              - text: Double-click the
+              - generic [ref=f100e154]: Zoom
+              - text: tool in the toolbar.
+            - paragraph [ref=f100e159]:
+              - text: You can also access 100% view through
+              - generic [ref=f100e160]: View
+              - text: ">"
+              - generic [ref=f100e161]: 100%
+              - text: or by selecting
+              - generic [ref=f100e162]: Actual Pixels
+              - text: in the
+              - generic [ref=f100e163]: Zoom
+              - text: tool options bar. At 100% magnification, the view displays how the image will appear in a web browser at your current monitor resolution.
+          - heading "Zoom continuously with the Zoom tool" [level=2] [ref=f100e167]
+          - generic [ref=f100e170]:
+            - paragraph [ref=f100e174]:
+              - text: Select
+              - generic [ref=f100e175]: Edit
+              - text: ">"
+              - generic [ref=f100e176]: Preferences
+              - text: ">"
+              - generic [ref=f100e177]: Performance
+              - text: (Windows) or
+              - generic [ref=f100e178]: Photoshop
+              - text: ">"
+              - generic [ref=f100e179]: Preferences
+              - text: ">"
+              - generic [ref=f100e180]: Performance
+              - text: (macOS).
+            - paragraph [ref=f100e184]:
+              - text: In the
+              - generic [ref=f100e185]: GPU Settings
+              - text: section, verify that
+              - generic [ref=f100e186]: Enable Native Canvas
+              - text: is selected.
+            - paragraph [ref=f100e190]:
+              - text: Select
+              - generic [ref=f100e191]: Edit
+              - text: ">"
+              - generic [ref=f100e192]: Preferences
+              - text: ">"
+              - generic [ref=f100e193]: General
+              - text: and verify that
+              - generic [ref=f100e194]: Animated Zoom
+              - text: is selected.
+            - paragraph [ref=f100e198]:
+              - text: Select the
+              - generic [ref=f100e199]: Zoom
+              - text: tool, then click and hold in the image to zoom in smoothly.
+            - paragraph [ref=f100e204]:
+              - text: Press
+              - generic [ref=f100e205]: Alt
+              - text: (Windows) or
+              - generic [ref=f100e206]: Option
+              - text: (macOS) while holding to zoom out. For an alternative continuous zoom method, select
+              - generic [ref=f100e207]: Scrubby Zoom
+              - text: in the options bar, then drag left to zoom out or right to zoom in.
+          - heading "Magnify a specific area with the zoom marquee" [level=2] [ref=f100e210]
+          - generic [ref=f100e213]:
+            - paragraph [ref=f100e217]:
+              - text: Select the
+              - generic [ref=f100e218]: Zoom
+              - text: tool.
+            - paragraph [ref=f100e223]: Drag a rectangular selection around the area you want to magnify.
+            - generic [ref=f100e224]:
+              - paragraph [ref=f100e227]: The area inside the zoom marquee displays at the highest possible magnification. To move the marquee around the image before releasing, hold down the spacebar while dragging.
+              - generic [ref=f100e229]:
+                - paragraph
+              - paragraph [ref=f100e234]: Dragging the Zoom tool to magnify the view of an image
+          - heading "Zoom temporarily during other tasks" [level=2] [ref=f100e237]
+          - generic [ref=f100e240]:
+            - paragraph [ref=f100e244]:
+              - text: Hold down the
+              - generic [ref=f100e245]: H
+              - text: key, then click in the image and hold the mouse button.
+            - paragraph [ref=f100e249]:
+              - text: Release the mouse button first, then release the
+              - generic [ref=f100e250]: H
+              - text: key to return to your previous tool and magnification.
+            - generic [ref=f100e251]:
+              - paragraph [ref=f100e254]: If the entire image originally fit within the document window, the image zooms in to fit the window. If only a portion was originally visible, the image zooms out to show more context.
+              - generic [ref=f100e256]:
+                - paragraph
+              - paragraph [ref=f100e261]: Dragging the Hand tool to view another area of an image
+          - heading "Fit the image to screen" [level=2] [ref=f100e264]
+          - generic [ref=f100e267]:
+            - paragraph [ref=f100e271]:
+              - text: Double-click the Hand tool in the toolbar or select
+              - generic [ref=f100e272]: View
+              - text: ">"
+              - generic [ref=f100e273]: Fit on Screen
+              - text: .
+            - paragraph [ref=f100e277]:
+              - text: You can also select the
+              - generic [ref=f100e278]: Zoom
+              - text: tool or
+              - generic [ref=f100e280]: Hand
+              - text: tool and click
+              - generic [ref=f100e281]: Fit On Screen
+              - text: in the options bar. These options scale both the zoom level and the window size to fit the available screen space.
+          - heading "Configure zoom preferences" [level=2] [ref=f100e284]
+          - generic [ref=f100e287]:
+            - paragraph [ref=f100e291]:
+              - text: Select
+              - generic [ref=f100e292]: Edit
+              - text: ">"
+              - generic [ref=f100e293]: Preferences
+              - text: ">"
+              - generic [ref=f100e294]: General
+              - text: (Windows) or
+              - generic [ref=f100e295]: Photoshop
+              - text: ">"
+              - generic [ref=f100e296]: Preferences
+              - text: ">"
+              - generic [ref=f100e297]: General
+              - text: (macOS).
+            - paragraph [ref=f100e301]:
+              - text: "Select any combination of these zoom options:"
+              - generic [ref=f100e302]: Zoom Resizes Windows
+              - text: to automatically resize the document window when zooming,
+              - generic [ref=f100e303]: Zoom With Scroll Wheel
+              - text: to enable mouse wheel zooming, or
+              - generic [ref=f100e304]: Zoom Clicked Point To Center
+              - text: to center the view on clicked locations.
+            - paragraph [ref=f100e308]:
+              - text: Select
+              - generic [ref=f100e309]: OK
+              - text: to save your preferences.
+          - heading "Resize windows automatically when zooming" [level=2] [ref=f100e312]
+          - generic [ref=f100e315]:
+            - paragraph [ref=f100e319]:
+              - text: With the
+              - generic [ref=f100e320]: Zoom
+              - text: tool active, select
+              - generic [ref=f100e322]: Resize Windows To Fit
+              - text: in the options bar.
+            - paragraph [ref=f100e326]: When this option is deselected (the default), the window maintains a constant size regardless of image magnification, which can be helpful when using smaller monitors or working with tiled views.
+          - heading "Hide the pixel grid at high magnification" [level=2] [ref=f100e329]
+          - generic [ref=f100e332]:
+            - paragraph [ref=f100e336]:
+              - text: Select
+              - generic [ref=f100e337]: View
+              - text: ">"
+              - generic [ref=f100e338]: Show
+              - text: and deselect
+              - generic [ref=f100e339]: Pixel Grid
+              - text: .
+            - paragraph [ref=f100e343]: Over 500% magnification, the image's pixel grid becomes visible by default. Use this option to hide the grid for a cleaner view.
+          - generic [ref=f100e345]:
+            - generic [ref=f100e346]: Tip
+            - paragraph [ref=f100e349]: To zoom all open windows simultaneously, select the Zoom tool, select Zoom All Windows in the options bar, and then click one of the images. All visible images zoom to the same relative magnification level.
+        - generic [ref=f100e355]:
+          - generic [ref=f100e368]:
+            - img "Adobe Photoshop logo" [ref=f100e376]
+            - generic [ref=f100e382]:
+              - paragraph [ref=f100e385]: Create stunning images with Photoshop Edit, retouch, and transform photos with the industry-leading creative tools you know and love.
+              - link "Open the app" [ref=f100e388] [cursor=pointer]:
+                - /url: https://www.adobe.com/download/photoshop
+          - group [ref=f100e399]:
+            - paragraph [ref=f100e400]: Was this page helpful?
+            - generic "Was this page helpful?" [ref=f100e401]:
+              - button "Yes, thanks" [ref=f100e402] [cursor=pointer]
+              - button "Not really" [ref=f100e410] [cursor=pointer]
+        - generic [ref=f100e419]:
+          - link "Previous Compare edits with Quick Compare" [ref=f100e420] [cursor=pointer]:
+            - /url: /photoshop/desktop/get-started/learn-the-basics/compare-edits-with-quick-compare.html
+            - paragraph [ref=f100e421]: Previous
+            - paragraph [ref=f100e422]: Compare edits with Quick Compare
+          - link "Next Calibrate and profile your monitor" [ref=f100e423] [cursor=pointer]:
+            - /url: /photoshop/desktop/get-started/learn-the-basics/calibrate-and-profile-your-monitor.html
+            - paragraph [ref=f100e424]: Next
+            - paragraph [ref=f100e425]: Calibrate and profile your monitor
+      - generic [ref=f100e439]:
+        - link [ref=f100e444] [cursor=pointer]:
+          - /url: https://www.adobe.com/learn
+          - generic [ref=f100e445]:
+            - heading "Learn" [level=3] [ref=f100e447]
+            - img "card-link-icon" [ref=f100e449]
+          - paragraph [ref=f100e450]: Learn with step-by-step video tutorials and hands-on guidance right in the app.
+        - link [ref=f100e455] [cursor=pointer]:
+          - /url: https://www.adobe.com/community
+          - generic [ref=f100e456]:
+            - heading "Community" [level=3] [ref=f100e458]
+            - img "card-link-icon" [ref=f100e460]
+          - paragraph [ref=f100e461]: Join discussions, find answers, learn from experts, and share your knowledge.
+        - link [ref=f100e466] [cursor=pointer]:
+          - /url: https://www.adobe.com
+          - generic [ref=f100e467]:
+            - heading "Adobe Home" [level=3] [ref=f100e469]
+            - img "card-link-icon" [ref=f100e471]
+          - paragraph [ref=f100e472]: Access your favorite Creative Cloud apps, services, file management, and more.
+  - generic: / / / / / /

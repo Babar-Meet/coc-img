@@ -1,0 +1,193 @@
+- generic [ref=f92e2]:
+  - generic [ref=f92e3]:
+    - link "DuckDuckGo" [ref=f92e4] [cursor=pointer]:
+      - /url: /html/
+    - generic [ref=f92e5]:
+      - generic [ref=f92e6]:
+        - textbox [ref=f92e7]: site:community.adobe.com photoshop place smaller image does not scale up to fit canvas
+        - button "Submit" [ref=f92e8] [cursor=pointer]
+      - combobox [ref=f92e10] [cursor=pointer]:
+        - option "All Regions" [selected]
+        - option "Argentina"
+        - option "Australia"
+        - option "Austria"
+        - option "Belgium (fr)"
+        - option "Belgium (nl)"
+        - option "Brazil"
+        - option "Bulgaria"
+        - option "Canada (en)"
+        - option "Canada (fr)"
+        - option "Catalonia"
+        - option "Chile"
+        - option "China"
+        - option "Colombia"
+        - option "Croatia"
+        - option "Czech Republic"
+        - option "Denmark"
+        - option "Estonia"
+        - option "Finland"
+        - option "France"
+        - option "Germany"
+        - option "Greece"
+        - option "Hong Kong"
+        - option "Hungary"
+        - option "Iceland"
+        - option "India (en)"
+        - option "Indonesia (en)"
+        - option "Ireland"
+        - option "Israel (en)"
+        - option "Italy"
+        - option "Japan"
+        - option "Korea"
+        - option "Latvia"
+        - option "Lithuania"
+        - option "Malaysia (en)"
+        - option "Mexico"
+        - option "Netherlands"
+        - option "New Zealand"
+        - option "Norway"
+        - option "Pakistan (en)"
+        - option "Peru"
+        - option "Philippines (en)"
+        - option "Poland"
+        - option "Portugal"
+        - option "Romania"
+        - option "Russia"
+        - option "Saudi Arabia"
+        - option "Singapore"
+        - option "Slovakia"
+        - option "Slovenia"
+        - option "South Africa"
+        - option "Spain (ca)"
+        - option "Spain (es)"
+        - option "Sweden"
+        - option "Switzerland (de)"
+        - option "Switzerland (fr)"
+        - option "Taiwan"
+        - option "Thailand (en)"
+        - option "Turkey"
+        - option "US (English)"
+        - option "US (Spanish)"
+        - option "Ukraine"
+        - option "United Kingdom"
+        - option "Vietnam (en)"
+      - combobox [ref=f92e12] [cursor=pointer]:
+        - option "Any Time" [selected]
+        - option "Past Day"
+        - option "Past Week"
+        - option "Past Month"
+        - option "Past Year"
+  - generic [ref=f92e15]:
+    - generic [ref=f92e17]:
+      - heading [level=2] [ref=f92e18]:
+        - link "Automatically fit to canvas when place new image | Community" [ref=f92e19] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fautomatically%2Dfit%2Dto%2Dcanvas%2Dwhen%2Dplace%2Dnew%2Dimage%2D1138613&rut=d16dcd779e0c7aa91027116e1731b26ad656e5280b0704fa2761420ce1625a72
+      - generic [ref=f92e21]:
+        - link [ref=f92e23] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fautomatically%2Dfit%2Dto%2Dcanvas%2Dwhen%2Dplace%2Dnew%2Dimage%2D1138613&rut=d16dcd779e0c7aa91027116e1731b26ad656e5280b0704fa2761420ce1625a72
+        - link "community.adobe.com/questions-712/automatically-fit-to-canvas-when-place-new-image-1138613" [ref=f92e24] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fautomatically%2Dfit%2Dto%2Dcanvas%2Dwhen%2Dplace%2Dnew%2Dimage%2D1138613&rut=d16dcd779e0c7aa91027116e1731b26ad656e5280b0704fa2761420ce1625a72
+      - link "Photoshop is scaling placed images to fit canvas only when you have enough large file to scale down, it won't scale up or enlarge placed image. Also beware of resolution of placed image. If resolution of placed image is higher then parent document, image may be scaled down to match parent document resolution." [ref=f92e25] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fautomatically%2Dfit%2Dto%2Dcanvas%2Dwhen%2Dplace%2Dnew%2Dimage%2D1138613&rut=d16dcd779e0c7aa91027116e1731b26ad656e5280b0704fa2761420ce1625a72
+    - generic [ref=f92e27]:
+      - heading [level=2] [ref=f92e28]:
+        - link "Photoshop 25.0.0 Beta does not Auto fit images into canvas on import" [ref=f92e29] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ft5%2Fphotoshop%2Dbeta%2Ddiscussions%2Fphotoshop%2D25%2D0%2D0%2Dbeta%2Ddoes%2Dnot%2Dauto%2Dfit%2Dimages%2Dinto%2Dcanvas%2Don%2Dimport%2Fm%2Dp%2F13994277&rut=62bf6fe557a5a3e00267d7462eef4fb06b38e99f04b49e5f2fe6bddee02c16d8
+      - generic [ref=f92e31]:
+        - link [ref=f92e33] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ft5%2Fphotoshop%2Dbeta%2Ddiscussions%2Fphotoshop%2D25%2D0%2D0%2Dbeta%2Ddoes%2Dnot%2Dauto%2Dfit%2Dimages%2Dinto%2Dcanvas%2Don%2Dimport%2Fm%2Dp%2F13994277&rut=62bf6fe557a5a3e00267d7462eef4fb06b38e99f04b49e5f2fe6bddee02c16d8
+        - link "community.adobe.com/t5/photoshop-beta-discussions/photoshop-25-0-0-beta-does-not-auto-fit-images-into-canvas-on-import/m-p/13994277" [ref=f92e34] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ft5%2Fphotoshop%2Dbeta%2Ddiscussions%2Fphotoshop%2D25%2D0%2D0%2Dbeta%2Ddoes%2Dnot%2Dauto%2Dfit%2Dimages%2Dinto%2Dcanvas%2Don%2Dimport%2Fm%2Dp%2F13994277&rut=62bf6fe557a5a3e00267d7462eef4fb06b38e99f04b49e5f2fe6bddee02c16d8
+      - link "Hi, Kevin. As far as I remember Photoshop always sets the scale up to the sides of a canvas, no matter what size a picture is or what size the canvas is. But even if I'm confused, is there a way to make it set the imported images to scale up or down thus filling the canvas, some kind of an auto fill..." [ref=f92e35] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ft5%2Fphotoshop%2Dbeta%2Ddiscussions%2Fphotoshop%2D25%2D0%2D0%2Dbeta%2Ddoes%2Dnot%2Dauto%2Dfit%2Dimages%2Dinto%2Dcanvas%2Don%2Dimport%2Fm%2Dp%2F13994277&rut=62bf6fe557a5a3e00267d7462eef4fb06b38e99f04b49e5f2fe6bddee02c16d8
+    - generic [ref=f92e37]:
+      - heading [level=2] [ref=f92e38]:
+        - link "Automatically resize a layer to fit canvas | Community" [ref=f92e39] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fautomatically%2Dresize%2Da%2Dlayer%2Dto%2Dfit%2Dcanvas%2D1165392&rut=7d5a45b245f785b73f91d930d1b11ac61f88b7e9de0fd9de1aefdcdcc1a08081
+      - generic [ref=f92e41]:
+        - link [ref=f92e43] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fautomatically%2Dresize%2Da%2Dlayer%2Dto%2Dfit%2Dcanvas%2D1165392&rut=7d5a45b245f785b73f91d930d1b11ac61f88b7e9de0fd9de1aefdcdcc1a08081
+        - link "community.adobe.com/questions-712/automatically-resize-a-layer-to-fit-canvas-1165392" [ref=f92e44] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fautomatically%2Dresize%2Da%2Dlayer%2Dto%2Dfit%2Dcanvas%2D1165392&rut=7d5a45b245f785b73f91d930d1b11ac61f88b7e9de0fd9de1aefdcdcc1a08081
+      - link "Hi! Is there a way to quickly scale a selected layer so that it fits the canvas of a PS document? I need to load several high resolution images into a small canvas and at the moment the only way I know to resize the images to fit the canvas is to scale them manually by using the free transform box. In Adobe After Effects you have the option to automatically scale a layer to fit the composition ..." [ref=f92e45] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fautomatically%2Dresize%2Da%2Dlayer%2Dto%2Dfit%2Dcanvas%2D1165392&rut=7d5a45b245f785b73f91d930d1b11ac61f88b7e9de0fd9de1aefdcdcc1a08081
+    - generic [ref=f92e47]:
+      - heading [level=2] [ref=f92e48]:
+        - link "'Resize During Image Place' not working | Community" [ref=f92e49] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fresize%2Dduring%2Dimage%2Dplace%2Dnot%2Dworking%2D1077989&rut=bb45dfb4c53f3ac0006a006817da94d70259f30cb24180e17926e822817913d3
+      - generic [ref=f92e51]:
+        - link [ref=f92e53] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fresize%2Dduring%2Dimage%2Dplace%2Dnot%2Dworking%2D1077989&rut=bb45dfb4c53f3ac0006a006817da94d70259f30cb24180e17926e822817913d3
+        - link "community.adobe.com/questions-712/resize-during-image-place-not-working-1077989" [ref=f92e54] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fresize%2Dduring%2Dimage%2Dplace%2Dnot%2Dworking%2D1077989&rut=bb45dfb4c53f3ac0006a006817da94d70259f30cb24180e17926e822817913d3
+      - link "Resize during place only scales smart object layers that are create larger than canvas size to fit on canvas it has nothing to do with resizeng the image. The preference resize during place also does not distort the object to fill the canvas if the aspect ratio on the object is different than the canvas's aspect ratio its a constrained scaling." [ref=f92e55] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fresize%2Dduring%2Dimage%2Dplace%2Dnot%2Dworking%2D1077989&rut=bb45dfb4c53f3ac0006a006817da94d70259f30cb24180e17926e822817913d3
+    - generic [ref=f92e57]:
+      - heading [level=2] [ref=f92e58]:
+        - 'link "Re: Automatically fit to canvas when place new image" [ref=f92e59] [cursor=pointer]':
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ft5%2Fphotoshop%2Decosystem%2Ddiscussions%2Fautomatically%2Dfit%2Dto%2Dcanvas%2Dwhen%2Dplace%2Dnew%2Dimage%2Fm%2Dp%2F12896819&rut=d00023eaa2ece2268242eabca5dc3d125e611d3e69b1d19b3f5e8f67cbf0fa59
+      - generic [ref=f92e61]:
+        - link [ref=f92e63] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ft5%2Fphotoshop%2Decosystem%2Ddiscussions%2Fautomatically%2Dfit%2Dto%2Dcanvas%2Dwhen%2Dplace%2Dnew%2Dimage%2Fm%2Dp%2F12896819&rut=d00023eaa2ece2268242eabca5dc3d125e611d3e69b1d19b3f5e8f67cbf0fa59
+        - link "community.adobe.com/t5/photoshop-ecosystem-discussions/automatically-fit-to-canvas-when-place-new-image/m-p/12896819" [ref=f92e64] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ft5%2Fphotoshop%2Decosystem%2Ddiscussions%2Fautomatically%2Dfit%2Dto%2Dcanvas%2Dwhen%2Dplace%2Dnew%2Dimage%2Fm%2Dp%2F12896819&rut=d00023eaa2ece2268242eabca5dc3d125e611d3e69b1d19b3f5e8f67cbf0fa59
+      - link "When I drag and drop a 500x500px image onto the workspace, how does the image automatically fit the size of the workspace? Currently the way it is working is that the image that I drag and drop is smaller than the canvas size and off the center of the canvas. I would then have to Ctrl T to resize the image if I wanted it to fit on the canvas." [ref=f92e65] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ft5%2Fphotoshop%2Decosystem%2Ddiscussions%2Fautomatically%2Dfit%2Dto%2Dcanvas%2Dwhen%2Dplace%2Dnew%2Dimage%2Fm%2Dp%2F12896819&rut=d00023eaa2ece2268242eabca5dc3d125e611d3e69b1d19b3f5e8f67cbf0fa59
+    - generic [ref=f92e67]:
+      - heading [level=2] [ref=f92e68]:
+        - link "Auto-fit placed images to canvas - Community" [ref=f92e69] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ffeature%2Drequests%2D713%2Fauto%2Dfit%2Dplaced%2Dimages%2Dto%2Dcanvas%2D1644469&rut=a88566ad40c677e4386acd471a9e253ef83f2139f523b3e2eb97ccc264a6ee38
+      - generic [ref=f92e71]:
+        - link [ref=f92e73] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ffeature%2Drequests%2D713%2Fauto%2Dfit%2Dplaced%2Dimages%2Dto%2Dcanvas%2D1644469&rut=a88566ad40c677e4386acd471a9e253ef83f2139f523b3e2eb97ccc264a6ee38
+        - link "community.adobe.com/feature-requests-713/auto-fit-placed-images-to-canvas-1644469" [ref=f92e74] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ffeature%2Drequests%2D713%2Fauto%2Dfit%2Dplaced%2Dimages%2Dto%2Dcanvas%2D1644469&rut=a88566ad40c677e4386acd471a9e253ef83f2139f523b3e2eb97ccc264a6ee38
+      - 'link "When I place a photo into an existing Photoshop document, I''d like Photoshop to offer an option to automatically resize and center it to fit the canvas while preserving its proportions. It would be useful to have two choices: Fit, which shows the whole photo, and Fill, which covers the canvas and crops the image only if needed. This would save me from manually resizing every image with Free ..." [ref=f92e75] [cursor=pointer]':
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ffeature%2Drequests%2D713%2Fauto%2Dfit%2Dplaced%2Dimages%2Dto%2Dcanvas%2D1644469&rut=a88566ad40c677e4386acd471a9e253ef83f2139f523b3e2eb97ccc264a6ee38
+    - generic [ref=f92e77]:
+      - heading [level=2] [ref=f92e78]:
+        - link "Photoshop 25.0.0 Beta does not Auto fit images into canvas on import" [ref=f92e79] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D700%2Fphotoshop%2D25%2D0%2D0%2Dbeta%2Ddoes%2Dnot%2Dauto%2Dfit%2Dimages%2Dinto%2Dcanvas%2Don%2Dimport%2D671649&rut=e5063220bf197868afac8057ec3ed3981bf85229277a39668523edc5d9208d86
+      - generic [ref=f92e81]:
+        - link [ref=f92e83] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D700%2Fphotoshop%2D25%2D0%2D0%2Dbeta%2Ddoes%2Dnot%2Dauto%2Dfit%2Dimages%2Dinto%2Dcanvas%2Don%2Dimport%2D671649&rut=e5063220bf197868afac8057ec3ed3981bf85229277a39668523edc5d9208d86
+        - link "community.adobe.com/questions-700/photoshop-25-0-0-beta-does-not-auto-fit-images-into-canvas-on-import-671649" [ref=f92e84] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D700%2Fphotoshop%2D25%2D0%2D0%2Dbeta%2Ddoes%2Dnot%2Dauto%2Dfit%2Dimages%2Dinto%2Dcanvas%2Don%2Dimport%2D671649&rut=e5063220bf197868afac8057ec3ed3981bf85229277a39668523edc5d9208d86
+      - link "The problem as noted in the title - if I place an image with drag and drop or Place embeded the image retains its original size despite the checkbox in preferences.&nbsp;" [ref=f92e85] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D700%2Fphotoshop%2D25%2D0%2D0%2Dbeta%2Ddoes%2Dnot%2Dauto%2Dfit%2Dimages%2Dinto%2Dcanvas%2Don%2Dimport%2D671649&rut=e5063220bf197868afac8057ec3ed3981bf85229277a39668523edc5d9208d86
+    - generic [ref=f92e87]:
+      - heading [level=2] [ref=f92e88]:
+        - link "Place an image so it is 100% canvas height/width - Community" [ref=f92e89] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fplace%2Dan%2Dimage%2Dso%2Dit%2Dis%2D100%2Dcanvas%2Dheight%2Dwidth%2D1076979&rut=c8fa610d4173f825f02f86f7c9f46febea8420aefa4fc6e3b4c83e778d37b276
+      - generic [ref=f92e91]:
+        - link [ref=f92e93] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fplace%2Dan%2Dimage%2Dso%2Dit%2Dis%2D100%2Dcanvas%2Dheight%2Dwidth%2D1076979&rut=c8fa610d4173f825f02f86f7c9f46febea8420aefa4fc6e3b4c83e778d37b276
+        - link "community.adobe.com/questions-712/place-an-image-so-it-is-100-canvas-height-width-1076979" [ref=f92e94] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fplace%2Dan%2Dimage%2Dso%2Dit%2Dis%2D100%2Dcanvas%2Dheight%2Dwidth%2D1076979&rut=c8fa610d4173f825f02f86f7c9f46febea8420aefa4fc6e3b4c83e778d37b276
+      - link "If both DPI resolution are the same Place does not scale the originals image it will use the original images pixels. Also if the Smart Object layer created by place is Larger than Canvas size Photoshop will set the active Transform Dimension % setting to less than 100%." [ref=f92e95] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fplace%2Dan%2Dimage%2Dso%2Dit%2Dis%2D100%2Dcanvas%2Dheight%2Dwidth%2D1076979&rut=c8fa610d4173f825f02f86f7c9f46febea8420aefa4fc6e3b4c83e778d37b276
+    - generic [ref=f92e97]:
+      - heading [level=2] [ref=f92e98]:
+        - link "Place Embedded Resizing not working for .JPG, .PSD or .DNG Files" [ref=f92e99] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fplace%2Dembedded%2Dresizing%2Dnot%2Dworking%2Dfor%2Djpg%2Dpsd%2Dor%2Ddng%2Dfiles%2D1065900&rut=6fe2a66f936780a9531e6ce33b54fdbd1a483015200fea3f6defd41017bd7ed7
+      - generic [ref=f92e101]:
+        - link [ref=f92e103] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fplace%2Dembedded%2Dresizing%2Dnot%2Dworking%2Dfor%2Djpg%2Dpsd%2Dor%2Ddng%2Dfiles%2D1065900&rut=6fe2a66f936780a9531e6ce33b54fdbd1a483015200fea3f6defd41017bd7ed7
+        - link "community.adobe.com/questions-712/place-embedded-resizing-not-working-for-jpg-psd-or-dng-files-1065900" [ref=f92e104] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fplace%2Dembedded%2Dresizing%2Dnot%2Dworking%2Dfor%2Djpg%2Dpsd%2Dor%2Ddng%2Dfiles%2D1065900&rut=6fe2a66f936780a9531e6ce33b54fdbd1a483015200fea3f6defd41017bd7ed7
+      - link "The resize during place will only scales images that are to large to fit on a document's canvas down in size to fit on canvas. It will not scale small image up ine size tofull the canvas height, width or both. Small images will not be scaled by place. How and image is scaled depend on the Document Print Resolution, the image files print resolution and the number of pixels both will have. Its ..." [ref=f92e105] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fplace%2Dembedded%2Dresizing%2Dnot%2Dworking%2Dfor%2Djpg%2Dpsd%2Dor%2Ddng%2Dfiles%2D1065900&rut=6fe2a66f936780a9531e6ce33b54fdbd1a483015200fea3f6defd41017bd7ed7
+    - generic [ref=f92e107]:
+      - heading [level=2] [ref=f92e108]:
+        - link "Trying to import images at original size. | Community" [ref=f92e109] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftrying%2Dto%2Dimport%2Dimages%2Dat%2Doriginal%2Dsize%2D1111665&rut=79cf11317e1ccd555d9ad049c3ff635e852fe37d46d24787f4ad5f3517da1d24
+      - generic [ref=f92e111]:
+        - link [ref=f92e113] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftrying%2Dto%2Dimport%2Dimages%2Dat%2Doriginal%2Dsize%2D1111665&rut=79cf11317e1ccd555d9ad049c3ff635e852fe37d46d24787f4ad5f3517da1d24
+        - link "community.adobe.com/questions-712/trying-to-import-images-at-original-size-1111665" [ref=f92e114] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftrying%2Dto%2Dimport%2Dimages%2Dat%2Doriginal%2Dsize%2D1111665&rut=79cf11317e1ccd555d9ad049c3ff635e852fe37d46d24787f4ad5f3517da1d24
+      - link "I do not think it will work because that command will prevent Photoshop to \"fit\" placed image to canvas dimensions if it exceeds. Still honoring printing dimension as usually @D Fosse refers will occur and image with smaller PPI will be upscaled while image with smaller PPI will get downscaled." [ref=f92e115] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftrying%2Dto%2Dimport%2Dimages%2Dat%2Doriginal%2Dsize%2D1111665&rut=79cf11317e1ccd555d9ad049c3ff635e852fe37d46d24787f4ad5f3517da1d24
+    - button "Next" [ref=f92e118] [cursor=pointer]
+    - link "Feedback" [ref=f92e120] [cursor=pointer]:
+      - /url: //duckduckgo.com/feedback.html

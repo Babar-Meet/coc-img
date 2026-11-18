@@ -1,0 +1,67 @@
+- generic [ref=f30e3]:
+  - generic [ref=f30e4]:
+    - text: "| | | | |"
+    - generic [ref=f30e8]:
+      - paragraph [ref=f30e9]:
+        - paragraph [ref=f30e10]:
+          - strong [ref=f30e11]: Join us at Adobe MAX — The Creativity Conference Nov 10–12 in Miami Beach.
+      - link "Learn more" [ref=f30e12] [cursor=pointer]:
+        - /url: https://max.adobe.com/?promoid=49F59961&mv=other&mv2=helpx
+    - banner [ref=f30e13]:
+      - navigation "Main" [ref=f30e15]:
+        - generic [ref=f30e16]:
+          - text: ☰
+          - link "Adobe" [ref=f30e17] [cursor=pointer]:
+            - /url: https://www.adobe.com/
+            - img "Adobe, Inc." [ref=f30e19]
+        - list [ref=f30e21]:
+          - listitem [ref=f30e22]:
+            - button "Creativity & Design" [ref=f30e23] [cursor=pointer]
+          - listitem [ref=f30e24]:
+            - button "PDFs & E-signatures" [ref=f30e25] [cursor=pointer]
+          - listitem [ref=f30e26]:
+            - button "Marketing & Commerce" [ref=f30e27] [cursor=pointer]
+          - listitem [ref=f30e28]:
+            - button "Learn & Support" [ref=f30e29] [cursor=pointer]
+          - listitem [ref=f30e30]
+  - main [ref=f30e32]:
+    - generic [ref=f30e34]:
+      - generic [ref=f30e41]:
+        - heading "404 Error" [level=5] [ref=f30e46]
+        - heading "Oops! Page not found" [level=1] [ref=f30e49]
+        - heading "We can't seem to find the page you're looking for. Don't worry though — we're here to help you get back on track. Try searching for what you need or," [level=5] [ref=f30e52]
+        - link "Return To Adobe Help" [ref=f30e57] [cursor=pointer]:
+          - /url: /content/help/in/en/support.html
+        - generic [ref=f30e68]:
+          - paragraph [ref=f30e74]: Try these instead
+          - generic [ref=f30e77]:
+            - link [ref=f30e81] [cursor=pointer]:
+              - /url: /creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-creative-cloud-cleaner-tool.html
+              - generic [ref=f30e82]:
+                - heading "Download and run the Creative Cloud Cleaner tool" [level=4] [ref=f30e84]
+                - paragraph [ref=f30e86]: Learn how to run the Creative Cloud Cleaner Tool.
+                - generic [ref=f30e87]:
+                  - img "Creative Cloud" [ref=f30e88]
+                  - paragraph [ref=f30e89]: Creative Cloud
+            - link [ref=f30e93] [cursor=pointer]:
+              - /url: /creative-cloud/apps/generative-ai/generative-credits-faq.html
+              - generic [ref=f30e94]:
+                - heading "Generative credits FAQ" [level=4] [ref=f30e96]
+                - paragraph [ref=f30e98]: Wondering what generative credits are, how many you have in your account, and how you can use them? We've got you covered.
+                - generic [ref=f30e99]:
+                  - img "Creative Cloud" [ref=f30e100]
+                  - paragraph [ref=f30e101]: Creative Cloud
+            - link [ref=f30e105] [cursor=pointer]:
+              - /url: /creative-cloud/apps/integration-with-other-apps/manage-fonts/install-fonts.html
+              - generic [ref=f30e106]:
+                - heading "Install fonts" [level=4] [ref=f30e108]
+                - paragraph [ref=f30e110]: Learn how to install fonts in the Creative Cloud desktop app.
+                - generic [ref=f30e111]:
+                  - img "Creative Cloud" [ref=f30e112]
+                  - paragraph [ref=f30e113]: Creative Cloud
+      - group [ref=f30e132]:
+        - paragraph [ref=f30e133]: Was this page helpful?
+        - generic "Was this page helpful?" [ref=f30e134]:
+          - button "Yes, thanks" [ref=f30e135] [cursor=pointer]
+          - button "Not really" [ref=f30e143] [cursor=pointer]
+  - generic: / / / / / /

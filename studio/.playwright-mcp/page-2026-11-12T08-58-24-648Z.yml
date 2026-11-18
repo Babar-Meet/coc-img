@@ -1,0 +1,441 @@
+- generic [active] [ref=f86e1]:
+  - link "Skip to main content" [ref=f86e2] [cursor=pointer]:
+    - /url: "#breadcrumbs-target"
+  - main [ref=f86e3]:
+    - generic [ref=f86e6]:
+      - link "Go to homepage" [ref=f86e8] [cursor=pointer]:
+        - /url: https://adobe.com/community/
+        - img "Adobe DME Logo" [ref=f86e9]
+      - generic [ref=f86e11]:
+        - navigation [ref=f86e13]:
+          - list [ref=f86e14]:
+            - listitem [ref=f86e15]:
+              - listitem [ref=f86e16]:
+                - button "Toggle Featured Communities submenu" [ref=f86e18] [cursor=pointer]:
+                  - generic [ref=f86e19]: Featured Communities
+            - listitem [ref=f86e23]:
+              - link "Announcements" [ref=f86e24] [cursor=pointer]:
+                - /url: /p/announcements
+            - listitem [ref=f86e25]:
+              - link "Events" [ref=f86e26] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=f86e27]:
+              - link "Feature Requests" [ref=f86e28] [cursor=pointer]:
+                - /url: /p/feature-requests
+            - listitem [ref=f86e29]:
+              - link "Inspiration Gallery" [ref=f86e30] [cursor=pointer]:
+                - /url: https://www.adobe.com/community/gallery
+        - button "Search" [ref=f86e34] [cursor=pointer]
+      - list [ref=f86e39]:
+        - listitem [ref=f86e40]:
+          - button "Select language" [ref=f86e43] [cursor=pointer]
+        - listitem [ref=f86e47]:
+          - button "Create a post" [ref=f86e48] [cursor=pointer]
+        - listitem [ref=f86e53]:
+          - button "Login" [ref=f86e54] [cursor=pointer]
+    - list [ref=f86e62]:
+      - listitem [ref=f86e63]:
+        - link "Home" [ref=f86e64] [cursor=pointer]:
+          - /url: https://adobe.com/community/
+          - text: / Home
+        - generic: /
+      - listitem [ref=f86e65]:
+        - link "App communities" [ref=f86e66] [cursor=pointer]:
+          - /url: https://community.adobe.com/community
+          - text: / App communities
+        - generic: /
+      - listitem [ref=f86e67]:
+        - link "Photoshop" [ref=f86e68] [cursor=pointer]:
+          - /url: https://community.adobe.com/photoshop-709
+          - text: / Photoshop
+        - generic: /
+      - listitem [ref=f86e69]:
+        - link "Questions" [ref=f86e70] [cursor=pointer]:
+          - /url: https://community.adobe.com/questions-712
+          - text: / Questions
+        - generic: /
+      - listitem [ref=f86e71]:
+        - generic [ref=f86e72]: / Transform box around image larger than canvas does not show on pasteboard
+        - text: /
+    - generic [ref=f86e74]:
+      - region "Photoshop community" [ref=f86e76]:
+        - img "Photoshop community" [ref=f86e77]
+        - generic [ref=f86e78]: Photoshop
+        - link "Open Photoshop" [ref=f86e79] [cursor=pointer]:
+          - /url: https://creativecloud.adobe.com/apps/all/desktop/pdp/photoshop?trackingid=KCJMVLR9&mv=in-product
+      - generic [ref=f86e84]:
+        - article "Topic by Rick Meikle" [ref=f86e85]:
+          - generic [ref=f86e87]:
+            - link [ref=f86e90] [cursor=pointer]:
+              - /url: https://community.adobe.com/members/rick-meikle-623081
+              - img "Rick Meikle" [ref=f86e91]: R
+            - generic [ref=f86e92]:
+              - link "Rick Meikle" [ref=f86e95] [cursor=pointer]:
+                - /url: https://community.adobe.com/members/rick-meikle-623081
+              - generic [ref=f86e96]:
+                - generic [ref=f86e97]: Known Participant·
+                - generic:
+                  - generic:
+                    - time: 2 years ago
+          - generic [ref=f86e98]:
+            - generic [ref=f86e99]: Answered
+            - heading "Transform box around image larger than canvas does not show on pasteboard" [level=1] [ref=f86e101]
+            - list [ref=f86e103]:
+              - listitem [ref=f86e104]:
+                - link "14 replies":
+                  - /url: "#comments"
+              - listitem: · 3473 views
+              - listitem [ref=f86e105]:
+                - button "Translate" [ref=f86e108] [cursor=pointer]
+          - paragraph [ref=f86e116]: Once upon a time, If you wanted to transform an image that was larger than the canvas area, the transform box would show on the pasteboard. Somewhere along the way that stopped. Searching for clues hasn't turned up anything useful. Anyone know about this? (Running Photoshop 25.11 on Mac mini M2 Pro)
+          - list [ref=f86e118]:
+            - listitem [ref=f86e119]:
+              - link "macOS" [ref=f86e120] [cursor=pointer]:
+                - /url: /search?q=macOS&search_type=tag
+          - generic [ref=f86e122]:
+            - button "Like" [ref=f86e123] [cursor=pointer]
+            - button "Reply" [ref=f86e128] [cursor=pointer]
+            - button "Subscribe" [ref=f86e133] [cursor=pointer]
+            - button "Share" [ref=f86e140] [cursor=pointer]
+        - generic [ref=f86e144]: This topic is closed to new replies. Start a new post to keep the conversation going.
+        - article "Best answer by Chuck Uebele" [ref=f86e149]:
+          - generic [ref=f86e151]:
+            - link [ref=f86e154] [cursor=pointer]:
+              - /url: https://community.adobe.com/members/chuck-uebele-661770
+              - img "Chuck Uebele" [ref=f86e155]
+            - generic [ref=f86e156]:
+              - generic [ref=f86e157]:
+                - link "Chuck Uebele" [ref=f86e159] [cursor=pointer]:
+                  - /url: https://community.adobe.com/members/chuck-uebele-661770
+                - generic [ref=f86e160]: Correct answer
+              - generic [ref=f86e162]:
+                - generic [ref=f86e163]: Community Expert·
+                - generic:
+                  - generic:
+                    - time: 2 years ago
+          - paragraph [ref=f86e167]: I'm on windows and don't have that issue. I know you're an experienced user, but have you tried resetting your preferences?
+          - link "View reply" [ref=f86e169] [cursor=pointer]:
+            - /url: /questions-712/transform-box-around-image-larger-than-canvas-does-not-show-on-pasteboard-1172523?postid=4793277#post4793277
+        - generic [ref=f86e171]:
+          - generic [ref=f86e172]:
+            - heading "14 replies" [level=2] [ref=f86e174]
+            - navigation [ref=f86e175]:
+              - 'button ": Newest first" [ref=f86e178] [cursor=pointer]':
+                - generic [ref=f86e179]:
+                  - text: ":"
+                  - generic [ref=f86e180]: Newest first
+          - generic [ref=f86e183]:
+            - generic [ref=f86e184]:
+              - article "Reply by Chuck Uebele" [ref=f86e185]:
+                - generic [ref=f86e187]:
+                  - link [ref=f86e190] [cursor=pointer]:
+                    - /url: https://community.adobe.com/members/chuck-uebele-661770
+                    - img "Chuck Uebele" [ref=f86e191]
+                    - img "Community Expert" [ref=f86e193]
+                  - generic [ref=f86e194]:
+                    - generic [ref=f86e195]:
+                      - link "Chuck Uebele" [ref=f86e197] [cursor=pointer]:
+                        - /url: https://community.adobe.com/members/chuck-uebele-661770
+                      - img "Community Expert" [ref=f86e198]
+                      - generic [ref=f86e199]: Correct answer
+                    - generic [ref=f86e201]:
+                      - generic [ref=f86e202]: Community Expert·
+                      - generic:
+                        - generic:
+                          - time: 2 years ago
+                - generic [ref=f86e205]:
+                  - paragraph [ref=f86e207]: I'm on windows and don't have that issue. I know you're an experienced user, but have you tried resetting your preferences?
+                  - button "Translate" [ref=f86e210] [cursor=pointer]
+                - generic [ref=f86e214]:
+                  - button "3 replies" [ref=f86e215] [cursor=pointer]
+                  - button "Like" [ref=f86e220] [cursor=pointer]
+                  - button "1 like" [ref=f86e228] [cursor=pointer]:
+                    - link [ref=f86e231]:
+                      - /url: https://community.adobe.com/members/jeff-arola-720935
+                      - img "Jeff Arola" [ref=f86e232]
+                    - generic [aria-hidden] [ref=f86e233]: "1"
+                  - button "Reply" [ref=f86e234] [cursor=pointer]
+              - generic [ref=f86e241]:
+                - article "Reply by Rick Meikle" [ref=f86e242]:
+                  - generic [ref=f86e244]:
+                    - link [ref=f86e247] [cursor=pointer]:
+                      - /url: https://community.adobe.com/members/rick-meikle-623081
+                      - img "Rick Meikle" [ref=f86e248]: R
+                    - generic [ref=f86e249]:
+                      - link "Rick Meikle" [ref=f86e252] [cursor=pointer]:
+                        - /url: https://community.adobe.com/members/rick-meikle-623081
+                      - generic [ref=f86e253]:
+                        - generic [ref=f86e254]: Known Participant·
+                        - generic:
+                          - generic:
+                            - time: 2 years ago
+                  - generic [ref=f86e256]:
+                    - generic [ref=f86e257]:
+                      - paragraph [ref=f86e259]: Should have done that already. I admit that I shy away from deleting settings (nee preferences) because there are so many and it is a royal pain-in-the-patootie to reconstruct them. I was hoping there was a solution short of that. So, yes, the transform box shows on the pasteboard when using default settings (screenshot attached). The center control is missing, though. It can be brought back in the Tools settings, but it is different. It doesn't even look like just another control point (second screenshot, with gray pasteboard instead of black). Now I need to reconstruct all my settings and check the Transform box along the way. That's for another day, but I will post what I find. (And thanks, Scott. I guess 😉
+                      - button "Translate" [ref=f86e262] [cursor=pointer]
+                    - generic [ref=f86e265]:
+                      - heading [level=5] [ref=f86e266]:
+                        - strong [ref=f86e267]: 2 Attachments
+                      - generic [ref=f86e269]:
+                        - link [ref=f86e271] [cursor=pointer]:
+                          - /url: https://uploads-us-west-2.insided.com/adobedme-en/attachment/Screenshot_2024-09-06_at_12-01-37 PM.png
+                        - link [ref=f86e273] [cursor=pointer]:
+                          - /url: https://uploads-us-west-2.insided.com/adobedme-en/attachment/Screenshot_2024-09-06_at_12-25-32 PM.png
+                  - generic [ref=f86e275]:
+                    - button "2 replies" [ref=f86e276] [cursor=pointer]
+                    - button "Like" [ref=f86e281] [cursor=pointer]
+                    - button "Reply" [ref=f86e286] [cursor=pointer]
+                - generic [ref=f86e291]:
+                  - article "Reply by Chuck Uebele" [ref=f86e294]:
+                    - generic [ref=f86e296]:
+                      - link [ref=f86e299] [cursor=pointer]:
+                        - /url: https://community.adobe.com/members/chuck-uebele-661770
+                        - img "Chuck Uebele" [ref=f86e300]
+                        - img "Community Expert" [ref=f86e302]
+                      - generic [ref=f86e303]:
+                        - generic [ref=f86e304]:
+                          - link "Chuck Uebele" [ref=f86e306] [cursor=pointer]:
+                            - /url: https://community.adobe.com/members/chuck-uebele-661770
+                          - img "Community Expert" [ref=f86e307]
+                        - generic [ref=f86e308]:
+                          - generic [ref=f86e309]: Community Expert·
+                          - generic:
+                            - generic:
+                              - time: 2 years ago
+                    - generic [ref=f86e312]:
+                      - paragraph [ref=f86e314]: Yea, it is a PIA to reset everything!!! Unfortunately it has time be done, sometimes.
+                      - button "Translate" [ref=f86e317] [cursor=pointer]
+                    - generic [ref=f86e321]:
+                      - button "Like" [ref=f86e322] [cursor=pointer]
+                      - button "Reply" [ref=f86e327] [cursor=pointer]
+                  - button "Show 1 more reply" [ref=f86e333] [cursor=pointer]
+            - generic [ref=f86e340]:
+              - article "Reply by Jeff Arola" [ref=f86e341]:
+                - generic [ref=f86e343]:
+                  - link [ref=f86e346] [cursor=pointer]:
+                    - /url: https://community.adobe.com/members/jeff-arola-720935
+                    - img "Jeff Arola" [ref=f86e347]
+                    - img "Community Expert" [ref=f86e349]
+                  - generic [ref=f86e350]:
+                    - generic [ref=f86e351]:
+                      - link "Jeff Arola" [ref=f86e353] [cursor=pointer]:
+                        - /url: https://community.adobe.com/members/jeff-arola-720935
+                      - img "Community Expert" [ref=f86e354]
+                    - generic [ref=f86e355]:
+                      - generic [ref=f86e356]: Community Expert·
+                      - generic:
+                        - generic:
+                          - time: 2 years ago
+                - generic [ref=f86e359]:
+                  - generic [ref=f86e360]:
+                    - paragraph [ref=f86e361]:
+                      - text: For an image that is bigger than the canvas as in your screenshots, if you select the
+                      - strong [ref=f86e362]: Move Tool
+                      - text: with
+                      - strong [ref=f86e363]: Show Transform Controls
+                      - emphasis [ref=f86e364]: checked
+                      - text: ", does tha show the transform controls?"
+                    - paragraph [ref=f86e365]
+                    - paragraph [ref=f86e366]:
+                      - img [ref=f86e367] [cursor=pointer]
+                  - button "Translate" [ref=f86e370] [cursor=pointer]
+                - generic [ref=f86e374]:
+                  - button "1 reply" [ref=f86e375] [cursor=pointer]
+                  - button "Like" [ref=f86e380] [cursor=pointer]
+                  - button "Reply" [ref=f86e385] [cursor=pointer]
+              - article "Reply by Rick Meikle" [ref=f86e393]:
+                - generic [ref=f86e395]:
+                  - link [ref=f86e398] [cursor=pointer]:
+                    - /url: https://community.adobe.com/members/rick-meikle-623081
+                    - img "Rick Meikle" [ref=f86e399]: R
+                  - generic [ref=f86e400]:
+                    - link "Rick Meikle" [ref=f86e403] [cursor=pointer]:
+                      - /url: https://community.adobe.com/members/rick-meikle-623081
+                    - generic [ref=f86e404]:
+                      - generic [ref=f86e405]: Known Participant·
+                      - generic:
+                        - generic:
+                          - time: 2 years ago
+                - generic [ref=f86e408]:
+                  - paragraph [ref=f86e410]: Yeah, wish it did, but no. However, Chuck (in the next post) is onto something.
+                  - button "Translate" [ref=f86e413] [cursor=pointer]
+                - generic [ref=f86e417]:
+                  - button "Like" [ref=f86e418] [cursor=pointer]
+                  - button "Reply" [ref=f86e423] [cursor=pointer]
+            - generic [ref=f86e428]:
+              - article "Reply by Bojan Živković11378569" [ref=f86e429]:
+                - generic [ref=f86e431]:
+                  - link [ref=f86e434] [cursor=pointer]:
+                    - /url: https://community.adobe.com/members/bojan-zivkovic11378569-1156054
+                    - img "Bojan Živković11378569" [ref=f86e435]
+                    - img "Community Expert" [ref=f86e437]
+                  - generic [ref=f86e438]:
+                    - generic [ref=f86e439]:
+                      - link "Bojan Živković11378569" [ref=f86e441] [cursor=pointer]:
+                        - /url: https://community.adobe.com/members/bojan-zivkovic11378569-1156054
+                      - img "Community Expert" [ref=f86e442]
+                    - generic [ref=f86e443]:
+                      - generic [ref=f86e444]: Community Expert·
+                      - generic:
+                        - generic:
+                          - time: 2 years ago
+                - generic [ref=f86e447]:
+                  - paragraph [ref=f86e449]: Can you post a screenshot that shows the entire window with the Layers panel expanded and visible? Please enter Free Transform first, then capture the screen.
+                  - button "Translate" [ref=f86e452] [cursor=pointer]
+                - generic [ref=f86e456]:
+                  - button "7 replies" [ref=f86e457] [cursor=pointer]
+                  - button "Like" [ref=f86e462] [cursor=pointer]
+                  - button "Reply" [ref=f86e467] [cursor=pointer]
+              - generic [ref=f86e474]:
+                - article "Reply by Rick Meikle" [ref=f86e475]:
+                  - generic [ref=f86e477]:
+                    - link [ref=f86e480] [cursor=pointer]:
+                      - /url: https://community.adobe.com/members/rick-meikle-623081
+                      - img "Rick Meikle" [ref=f86e481]: R
+                    - generic [ref=f86e482]:
+                      - link "Rick Meikle" [ref=f86e485] [cursor=pointer]:
+                        - /url: https://community.adobe.com/members/rick-meikle-623081
+                      - generic [ref=f86e486]:
+                        - generic [ref=f86e487]: Known Participant·
+                        - generic:
+                          - generic:
+                            - time: 2 years ago
+                  - generic [ref=f86e489]:
+                    - generic [ref=f86e490]:
+                      - generic [ref=f86e491]:
+                        - paragraph [ref=f86e492]: The first screenshot shows a single layer with a sunset sky on it. The sky is larger than the canvas. I hit Command-T to scale it down. Only the center control point is visible. The rest of the Transform box, which falls outside the canvas (but is smaller than the visible pasteboard) is not shown. Historically, it used to be. It disappeared in some recent update to Photoshop. (Recently, meaning within the last year or so. I've used Photoshop since the early '90s.) The second screenshot shows the same sky image scaled down enough that the entire Transform box is visible.
+                        - paragraph [ref=f86e493]
+                        - paragraph [ref=f86e494]:
+                          - img [ref=f86e495] [cursor=pointer]
+                        - paragraph [ref=f86e496]
+                        - paragraph [ref=f86e497]:
+                          - img [ref=f86e498] [cursor=pointer]
+                        - paragraph [ref=f86e499]
+                        - paragraph [ref=f86e500]
+                        - paragraph [ref=f86e501]
+                        - paragraph [ref=f86e502]
+                      - button "Translate" [ref=f86e505] [cursor=pointer]
+                    - generic [ref=f86e508]:
+                      - heading [level=5] [ref=f86e509]:
+                        - strong [ref=f86e510]: 2 Attachments
+                      - generic [ref=f86e512]:
+                        - link [ref=f86e514] [cursor=pointer]:
+                          - /url: https://uploads-us-west-2.insided.com/adobedme-en/attachment/Screenshot_2024-09-05_at_7-47-18 AM.png
+                        - link [ref=f86e516] [cursor=pointer]:
+                          - /url: https://uploads-us-west-2.insided.com/adobedme-en/attachment/Screenshot_2024-09-05_at_7-51-48 AM.png
+                  - generic [ref=f86e518]:
+                    - button "6 replies" [ref=f86e519] [cursor=pointer]
+                    - button "Like" [ref=f86e524] [cursor=pointer]
+                    - button "Reply" [ref=f86e529] [cursor=pointer]
+                - generic [ref=f86e534]:
+                  - article "Reply by jane-e" [ref=f86e537]:
+                    - generic [ref=f86e539]:
+                      - link [ref=f86e542] [cursor=pointer]:
+                        - /url: https://community.adobe.com/members/jane-e-963493
+                        - img "jane-e" [ref=f86e543]
+                        - img "Community Expert" [ref=f86e545]
+                      - generic [ref=f86e546]:
+                        - generic [ref=f86e547]:
+                          - link "jane-e" [ref=f86e549] [cursor=pointer]:
+                            - /url: https://community.adobe.com/members/jane-e-963493
+                          - img "Community Expert" [ref=f86e550]
+                        - generic [ref=f86e551]:
+                          - generic [ref=f86e552]: Community Expert·
+                          - generic:
+                            - generic:
+                              - time: 2 years ago
+                    - generic [ref=f86e555]:
+                      - generic [ref=f86e556]:
+                        - paragraph [ref=f86e557]:
+                          - link "@Rick Meikle" [ref=f86e558] [cursor=pointer]:
+                            - /url: /members/rick-meikle-623081
+                        - paragraph [ref=f86e559]
+                        - paragraph [ref=f86e560]: "Your first screenshot shows 100% scale with W: 6000 x H: 3001, while the second screenshot shows that you have scaled the image to 25% and is 1500 x 750."
+                        - paragraph [ref=f86e561]
+                        - paragraph [ref=f86e562]: When the image is still at 100%, can you zoom out a few more time to see if the transform handles appear after you use Cmd+T? Your zoom is 66.67 in both images, and Photoshop should be able to zoom out lots more than that.
+                        - paragraph [ref=f86e563]
+                        - paragraph [ref=f86e564]: Jane
+                      - button "Translate" [ref=f86e567] [cursor=pointer]
+                    - generic [ref=f86e571]:
+                      - button "Like" [ref=f86e572] [cursor=pointer]
+                      - button "Reply" [ref=f86e577] [cursor=pointer]
+                  - button "Show 5 more replies" [ref=f86e583] [cursor=pointer]
+      - generic [ref=f86e590]:
+        - generic [ref=f86e591]:
+          - link "Firefly Challenge — The Firefly Fashion AI Lab Step into the role of Fashion Creative Director and design an avant-garde, high-fashion garment that fuses the organic with the synthetic. Join challenge" [ref=f86e595] [cursor=pointer]:
+            - /url: https://www.adobe.com/community/gallery/challenges/f9e395d2-50d8-4f00-af6a-494e478739c2?sdid=VY36JLWT&mv=webpush
+            - generic [ref=f86e598]:
+              - generic [ref=f86e600]:
+                - paragraph [ref=f86e601]: Firefly Challenge — The Firefly Fashion AI Lab
+                - paragraph [ref=f86e602]: Step into the role of Fashion Creative Director and design an avant-garde, high-fashion garment that fuses the organic with the synthetic.
+              - generic [ref=f86e603]: Join challenge
+          - generic [ref=f86e607]:
+            - heading "Related topics" [level=3] [ref=f86e608]
+            - list [ref=f86e609]:
+              - listitem [ref=f86e610]:
+                - heading [level=4] [ref=f86e611]:
+                  - link "New art student - need help making drawing larger than photo" [ref=f86e612] [cursor=pointer]:
+                    - /url: /topic/show?tid=1071024&fid=712
+                  - text: Answered
+                - link "Questions" [ref=f86e613] [cursor=pointer]:
+                  - /url: /fid-712
+              - listitem [ref=f86e614]:
+                - heading [level=4] [ref=f86e615]:
+                  - link "How is the width \"W\" value of the image on the control bar calculated?" [ref=f86e616] [cursor=pointer]:
+                    - /url: /topic/show?tid=1653920&fid=671
+                  - text: Answered
+                - link "Questions" [ref=f86e617] [cursor=pointer]:
+                  - /url: /fid-671
+              - listitem [ref=f86e618]:
+                - heading [level=4] [ref=f86e619]:
+                  - link "Compositing question" [ref=f86e620] [cursor=pointer]:
+                    - /url: /topic/show?tid=1071473&fid=712
+                  - text: Answered
+                - link "Questions" [ref=f86e621] [cursor=pointer]:
+                  - /url: /fid-712
+              - listitem [ref=f86e622]:
+                - heading [level=4] [ref=f86e623]:
+                  - link "Magnetic Lasso causes PS to crash" [ref=f86e624] [cursor=pointer]:
+                    - /url: /topic/show?tid=1062025&fid=712
+                  - text: Answered
+                - link "Questions" [ref=f86e625] [cursor=pointer]:
+                  - /url: /fid-712
+              - listitem [ref=f86e626]:
+                - heading [level=4] [ref=f86e627]:
+                  - link "Image Size vs. Canvas Size Question" [ref=f86e628] [cursor=pointer]:
+                    - /url: /topic/show?tid=1058514&fid=712
+                  - text: Answered
+                - link "Questions" [ref=f86e629] [cursor=pointer]:
+                  - /url: /fid-712
+        - generic [ref=f86e630]:
+          - generic [ref=f86e631]: Was this post helpful?
+          - generic [ref=f86e632]:
+            - generic [ref=f86e633] [cursor=pointer]: Yes, thanks
+            - generic [ref=f86e634] [cursor=pointer]: Not really
+    - generic [ref=f86e638]:
+      - link "Powered by Gainsight" [ref=f86e640] [cursor=pointer]:
+        - /url: https://www.gainsight.com/customer-communities/
+      - generic [ref=f86e641]:
+        - link "Terms & Conditions" [ref=f86e642] [cursor=pointer]:
+          - /url: /site/terms
+        - link "Accessibility statement" [ref=f86e643] [cursor=pointer]:
+          - /url: https://www.gainsight.com/policy/accessibility-cc/
+      - text: 
+    - text: 
+    - generic [ref=f86e646]:
+      - generic [ref=f86e647]: Copyright © 2026 Adobe. All rights reserved.
+      - generic [ref=f86e648]:
+        - link "Using the community" [ref=f86e649] [cursor=pointer]:
+          - /url: /topic-95
+        - link "Terms of use" [ref=f86e650] [cursor=pointer]:
+          - /url: https://www.adobe.com/legal/terms.html
+        - link "Privacy" [ref=f86e651] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy.html
+        - generic [ref=f86e652] [cursor=pointer]: Cookie preferences
+        - link "Do not sell or share my personal information" [ref=f86e653] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/us-rights.html
+        - link [ref=f86e654] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads
+          - img "ad choices" [ref=f86e655]
+          - text: AdChoices
+  - status [ref=f86e656]

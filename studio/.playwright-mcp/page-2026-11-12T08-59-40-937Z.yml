@@ -1,0 +1,574 @@
+- generic [active] [ref=f119e1]:
+  - list:
+    - listitem:
+      - link "Skip to main content" [ref=f119e2] [cursor=pointer]:
+        - /url: "#content"
+    - listitem:
+      - link "Skip to search" [ref=f119e3] [cursor=pointer]:
+        - /url: "#mdn-search"
+  - banner [ref=f119e7]:
+    - navigation [ref=f119e8]:
+      - link "MDN" [ref=f119e10] [cursor=pointer]:
+        - /url: /en-US/
+        - img "MDN" [ref=f119e11]
+      - button "Search the site" [ref=f119e17] [cursor=pointer]
+      - button "Toggle navigation" [ref=f119e21] [cursor=pointer]
+      - text: (external) (external)
+    - generic [ref=f119e22]:
+      - button "Toggle sidebar" [ref=f119e25] [cursor=pointer]
+      - list [ref=f119e29]:
+        - listitem [ref=f119e30]:
+          - link "Web" [ref=f119e31] [cursor=pointer]:
+            - /url: /en-US/docs/Web
+        - listitem [ref=f119e32]:
+          - link "CSS" [ref=f119e33] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS
+        - listitem [ref=f119e34]:
+          - link "Reference" [ref=f119e35] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Reference
+        - listitem [ref=f119e36]:
+          - link "Properties" [ref=f119e37] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Reference/Properties
+        - listitem [ref=f119e38]:
+          - link "touch-action" [ref=f119e39] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Reference/Properties/touch-action
+      - button "Switch color theme" [ref=f119e43] [cursor=pointer]:
+        - generic [ref=f119e44]: Theme
+      - generic [ref=f119e47]:
+        - button "English (US)" [ref=f119e48] [cursor=pointer]
+        - generic: Remember language
+  - main [ref=f119e52]:
+    - generic [ref=f119e53]:
+      - heading [level=1] [ref=f119e54]:
+        - code [ref=f119e55]: touch-action
+        - text: CSS property
+      - group [ref=f119e56]:
+        - generic "Baseline Check Baseline Widely available * Chrome check Edge check Firefox check Safari check" [ref=f119e57] [cursor=pointer]:
+          - img "Baseline Check" [ref=f119e58]
+          - generic [ref=f119e59]: Baseline
+          - generic [ref=f119e60]: Widely available
+          - generic [ref=f119e61]: "*"
+          - generic [ref=f119e62]:
+            - generic "Supported in Chrome and Edge" [ref=f119e63]:
+              - img "Chrome check" [ref=f119e64]
+              - img "Edge check" [ref=f119e65]
+            - generic "Supported in Firefox" [ref=f119e66]:
+              - img "Firefox check" [ref=f119e67]
+            - generic "Supported in Safari" [ref=f119e68]:
+              - img "Safari check" [ref=f119e69]
+      - generic [ref=f119e71]:
+        - paragraph [ref=f119e72]:
+          - text: The
+          - strong [ref=f119e73]:
+            - code [ref=f119e74]: touch-action
+          - link "CSS" [ref=f119e75] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS
+          - text: property sets how an element's region can be manipulated by a touchscreen user (for example, by zooming features built into the browser).
+        - paragraph [ref=f119e76]:
+          - text: By default, panning (scrolling) and pinching gestures are handled exclusively by the browser. An application using
+          - link "Pointer events" [ref=f119e77] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/Pointer_events
+          - text: will receive a
+          - link [ref=f119e78] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/Element/pointercancel_event
+            - code [ref=f119e79]: pointercancel
+          - text: event when the browser starts handling a touch gesture. By explicitly specifying which gestures should be handled by the browser, an application can supply its own behavior in
+          - link [ref=f119e80] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/Element/pointermove_event
+            - code [ref=f119e81]: pointermove
+          - text: and
+          - link [ref=f119e82] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/Element/pointerup_event
+            - code [ref=f119e83]: pointerup
+          - text: listeners for the remaining gestures. Applications using
+          - link "Touch events" [ref=f119e84] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/Touch_events
+          - text: disable the browser handling of gestures by calling
+          - link [ref=f119e85] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/Event/preventDefault
+            - code [ref=f119e86]: preventDefault()
+          - text: ", but should also use"
+          - code [ref=f119e87]: touch-action
+          - text: to ensure the browser knows the intent of the application before any event listeners have been invoked.
+        - paragraph [ref=f119e88]:
+          - text: When a gesture is started, the browser intersects the
+          - code [ref=f119e89]: touch-action
+          - text: values of the touched element and its ancestors, up to the one that implements the gesture (in other words, the first containing scrolling element). This means that in practice,
+          - code [ref=f119e90]: touch-action
+          - text: is typically applied only to top-level elements which have some custom behavior, without needing to specify
+          - code [ref=f119e91]: touch-action
+          - text: explicitly on any of that element's descendants.
+        - paragraph [ref=f119e93]:
+          - strong [ref=f119e94]: "Note:"
+          - text: After a gesture starts, changes to
+          - code [ref=f119e95]: touch-action
+          - text: will not have any impact on the behavior of the current gesture.
+    - complementary [ref=f119e96]:
+      - navigation [ref=f119e97]:
+        - heading "In this article" [level=2] [ref=f119e98]
+        - list [ref=f119e99]:
+          - listitem [ref=f119e100]:
+            - link "Syntax" [ref=f119e101] [cursor=pointer]:
+              - /url: "#syntax"
+          - listitem [ref=f119e102]:
+            - link "Accessibility" [ref=f119e103] [cursor=pointer]:
+              - /url: "#accessibility"
+          - listitem [ref=f119e104]:
+            - link "Formal definition" [ref=f119e105] [cursor=pointer]:
+              - /url: "#formal_definition"
+          - listitem [ref=f119e106]:
+            - link "Formal syntax" [ref=f119e107] [cursor=pointer]:
+              - /url: "#formal_syntax"
+          - listitem [ref=f119e108]:
+            - link "Examples" [ref=f119e109] [cursor=pointer]:
+              - /url: "#examples"
+          - listitem [ref=f119e110]:
+            - link "Specifications" [ref=f119e111] [cursor=pointer]:
+              - /url: "#specifications"
+          - listitem [ref=f119e112]:
+            - link "Browser compatibility" [ref=f119e113] [cursor=pointer]:
+              - /url: "#browser_compatibility"
+          - listitem [ref=f119e114]:
+            - link "See also" [ref=f119e115] [cursor=pointer]:
+              - /url: "#see_also"
+    - generic [ref=f119e116]:
+      - region "Syntax" [ref=f119e117]:
+        - heading [level=2] [ref=f119e118]:
+          - link "Syntax" [ref=f119e119] [cursor=pointer]:
+            - /url: "#syntax"
+        - generic [ref=f119e121]:
+          - generic [ref=f119e122]:
+            - generic [ref=f119e123]: css
+            - button "Copy" [ref=f119e126] [cursor=pointer]
+          - code [ref=f119e129]: "/* Keyword values */ touch-action: auto; touch-action: none; touch-action: pan-x; touch-action: pan-left; touch-action: pan-right; touch-action: pan-y; touch-action: pan-up; touch-action: pan-down; touch-action: pinch-zoom; touch-action: manipulation; /* Global values */ touch-action: inherit; touch-action: initial; touch-action: revert; touch-action: revert-layer; touch-action: unset;"
+        - paragraph [ref=f119e130]:
+          - text: The
+          - code [ref=f119e131]: touch-action
+          - text: "property may be specified as either:"
+        - list [ref=f119e132]:
+          - listitem [ref=f119e133]:
+            - text: One of the keywords
+            - code [ref=f119e134]: auto
+            - text: ","
+            - code [ref=f119e135]: none
+            - text: ","
+            - link [ref=f119e136] [cursor=pointer]:
+              - /url: "#manipulation"
+              - code [ref=f119e137]: manipulation
+            - text: ","
+            - emphasis [ref=f119e138]: or
+          - listitem [ref=f119e139]:
+            - text: One of the keywords
+            - code [ref=f119e140]: pan-x
+            - text: ","
+            - code [ref=f119e141]: pan-left
+            - text: ","
+            - code [ref=f119e142]: pan-right
+            - text: ", and/or one of the keywords"
+            - code [ref=f119e143]: pan-y
+            - text: ","
+            - code [ref=f119e144]: pan-up
+            - text: ","
+            - code [ref=f119e145]: pan-down
+            - text: ", plus optionally the keyword"
+            - code [ref=f119e146]: pinch-zoom
+            - text: .
+      - region "Values" [ref=f119e147]:
+        - heading [level=3] [ref=f119e148]:
+          - link "Values" [ref=f119e149] [cursor=pointer]:
+            - /url: "#values"
+        - generic [ref=f119e150]:
+          - term [ref=f119e151]:
+            - link [ref=f119e152] [cursor=pointer]:
+              - /url: "#auto"
+              - code [ref=f119e153]: auto
+          - definition [ref=f119e154]:
+            - paragraph [ref=f119e155]: Enable browser handling of all panning and zooming gestures.
+          - term [ref=f119e156]:
+            - link [ref=f119e157] [cursor=pointer]:
+              - /url: "#none"
+              - code [ref=f119e158]: none
+          - definition [ref=f119e159]:
+            - paragraph [ref=f119e160]: Disable browser handling of all panning and zooming gestures.
+          - term [ref=f119e161]:
+            - link [ref=f119e162] [cursor=pointer]:
+              - /url: "#pan-x"
+              - code [ref=f119e163]: pan-x
+          - definition [ref=f119e164]:
+            - paragraph [ref=f119e165]:
+              - text: Enable single-finger horizontal panning gestures. May be combined with
+              - strong [ref=f119e166]: pan-y
+              - text: ","
+              - strong [ref=f119e167]: pan-up
+              - text: ","
+              - strong [ref=f119e168]: pan-down
+              - text: and/or
+              - strong [ref=f119e169]: pinch-zoom
+              - text: .
+          - term [ref=f119e170]:
+            - link [ref=f119e171] [cursor=pointer]:
+              - /url: "#pan-y"
+              - code [ref=f119e172]: pan-y
+          - definition [ref=f119e173]:
+            - paragraph [ref=f119e174]:
+              - text: Enable single-finger vertical panning gestures. May be combined with
+              - strong [ref=f119e175]: pan-x
+              - text: ","
+              - strong [ref=f119e176]: pan-left
+              - text: ","
+              - strong [ref=f119e177]: pan-right
+              - text: and/or
+              - strong [ref=f119e178]: pinch-zoom
+              - text: .
+          - term [ref=f119e179]:
+            - link [ref=f119e180] [cursor=pointer]:
+              - /url: "#manipulation"
+              - code [ref=f119e181]: manipulation
+          - definition [ref=f119e182]:
+            - paragraph [ref=f119e183]:
+              - text: Enable panning and pinch zoom gestures, but disable additional non-standard gestures such as double-tap to zoom. Disabling double-tap to zoom removes the need for browsers to delay the generation of
+              - strong [ref=f119e184]: click
+              - text: events when the user taps the screen. This is an alias for "
+              - strong [ref=f119e185]: pan-x pan-y pinch-zoom
+              - text: "\" (which, for compatibility, is itself still valid)."
+          - term [ref=f119e186]:
+            - link [ref=f119e187] [cursor=pointer]:
+              - /url: "#pan-left"
+              - code [ref=f119e188]: pan-left
+              - text: ","
+              - code [ref=f119e189]: pan-right
+              - text: ","
+              - code [ref=f119e190]: pan-up
+              - text: ","
+              - code [ref=f119e191]: pan-down
+          - definition [ref=f119e192]:
+            - paragraph [ref=f119e193]:
+              - text: Enable single-finger gestures that begin by scrolling in the given direction(s). Once scrolling has started, the direction may still be reversed. Note that scrolling "up" (
+              - strong [ref=f119e194]: pan-up
+              - text: ) means that the user is dragging their finger downward on the screen surface, and likewise
+              - strong [ref=f119e195]: pan-left
+              - text: means the user is dragging their finger to the right. Multiple directions may be combined except when there is a simpler representation (for example,
+              - strong [ref=f119e196]: "\"pan-left pan-right"
+              - text: "\" is invalid since \""
+              - strong [ref=f119e197]: pan-x
+              - text: "\" is simpler, but \""
+              - strong [ref=f119e198]: pan-left pan-down
+              - text: "\" is valid)."
+          - term [ref=f119e199]:
+            - link [ref=f119e200] [cursor=pointer]:
+              - /url: "#pinch-zoom"
+              - code [ref=f119e201]: pinch-zoom
+          - definition [ref=f119e202]:
+            - paragraph [ref=f119e203]:
+              - text: Enable multi-finger panning and zooming of the page. This may be combined with any of the
+              - strong [ref=f119e204]: pan-
+              - text: values.
+      - region "Accessibility" [ref=f119e205]:
+        - heading [level=2] [ref=f119e206]:
+          - link "Accessibility" [ref=f119e207] [cursor=pointer]:
+            - /url: "#accessibility"
+        - paragraph [ref=f119e208]:
+          - text: A declaration of
+          - code [ref=f119e209]: "touch-action: none;"
+          - text: may inhibit operating a browser's zooming capabilities. This will prevent people experiencing low vision conditions from being able to read and understand page content.
+        - list [ref=f119e210]:
+          - listitem [ref=f119e211]:
+            - link "MDN Understanding WCAG, Guideline 1.4 explanations" [ref=f119e212] [cursor=pointer]:
+              - /url: /en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Perceivable#guideline_1.4_make_it_easier_for_users_to_see_and_hear_content_including_separating_foreground_from_background
+          - listitem [ref=f119e213]:
+            - link "Understanding Success Criterion 1.4.4 | Understanding WCAG 2.0 (external)" [ref=f119e214] [cursor=pointer]:
+              - /url: https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html
+      - region "Formal definition" [ref=f119e215]:
+        - heading [level=2] [ref=f119e216]:
+          - link "Formal definition" [ref=f119e217] [cursor=pointer]:
+            - /url: "#formal_definition"
+        - figure [ref=f119e218]:
+          - table [ref=f119e219]:
+            - rowgroup [ref=f119e220]:
+              - row [ref=f119e221]:
+                - rowheader "Initial value" [ref=f119e222]:
+                  - link "Initial value" [ref=f119e223] [cursor=pointer]:
+                    - /url: /en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value
+                - cell [ref=f119e224]:
+                  - code [ref=f119e225]: auto
+              - row [ref=f119e226]:
+                - rowheader "Applies to" [ref=f119e227]
+                - 'cell "all elements except: non-replaced inline elements, table rows, row groups, table columns, and column groups" [ref=f119e228]'
+              - row [ref=f119e229]:
+                - rowheader "Inherited" [ref=f119e230]:
+                  - link "Inherited" [ref=f119e231] [cursor=pointer]:
+                    - /url: /en-US/docs/Web/CSS/Guides/Cascade/Inheritance
+                - cell "no" [ref=f119e232]
+              - row [ref=f119e233]:
+                - rowheader "Computed value" [ref=f119e234]:
+                  - link "Computed value" [ref=f119e235] [cursor=pointer]:
+                    - /url: /en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value
+                - cell "as specified" [ref=f119e236]
+              - row [ref=f119e237]:
+                - rowheader "Animation type" [ref=f119e238]:
+                  - link "Animation type" [ref=f119e239] [cursor=pointer]:
+                    - /url: /en-US/docs/Web/CSS/Guides/Animations/Animatable_properties
+                - cell "Not animatable" [ref=f119e240]
+      - region "Formal syntax" [ref=f119e241]:
+        - heading [level=2] [ref=f119e242]:
+          - link "Formal syntax" [ref=f119e243] [cursor=pointer]:
+            - /url: "#formal_syntax"
+        - generic [ref=f119e244]:
+          - text: touch-action = auto
+          - link "|" [ref=f119e245] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: none
+          - link "|" [ref=f119e246] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - link "[" [ref=f119e247] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#brackets
+          - link "[" [ref=f119e248] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#brackets
+          - text: pan-x
+          - link "|" [ref=f119e249] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: pan-left
+          - link "|" [ref=f119e250] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: pan-right
+          - link "]" [ref=f119e251] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#brackets
+          - link "||" [ref=f119e252] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#double_bar
+          - link "[" [ref=f119e253] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#brackets
+          - text: pan-y
+          - link "|" [ref=f119e254] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: pan-up
+          - link "|" [ref=f119e255] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: pan-down
+          - link "]" [ref=f119e256] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#brackets
+          - link "||" [ref=f119e257] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#double_bar
+          - text: pinch-zoom
+          - link "]" [ref=f119e258] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#brackets
+          - link "|" [ref=f119e259] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: manipulation
+        - generic [ref=f119e260]:
+          - text: This syntax reflects the latest standard as per
+          - link "Compatibility (external)" [ref=f119e261] [cursor=pointer]:
+            - /url: https://compat.spec.whatwg.org/
+          - text: . Not all browsers may have implemented every part. See
+          - link "Browser compatibility" [ref=f119e262] [cursor=pointer]:
+            - /url: "#browser_compatibility"
+          - text: for support information.
+      - region "Examples" [ref=f119e263]:
+        - heading [level=2] [ref=f119e264]:
+          - link "Examples" [ref=f119e265] [cursor=pointer]:
+            - /url: "#examples"
+      - region "Disabling all gestures" [ref=f119e266]:
+        - heading [level=3] [ref=f119e267]:
+          - link "Disabling all gestures" [ref=f119e268] [cursor=pointer]:
+            - /url: "#disabling_all_gestures"
+        - paragraph [ref=f119e269]: The most common usage is to disable all gestures on an element (and its non-scrollable descendants) that provides its own dragging and zooming behavior – such as a map or game surface.
+        - heading "HTML" [level=4] [ref=f119e270]
+        - generic [ref=f119e272]:
+          - generic [ref=f119e273]:
+            - generic [ref=f119e274]: html
+            - button "Copy" [ref=f119e277] [cursor=pointer]
+          - code [ref=f119e280]:
+            - generic [ref=f119e281]:
+              - generic [ref=f119e282]: <div
+              - text: id
+              - generic [ref=f119e283]: ="map"
+              - text: ">"
+            - generic [ref=f119e284]:
+              - generic [ref=f119e285]: </div
+              - text: ">"
+        - heading "CSS" [level=4] [ref=f119e286]
+        - generic [ref=f119e288]:
+          - generic [ref=f119e289]:
+            - generic [ref=f119e290]: css
+            - button "Copy" [ref=f119e293] [cursor=pointer]
+          - code [ref=f119e296]: "#map { height: 150vh; width: 70vw; background: linear-gradient(blue, green); touch-action: none; }"
+        - heading "Result" [level=4] [ref=f119e297]
+        - iframe [ref=f119e302]
+      - region "Specifications" [ref=f119e303]:
+        - heading [level=2] [ref=f119e304]:
+          - link "Specifications" [ref=f119e305] [cursor=pointer]:
+            - /url: "#specifications"
+        - table [ref=f119e306]:
+          - rowgroup [ref=f119e307]:
+            - row [ref=f119e308]:
+              - columnheader "Specification" [ref=f119e309]
+          - rowgroup [ref=f119e310]:
+            - row [ref=f119e311]:
+              - cell [ref=f119e312]:
+                - 'link "Compatibility # touch-action (external)" [ref=f119e313] [cursor=pointer]':
+                  - /url: https://compat.spec.whatwg.org/#touch-action
+                  - text: Compatibility# touch-action (external)
+            - row [ref=f119e314]:
+              - cell [ref=f119e315]:
+                - 'link "Pointer Events # the-touch-action-css-property (external)" [ref=f119e316] [cursor=pointer]':
+                  - /url: https://w3c.github.io/pointerevents/#the-touch-action-css-property
+                  - text: Pointer Events# the-touch-action-css-property (external)
+      - region "Browser compatibility" [ref=f119e317]:
+        - heading [level=2] [ref=f119e318]:
+          - link "Browser compatibility" [ref=f119e319] [cursor=pointer]:
+            - /url: "#browser_compatibility"
+        - generic:
+          - paragraph
+      - region "See also" [ref=f119e320]:
+        - heading [level=2] [ref=f119e321]:
+          - link "See also" [ref=f119e322] [cursor=pointer]:
+            - /url: "#see_also"
+        - list [ref=f119e323]:
+          - listitem [ref=f119e324]:
+            - link [ref=f119e325] [cursor=pointer]:
+              - /url: /en-US/docs/Web/CSS/Reference/Properties/pointer-events
+              - code [ref=f119e326]: pointer-events
+          - listitem [ref=f119e327]:
+            - link "Pointer Events" [ref=f119e328] [cursor=pointer]:
+              - /url: /en-US/docs/Web/API/Pointer_events
+          - listitem [ref=f119e329]:
+            - text: WebKit Blog
+            - link "More Responsive Tapping on iOS (external)" [ref=f119e330] [cursor=pointer]:
+              - /url: https://webkit.org/blog/5610/more-responsive-tapping-on-ios/
+          - listitem [ref=f119e331]:
+            - text: Google Developers Blog
+            - link "Making touch scrolling fast by default (external)" [ref=f119e332] [cursor=pointer]:
+              - /url: https://developer.chrome.com/blog/scrolling-intervention/
+          - listitem [ref=f119e333]:
+            - link "Scroll Snap" [ref=f119e334] [cursor=pointer]:
+              - /url: /en-US/docs/Web/CSS/Guides/Scroll_snap
+      - region "Help improve MDN" [ref=f119e335]:
+        - generic [ref=f119e336]:
+          - heading "Help improve MDN" [level=2] [ref=f119e344]
+          - group [ref=f119e346]:
+            - generic [ref=f119e347]: Was this page helpful to you?
+            - generic [ref=f119e348]:
+              - button "Yes" [ref=f119e350] [cursor=pointer]
+              - button "No" [ref=f119e356] [cursor=pointer]
+          - link "Learn how to contribute" [ref=f119e361] [cursor=pointer]:
+            - /url: /en-US/docs/MDN/Community/Getting_started
+          - paragraph [ref=f119e362]:
+            - text: This page was last modified on
+            - time [ref=f119e363]: Apr 20, 2026
+            - text: by
+            - link "MDN contributors" [ref=f119e364] [cursor=pointer]:
+              - /url: /en-US/docs/Web/CSS/Reference/Properties/touch-action/contributors.txt
+            - text: .
+          - generic [ref=f119e365]:
+            - link "View this page on GitHub (external)" [ref=f119e366] [cursor=pointer]:
+              - /url: https://github.com/mdn/content/blob/main/files/en-us/web/css/reference/properties/touch-action/index.md?plain=1
+            - text: •
+            - link "Report a problem with this content (external)" [ref=f119e367] [cursor=pointer]:
+              - /url: https://github.com/mdn/content/issues/new?template=page-report.yml&mdn-url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2FReference%2FProperties%2Ftouch-action&metadata=%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EPage+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Fcss%2Freference%2Fproperties%2Ftouch-action%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2FReference%2FProperties%2Ftouch-action%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Fcss%2Freference%2Fproperties%2Ftouch-action%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2Fbcbb4bd6a80292c0663b723d5466759cfaaa8315%0A*+Document+last+modified%3A+2026-04-20T01%3A47%3A07.000Z%0A%0A%3C%2Fdetails%3E
+  - contentinfo [ref=f119e369]:
+    - generic [ref=f119e370]:
+      - generic [ref=f119e371]:
+        - link "MDN logo" [ref=f119e372] [cursor=pointer]:
+          - /url: /
+          - img "MDN" [ref=f119e373]
+        - paragraph [ref=f119e375]: Your blueprint for a better internet.
+      - list [ref=f119e376]:
+        - listitem [ref=f119e377]:
+          - link "MDN on GitHub" [ref=f119e378] [cursor=pointer]:
+            - /url: https://github.com/mdn/
+        - listitem [ref=f119e379]:
+          - link "MDN on Bluesky" [ref=f119e380] [cursor=pointer]:
+            - /url: https://bsky.app/profile/developer.mozilla.org
+        - listitem [ref=f119e381]:
+          - link "MDN on X" [ref=f119e382] [cursor=pointer]:
+            - /url: https://x.com/mozdevnet
+        - listitem [ref=f119e383]:
+          - link "MDN on Mastodon" [ref=f119e384] [cursor=pointer]:
+            - /url: https://mastodon.social/@mdn
+        - listitem [ref=f119e385]:
+          - link "MDN blog RSS feed" [ref=f119e386] [cursor=pointer]:
+            - /url: /en-US/blog/rss.xml
+      - generic [ref=f119e387]:
+        - term [ref=f119e388]: MDN
+        - definition [ref=f119e389]:
+          - list [ref=f119e390]:
+            - listitem [ref=f119e391]:
+              - link "About" [ref=f119e392] [cursor=pointer]:
+                - /url: /en-US/about
+            - listitem [ref=f119e393]:
+              - link "Blog" [ref=f119e394] [cursor=pointer]:
+                - /url: /en-US/blog/
+            - listitem [ref=f119e395]:
+              - link "Mozilla careers (external)" [ref=f119e396] [cursor=pointer]:
+                - /url: https://www.mozilla.org/en-US/careers/listings/
+            - listitem [ref=f119e397]:
+              - link "Advertise with us" [ref=f119e398] [cursor=pointer]:
+                - /url: /en-US/advertising
+            - listitem [ref=f119e399]:
+              - link "MDN Plus" [ref=f119e400] [cursor=pointer]:
+                - /url: /en-US/plus
+            - listitem [ref=f119e401]:
+              - link "Product help (external)" [ref=f119e402] [cursor=pointer]:
+                - /url: https://support.mozilla.org/products/mdn-plus
+      - generic [ref=f119e403]:
+        - term [ref=f119e404]: Contribute
+        - definition [ref=f119e405]:
+          - list [ref=f119e406]:
+            - listitem [ref=f119e407]:
+              - link "MDN Community" [ref=f119e408] [cursor=pointer]:
+                - /url: /en-US/community
+            - listitem [ref=f119e409]:
+              - link "Community resources" [ref=f119e410] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Community
+            - listitem [ref=f119e411]:
+              - link "Writing guidelines" [ref=f119e412] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Writing_guidelines
+            - listitem [ref=f119e413]:
+              - link "MDN Discord (external)" [ref=f119e414] [cursor=pointer]:
+                - /url: /discord
+            - listitem [ref=f119e415]:
+              - link "MDN on GitHub (external)" [ref=f119e416] [cursor=pointer]:
+                - /url: https://github.com/mdn
+      - generic [ref=f119e417]:
+        - term [ref=f119e418]: Developers
+        - definition [ref=f119e419]:
+          - list [ref=f119e420]:
+            - listitem [ref=f119e421]:
+              - link "Web technologies" [ref=f119e422] [cursor=pointer]:
+                - /url: /en-US/docs/Web
+            - listitem [ref=f119e423]:
+              - link "Learn web development" [ref=f119e424] [cursor=pointer]:
+                - /url: /en-US/docs/Learn_web_development
+            - listitem [ref=f119e425]:
+              - link "Guides" [ref=f119e426] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Guides
+            - listitem [ref=f119e427]:
+              - link "Tutorials" [ref=f119e428] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Tutorials
+            - listitem [ref=f119e429]:
+              - link "Glossary" [ref=f119e430] [cursor=pointer]:
+                - /url: /en-US/docs/Glossary
+            - listitem [ref=f119e431]:
+              - link "Hacks blog (external)" [ref=f119e432] [cursor=pointer]:
+                - /url: https://hacks.mozilla.org/
+    - generic [ref=f119e433]:
+      - link "Mozilla logo" [ref=f119e434] [cursor=pointer]:
+        - /url: https://www.mozilla.org/
+        - img "Mozilla" [ref=f119e435]
+      - list [ref=f119e437]:
+        - listitem [ref=f119e438]:
+          - link "Website Privacy Notice (external)" [ref=f119e439] [cursor=pointer]:
+            - /url: https://www.mozilla.org/privacy/websites/
+        - listitem [ref=f119e440]:
+          - link "Telemetry Settings (external)" [ref=f119e441] [cursor=pointer]:
+            - /url: https://www.mozilla.org/en-US/privacy/websites/data-preferences/
+        - listitem [ref=f119e442]:
+          - link "Legal (external)" [ref=f119e443] [cursor=pointer]:
+            - /url: https://www.mozilla.org/about/legal/terms/mozilla
+        - listitem [ref=f119e444]:
+          - link "Community Participation Guidelines (external)" [ref=f119e445] [cursor=pointer]:
+            - /url: https://www.mozilla.org/about/governance/policies/participation/
+      - paragraph [ref=f119e446]:
+        - text: Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under
+        - link "a Creative Commons license" [ref=f119e447] [cursor=pointer]:
+          - /url: /docs/MDN/Writing_guidelines/Attrib_copyright_license
+        - text: .

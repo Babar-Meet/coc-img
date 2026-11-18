@@ -1,0 +1,164 @@
+- generic [ref=f63e3]:
+  - generic [ref=f63e4]:
+    - text: "| | | | |"
+    - generic [ref=f63e8]:
+      - paragraph [ref=f63e9]:
+        - paragraph [ref=f63e10]:
+          - strong [ref=f63e11]: Join us at Adobe MAX — The Creativity Conference Nov 10–12 in Miami Beach.
+      - link "Learn more" [ref=f63e12] [cursor=pointer]:
+        - /url: https://max.adobe.com/?promoid=49F59961&mv=other&mv2=helpx
+    - banner [ref=f63e13]:
+      - navigation "Main" [ref=f63e15]:
+        - generic [ref=f63e16]:
+          - text: ☰
+          - link "Adobe" [ref=f63e17] [cursor=pointer]:
+            - /url: https://www.adobe.com/
+            - img "Adobe, Inc." [ref=f63e19]
+        - list [ref=f63e21]:
+          - listitem [ref=f63e22]:
+            - button "Creativity & Design" [ref=f63e23] [cursor=pointer]
+          - listitem [ref=f63e24]:
+            - button "PDFs & E-signatures" [ref=f63e25] [cursor=pointer]
+          - listitem [ref=f63e26]:
+            - button "Marketing & Commerce" [ref=f63e27] [cursor=pointer]
+          - listitem [ref=f63e28]:
+            - button "Learn & Support" [ref=f63e29] [cursor=pointer]
+          - listitem [ref=f63e30]
+  - generic [ref=f63e39]:
+    - generic [ref=f63e42]:
+      - link [ref=f63e43] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/desktop.html
+        - img "Photoshop" [ref=f63e44]
+      - paragraph [ref=f63e46]:
+        - link "Photoshop Help" [ref=f63e47] [cursor=pointer]:
+          - /url: /content/help/in/en/photoshop/desktop.html
+    - generic [ref=f63e51]:
+      - link "Desktop" [ref=f63e53] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/desktop.html
+      - link "Tablet" [ref=f63e57] [cursor=pointer]:
+        - /url: /photoshop/ipad.html
+      - link "Mobile" [ref=f63e61] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/mobile.html
+      - link "Web" [ref=f63e65] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/web.html
+    - generic [ref=f63e68]:
+      - generic [ref=f63e69] [cursor=pointer]
+      - generic [ref=f63e71] [cursor=pointer]
+      - link "Photoshop Open app" [ref=f63e73] [cursor=pointer]:
+        - /url: https://www.adobe.com/download/photoshop
+  - main [ref=f63e74]:
+    - generic [ref=f63e76]:
+      - generic [ref=f63e82]:
+        - heading "Position elements with snapping" [level=1] [ref=f63e85]
+        - generic [ref=f63e86]: Last updated on Sep 29, 2026
+        - generic [ref=f63e97]:
+          - paragraph [ref=f63e100]: Enable magnetic alignment to rulers, guides, grids, and layer edges for precise element placement.
+          - generic [ref=f63e102]:
+            - paragraph [ref=f63e103]: Snap elements to rulers, guides, grids, and layer edges for precise positioning without manual measurement.
+            - paragraph [ref=f63e104]: When you drag a selection, crop marquees, slice, shape, or path within approximately 8 pixels of a guide, grid line, document edge, or layer boundary, it automatically aligns to that target. This magnetic feature helps you create precise layouts quickly.
+            - paragraph [ref=f63e105]: You can turn snapping on or off globally or hold a key while dragging to position elements freely.
+            - heading "Enable or disable snapping" [level=2] [ref=f63e106]
+          - generic [ref=f63e109]:
+            - paragraph [ref=f63e113]:
+              - text: Select
+              - generic [ref=f63e114]: View
+              - text: ">"
+              - generic [ref=f63e115]: Snap
+              - text: to toggle snapping on or off.
+            - paragraph [ref=f63e119]:
+              - text: A checkmark next to
+              - generic [ref=f63e120]: Snap
+              - text: indicates that snapping is currently enabled.
+          - generic [ref=f63e122]:
+            - generic [ref=f63e123]: Tip
+            - paragraph [ref=f63e126]:
+              - text: To temporarily disable snapping while using the Move tool, hold
+              - generic [ref=f63e127]: Ctrl
+              - text: (Windows) or
+              - generic [ref=f63e128]: Command
+              - text: (macOS) while dragging.
+          - generic [ref=f63e130]:
+            - heading "Configure snap targets" [level=2] [ref=f63e131]
+            - paragraph [ref=f63e132]: After you turn on snapping, choose which reference points work as snap targets. You can enable multiple targets simultaneously to create a flexible alignment system.
+          - generic [ref=f63e135]:
+            - paragraph [ref=f63e139]:
+              - text: Select
+              - generic [ref=f63e140]: View
+              - text: ">"
+              - generic [ref=f63e141]: Snap To.
+            - paragraph [ref=f63e145]: Select one or more targets.
+            - paragraph [ref=f63e149]: A checkmark appears next to each active target.
+          - generic [ref=f63e151]:
+            - generic [ref=f63e152]: Note
+            - paragraph [ref=f63e155]:
+              - text: To enable only one target, turn off
+              - generic [ref=f63e156]: Snap
+              - text: ", then select"
+              - generic [ref=f63e157]: View > Snap
+              - generic [ref=f63e158]: To
+              - text: and choose your target. This turns on snapping for that target only and deselects all others.
+          - generic [ref=f63e160]:
+            - heading "Snap targets" [level=3] [ref=f63e161]
+            - paragraph [ref=f63e162]:
+              - text: "Guides: Snaps to guide lines you've placed in your document. Use this to align elements to layout boundaries, margins, or specific measurement points."
+              - link "Learn how to create and manage guides" [ref=f63e163] [cursor=pointer]:
+                - /url: https://helpx.adobe.com/photoshop/desktop/use-grids-measurement-guides/alignment-grids-guides/show-or-hide-guides-grids-and-smart-guides.html#grid_and_guides
+              - text: .
+            - paragraph [ref=f63e164]:
+              - text: "Grid: Snaps to the document grid. Use this to create symmetrical layouts, maintain consistent spacing, or align elements at regular intervals. This option isn't available when the grid is hidden."
+              - link "Learn how to configure and display grids." [ref=f63e165] [cursor=pointer]:
+                - /url: https://helpx.adobe.com/photoshop/desktop/use-grids-measurement-guides/alignment-grids-guides/show-or-hide-guides-grids-and-smart-guides.html#grid_and_guides
+            - paragraph [ref=f63e166]: "Layers: Snaps to the content boundaries of other layers. Use this to position elements relative to existing layer content, such as aligning text to an image edge or arranging multiple design elements with consistent spacing."
+            - paragraph [ref=f63e167]: "Slices: Snaps to slice boundaries in web or interface designs. Use this when dividing graphics for web export or preparing interface assets. This option isn't available when slices are hidden."
+            - paragraph [ref=f63e168]: "Document Bounds: Snaps to canvas edges. Use this to position elements flush with the document margins or to create full-bleed designs."
+            - paragraph [ref=f63e169]: "All: Turns on all snap targets at once for maximum alignment assistance when you want elements to snap to any available reference point."
+            - paragraph [ref=f63e170]:
+              - text: "None: Turns off all snap targets while keeping the"
+              - generic [ref=f63e171]: Snap
+              - text: command enabled. Use this to clear your target selections quickly.
+            - heading "Snapping in different workflows" [level=2] [ref=f63e172]
+            - paragraph [ref=f63e173]: Snapping adapts to your current tool and task. When you move layers with the Move tool, they snap to all enabled targets. When you create selections or use shape tools, the tool edges snap as you drag.
+            - paragraph [ref=f63e174]:
+              - text: For numeric positioning without snapping, use transform controls or enter values in the Options bar. For visual alignment with distance measurement, enable
+              - link "Smart Guides" [ref=f63e175] [cursor=pointer]:
+                - /url: https://helpx.adobe.com/photoshop/desktop/use-grids-measurement-guides/alignment-grids-guides/show-or-hide-guides-grids-and-smart-guides.html#grid_and_guides
+              - text: alongside snapping.
+        - generic [ref=f63e180]:
+          - generic [ref=f63e193]:
+            - img "Adobe Photoshop logo" [ref=f63e201]
+            - generic [ref=f63e207]:
+              - paragraph [ref=f63e210]: Create stunning images with Photoshop Edit, retouch, and transform photos with the industry-leading creative tools you know and love.
+              - link "Open the app" [ref=f63e213] [cursor=pointer]:
+                - /url: https://www.adobe.com/download/photoshop
+          - group [ref=f63e224]:
+            - paragraph [ref=f63e225]: Was this page helpful?
+            - generic "Was this page helpful?" [ref=f63e226]:
+              - button "Yes, thanks" [ref=f63e227] [cursor=pointer]
+              - button "Not really" [ref=f63e235] [cursor=pointer]
+        - generic [ref=f63e244]:
+          - link "Previous Use Enhance edge to refine masks" [ref=f63e245] [cursor=pointer]:
+            - /url: /photoshop/desktop/create-masks/layer-masks/use-enhance-edge-to-refine-masks.html
+            - paragraph [ref=f63e246]: Previous
+            - paragraph [ref=f63e247]: Use Enhance edge to refine masks
+          - link [aria-hidden] [ref=f63e248] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=f63e262]:
+        - link [ref=f63e267] [cursor=pointer]:
+          - /url: https://www.adobe.com/learn
+          - generic [ref=f63e268]:
+            - heading "Learn" [level=3] [ref=f63e270]
+            - img "card-link-icon" [ref=f63e272]
+          - paragraph [ref=f63e273]: Learn with step-by-step video tutorials and hands-on guidance right in the app.
+        - link [ref=f63e278] [cursor=pointer]:
+          - /url: https://www.adobe.com/community
+          - generic [ref=f63e279]:
+            - heading "Community" [level=3] [ref=f63e281]
+            - img "card-link-icon" [ref=f63e283]
+          - paragraph [ref=f63e284]: Join discussions, find answers, learn from experts, and share your knowledge.
+        - link [ref=f63e289] [cursor=pointer]:
+          - /url: https://www.adobe.com
+          - generic [ref=f63e290]:
+            - heading "Adobe Home" [level=3] [ref=f63e292]
+            - img "card-link-icon" [ref=f63e294]
+          - paragraph [ref=f63e295]: Access your favorite Creative Cloud apps, services, file management, and more.
+  - generic: / / / / / /

@@ -1,0 +1,193 @@
+- generic [ref=f85e2]:
+  - generic [ref=f85e3]:
+    - link "DuckDuckGo" [ref=f85e4] [cursor=pointer]:
+      - /url: /html/
+    - generic [ref=f85e5]:
+      - generic [ref=f85e6]:
+        - textbox [ref=f85e7]: site:community.adobe.com photoshop transform box larger than canvas pasteboard
+        - button "Submit" [ref=f85e8] [cursor=pointer]
+      - combobox [ref=f85e10] [cursor=pointer]:
+        - option "All Regions" [selected]
+        - option "Argentina"
+        - option "Australia"
+        - option "Austria"
+        - option "Belgium (fr)"
+        - option "Belgium (nl)"
+        - option "Brazil"
+        - option "Bulgaria"
+        - option "Canada (en)"
+        - option "Canada (fr)"
+        - option "Catalonia"
+        - option "Chile"
+        - option "China"
+        - option "Colombia"
+        - option "Croatia"
+        - option "Czech Republic"
+        - option "Denmark"
+        - option "Estonia"
+        - option "Finland"
+        - option "France"
+        - option "Germany"
+        - option "Greece"
+        - option "Hong Kong"
+        - option "Hungary"
+        - option "Iceland"
+        - option "India (en)"
+        - option "Indonesia (en)"
+        - option "Ireland"
+        - option "Israel (en)"
+        - option "Italy"
+        - option "Japan"
+        - option "Korea"
+        - option "Latvia"
+        - option "Lithuania"
+        - option "Malaysia (en)"
+        - option "Mexico"
+        - option "Netherlands"
+        - option "New Zealand"
+        - option "Norway"
+        - option "Pakistan (en)"
+        - option "Peru"
+        - option "Philippines (en)"
+        - option "Poland"
+        - option "Portugal"
+        - option "Romania"
+        - option "Russia"
+        - option "Saudi Arabia"
+        - option "Singapore"
+        - option "Slovakia"
+        - option "Slovenia"
+        - option "South Africa"
+        - option "Spain (ca)"
+        - option "Spain (es)"
+        - option "Sweden"
+        - option "Switzerland (de)"
+        - option "Switzerland (fr)"
+        - option "Taiwan"
+        - option "Thailand (en)"
+        - option "Turkey"
+        - option "US (English)"
+        - option "US (Spanish)"
+        - option "Ukraine"
+        - option "United Kingdom"
+        - option "Vietnam (en)"
+      - combobox [ref=f85e12] [cursor=pointer]:
+        - option "Any Time" [selected]
+        - option "Past Day"
+        - option "Past Week"
+        - option "Past Month"
+        - option "Past Year"
+  - generic [ref=f85e15]:
+    - generic [ref=f85e17]:
+      - heading [level=2] [ref=f85e18]:
+        - link "Transform box around image larger than canvas does not show on pasteboard" [ref=f85e19] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dbox%2Daround%2Dimage%2Dlarger%2Dthan%2Dcanvas%2Ddoes%2Dnot%2Dshow%2Don%2Dpasteboard%2D1172523&rut=510996078e9508c96df05fd85ff6571a8de0b41cf7e60d25c3ec5ed215256825
+      - generic [ref=f85e21]:
+        - link [ref=f85e23] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dbox%2Daround%2Dimage%2Dlarger%2Dthan%2Dcanvas%2Ddoes%2Dnot%2Dshow%2Don%2Dpasteboard%2D1172523&rut=510996078e9508c96df05fd85ff6571a8de0b41cf7e60d25c3ec5ed215256825
+        - link "community.adobe.com/questions-712/transform-box-around-image-larger-than-canvas-does-not-show-on-pasteboard-1172523" [ref=f85e24] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dbox%2Daround%2Dimage%2Dlarger%2Dthan%2Dcanvas%2Ddoes%2Dnot%2Dshow%2Don%2Dpasteboard%2D1172523&rut=510996078e9508c96df05fd85ff6571a8de0b41cf7e60d25c3ec5ed215256825
+      - link "Once upon a time, If you wanted to transform an image that was larger than the canvas area, the transform box would show on the pasteboard. Somewhere along the way that stopped. Searching for clues hasn't turned up anything useful. Anyone know about this? (Running Photoshop 25.11 on Mac mini M2 Pro)" [ref=f85e25] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dbox%2Daround%2Dimage%2Dlarger%2Dthan%2Dcanvas%2Ddoes%2Dnot%2Dshow%2Don%2Dpasteboard%2D1172523&rut=510996078e9508c96df05fd85ff6571a8de0b41cf7e60d25c3ec5ed215256825
+    - generic [ref=f85e27]:
+      - heading [level=2] [ref=f85e28]:
+        - link "Transform box around image larger than canvas does not show on pasteboard" [ref=f85e29] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ft5%2Fphotoshop%2Decosystem%2Ddiscussions%2Ftransform%2Dbox%2Daround%2Dimage%2Dlarger%2Dthan%2Dcanvas%2Ddoes%2Dnot%2Dshow%2Don%2Dpasteboard%2Fm%2Dp%2F14842869&rut=3b992519db71a8c971cbfdcaaff3b14b94784b3fa8553787ee6896f1af800a1c
+      - generic [ref=f85e31]:
+        - link [ref=f85e33] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ft5%2Fphotoshop%2Decosystem%2Ddiscussions%2Ftransform%2Dbox%2Daround%2Dimage%2Dlarger%2Dthan%2Dcanvas%2Ddoes%2Dnot%2Dshow%2Don%2Dpasteboard%2Fm%2Dp%2F14842869&rut=3b992519db71a8c971cbfdcaaff3b14b94784b3fa8553787ee6896f1af800a1c
+        - link "community.adobe.com/t5/photoshop-ecosystem-discussions/transform-box-around-image-larger-than-canvas-does-not-show-on-pasteboard/m-p/14842869" [ref=f85e34] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ft5%2Fphotoshop%2Decosystem%2Ddiscussions%2Ftransform%2Dbox%2Daround%2Dimage%2Dlarger%2Dthan%2Dcanvas%2Ddoes%2Dnot%2Dshow%2Don%2Dpasteboard%2Fm%2Dp%2F14842869&rut=3b992519db71a8c971cbfdcaaff3b14b94784b3fa8553787ee6896f1af800a1c
+      - link "Once upon a time, If you wanted to transform an image that was larger than the canvas area, the transform box would show on the pasteboard. Somewhere along the way that stopped." [ref=f85e35] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Ft5%2Fphotoshop%2Decosystem%2Ddiscussions%2Ftransform%2Dbox%2Daround%2Dimage%2Dlarger%2Dthan%2Dcanvas%2Ddoes%2Dnot%2Dshow%2Don%2Dpasteboard%2Fm%2Dp%2F14842869&rut=3b992519db71a8c971cbfdcaaff3b14b94784b3fa8553787ee6896f1af800a1c
+    - generic [ref=f85e37]:
+      - heading [level=2] [ref=f85e38]:
+        - link "Transform controls are larger than selection | Community" [ref=f85e39] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dcontrols%2Dare%2Dlarger%2Dthan%2Dselection%2D1072061&rut=3d54d8cc31a54bf5b46ddace620e64525b879607f5621da3dbca6e8ac503dad6
+      - generic [ref=f85e41]:
+        - link [ref=f85e43] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dcontrols%2Dare%2Dlarger%2Dthan%2Dselection%2D1072061&rut=3d54d8cc31a54bf5b46ddace620e64525b879607f5621da3dbca6e8ac503dad6
+        - link "community.adobe.com/questions-712/transform-controls-are-larger-than-selection-1072061" [ref=f85e44] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dcontrols%2Dare%2Dlarger%2Dthan%2Dselection%2D1072061&rut=3d54d8cc31a54bf5b46ddace620e64525b879607f5621da3dbca6e8ac503dad6
+      - link "I make a selection, then I free transform. The transform border is slightly larger than the selection. When I stretch out the transform controls, it creates a gap in the graphic. This proves to be a nuisance when working with layers that have effects applied. How do I make the transform controls be the exact size of the selection?" [ref=f85e45] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dcontrols%2Dare%2Dlarger%2Dthan%2Dselection%2D1072061&rut=3d54d8cc31a54bf5b46ddace620e64525b879607f5621da3dbca6e8ac503dad6
+    - generic [ref=f85e47]:
+      - heading [level=2] [ref=f85e48]:
+        - 'link "P: Incorrect Transform Controls Behavior | Community" [ref=f85e49] [cursor=pointer]':
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fbug%2Dreports%2D711%2Fp%2Dincorrect%2Dtransform%2Dcontrols%2Dbehavior%2D660069&rut=092515f9933c5b0b7397db1634ce31b60b0fa8c5fb452fb3d9f67138f1d26356
+      - generic [ref=f85e51]:
+        - link [ref=f85e53] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fbug%2Dreports%2D711%2Fp%2Dincorrect%2Dtransform%2Dcontrols%2Dbehavior%2D660069&rut=092515f9933c5b0b7397db1634ce31b60b0fa8c5fb452fb3d9f67138f1d26356
+        - link "community.adobe.com/bug-reports-711/p-incorrect-transform-controls-behavior-660069" [ref=f85e54] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fbug%2Dreports%2D711%2Fp%2Dincorrect%2Dtransform%2Dcontrols%2Dbehavior%2D660069&rut=092515f9933c5b0b7397db1634ce31b60b0fa8c5fb452fb3d9f67138f1d26356
+      - link "An issue that accompanies this one is when you go into the transform controls of a text layer, the bounding box is much bigger than the actual glyphs, even before I Ctrl + T the bounding box is perfectly wrapped around the glyphs." [ref=f85e55] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fbug%2Dreports%2D711%2Fp%2Dincorrect%2Dtransform%2Dcontrols%2Dbehavior%2D660069&rut=092515f9933c5b0b7397db1634ce31b60b0fa8c5fb452fb3d9f67138f1d26356
+    - generic [ref=f85e57]:
+      - heading [level=2] [ref=f85e58]:
+        - link "Transform box not showing in Photoshop 22.4.2 - Community" [ref=f85e59] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dbox%2Dnot%2Dshowing%2Din%2Dphotoshop%2D22%2D4%2D2%2D1125438&rut=f23f767ccccff56883bb1ac519fccb4e1880e7ca4bc0f57f9c18bad34728c0f5
+      - generic [ref=f85e61]:
+        - link [ref=f85e63] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dbox%2Dnot%2Dshowing%2Din%2Dphotoshop%2D22%2D4%2D2%2D1125438&rut=f23f767ccccff56883bb1ac519fccb4e1880e7ca4bc0f57f9c18bad34728c0f5
+        - link "community.adobe.com/questions-712/transform-box-not-showing-in-photoshop-22-4-2-1125438" [ref=f85e64] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dbox%2Dnot%2Dshowing%2Din%2Dphotoshop%2D22%2D4%2D2%2D1125438&rut=f23f767ccccff56883bb1ac519fccb4e1880e7ca4bc0f57f9c18bad34728c0f5
+      - link "After updating Photoshop to 22.4.2 the transform box does not appear immediatly when I use the transform tool. I have to click on the object for it to appear. Also when the object is bigger then the canvas, the transform box is only visible on the canvas and not the space around the canvas. Is this an updated feature or some bug?" [ref=f85e65] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dbox%2Dnot%2Dshowing%2Din%2Dphotoshop%2D22%2D4%2D2%2D1125438&rut=f23f767ccccff56883bb1ac519fccb4e1880e7ca4bc0f57f9c18bad34728c0f5
+    - generic [ref=f85e67]:
+      - heading [level=2] [ref=f85e68]:
+        - link "Painting beyond Canvas - Community" [ref=f85e69] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fpainting%2Dbeyond%2Dcanvas%2D1072021&rut=0c95e7a72cc76e06fcf75d812b554cd97107f3cdd92a9288ac4a0705ad773d73
+      - generic [ref=f85e71]:
+        - link [ref=f85e73] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fpainting%2Dbeyond%2Dcanvas%2D1072021&rut=0c95e7a72cc76e06fcf75d812b554cd97107f3cdd92a9288ac4a0705ad773d73
+        - link "community.adobe.com/questions-712/painting-beyond-canvas-1072021" [ref=f85e74] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fpainting%2Dbeyond%2Dcanvas%2D1072021&rut=0c95e7a72cc76e06fcf75d812b554cd97107f3cdd92a9288ac4a0705ad773d73
+      - 'link "Here is a basic example: Previously, I could fill the selection and then move the large box around on it''s own layer. With the current version of Photoshop, filling the selection only fills the layer within the bounds of the canvas, leaving the areas outside the canvas unfilled." [ref=f85e75] [cursor=pointer]':
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fpainting%2Dbeyond%2Dcanvas%2D1072021&rut=0c95e7a72cc76e06fcf75d812b554cd97107f3cdd92a9288ac4a0705ad773d73
+    - generic [ref=f85e77]:
+      - heading [level=2] [ref=f85e78]:
+        - link "Transform tool and Bounding Box issues in Photoshop" [ref=f85e79] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dtool%2Dand%2Dbounding%2Dbox%2Dissues%2Din%2Dphotoshop%2D1131636&rut=dcb4ea7335afdfd2f13c484499432944e92ccaf4f73339437f92af1a4474e1cf
+      - generic [ref=f85e81]:
+        - link [ref=f85e83] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dtool%2Dand%2Dbounding%2Dbox%2Dissues%2Din%2Dphotoshop%2D1131636&rut=dcb4ea7335afdfd2f13c484499432944e92ccaf4f73339437f92af1a4474e1cf
+        - link "community.adobe.com/questions-712/transform-tool-and-bounding-box-issues-in-photoshop-1131636" [ref=f85e84] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dtool%2Dand%2Dbounding%2Dbox%2Dissues%2Din%2Dphotoshop%2D1131636&rut=dcb4ea7335afdfd2f13c484499432944e92ccaf4f73339437f92af1a4474e1cf
+      - link "Photoshop has been giving me some problems after the recent update, specifically with transforming/resizing layers with the move tool. I am typically able to select a layer with the move tool and a bounding box will appear on the outer edges, allowing me to easily see the entire selection and transform it." [ref=f85e85] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Dtool%2Dand%2Dbounding%2Dbox%2Dissues%2Din%2Dphotoshop%2D1131636&rut=dcb4ea7335afdfd2f13c484499432944e92ccaf4f73339437f92af1a4474e1cf
+    - generic [ref=f85e87]:
+      - heading [level=2] [ref=f85e88]:
+        - link "Transform area changes (bigger than actual shape) | Community" [ref=f85e89] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Darea%2Dchanges%2Dbigger%2Dthan%2Dactual%2Dshape%2D1178948&rut=f51fe988b013821a4ef19e6ede68bc024bb943109bd60e553b25d979c1819253
+      - generic [ref=f85e91]:
+        - link [ref=f85e93] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Darea%2Dchanges%2Dbigger%2Dthan%2Dactual%2Dshape%2D1178948&rut=f51fe988b013821a4ef19e6ede68bc024bb943109bd60e553b25d979c1819253
+        - link "community.adobe.com/questions-712/transform-area-changes-bigger-than-actual-shape-1178948" [ref=f85e94] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Darea%2Dchanges%2Dbigger%2Dthan%2Dactual%2Dshape%2D1178948&rut=f51fe988b013821a4ef19e6ede68bc024bb943109bd60e553b25d979c1819253
+      - 'link "Select the text with the text tool and change the size of the text through the character panel, control panel at the top, or keyboard shortcut for a MAC: Command Shift > (for a PC, it''s Control not Command) 2. If the text box is selected, and if you tak one of th corners of the bounding box, it scales the whole text box." [ref=f85e95] [cursor=pointer]':
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Ftransform%2Darea%2Dchanges%2Dbigger%2Dthan%2Dactual%2Dshape%2D1178948&rut=f51fe988b013821a4ef19e6ede68bc024bb943109bd60e553b25d979c1819253
+    - generic [ref=f85e97]:
+      - heading [level=2] [ref=f85e98]:
+        - link "Command-T (Transform) bounding box is entire canvas, not intended shape ..." [ref=f85e99] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fcommand%2Dt%2Dtransform%2Dbounding%2Dbox%2Dis%2Dentire%2Dcanvas%2Dnot%2Dintended%2Dshape%2D1125407&rut=6dfc5171e916d9df69c6a3617995fbaeeec01234fe021b6ce5413f2c7b26ae42
+      - generic [ref=f85e101]:
+        - link [ref=f85e103] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fcommand%2Dt%2Dtransform%2Dbounding%2Dbox%2Dis%2Dentire%2Dcanvas%2Dnot%2Dintended%2Dshape%2D1125407&rut=6dfc5171e916d9df69c6a3617995fbaeeec01234fe021b6ce5413f2c7b26ae42
+        - link "community.adobe.com/questions-712/command-t-transform-bounding-box-is-entire-canvas-not-intended-shape-1125407" [ref=f85e104] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fcommand%2Dt%2Dtransform%2Dbounding%2Dbox%2Dis%2Dentire%2Dcanvas%2Dnot%2Dintended%2Dshape%2D1125407&rut=6dfc5171e916d9df69c6a3617995fbaeeec01234fe021b6ce5413f2c7b26ae42
+      - link "Photoshop 22.4.2 MacOS running on Catalina 10.15.7. Often, when I select something that needs to be transformed, then press \"Command-T\" (for transform), the bounding box does not surround the item I chose, but instead the entire canvas. I don't know why it happens sometimes and then goes away. I just painted a shape onto the screen using a brush." [ref=f85e105] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fcommand%2Dt%2Dtransform%2Dbounding%2Dbox%2Dis%2Dentire%2Dcanvas%2Dnot%2Dintended%2Dshape%2D1125407&rut=6dfc5171e916d9df69c6a3617995fbaeeec01234fe021b6ce5413f2c7b26ae42
+    - generic [ref=f85e107]:
+      - heading [level=2] [ref=f85e108]:
+        - link "New and need help! | Community" [ref=f85e109] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fnew%2Dand%2Dneed%2Dhelp%2D1070761&rut=56d052ceaaf3c87c89ea5e73be03dbd0420cfce3d6a04cddf8faa96d58405c32
+      - generic [ref=f85e111]:
+        - link [ref=f85e113] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fnew%2Dand%2Dneed%2Dhelp%2D1070761&rut=56d052ceaaf3c87c89ea5e73be03dbd0420cfce3d6a04cddf8faa96d58405c32
+        - link "community.adobe.com/questions-712/new-and-need-help-1070761" [ref=f85e114] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fnew%2Dand%2Dneed%2Dhelp%2D1070761&rut=56d052ceaaf3c87c89ea5e73be03dbd0420cfce3d6a04cddf8faa96d58405c32
+      - link "So the pasted imags is larger than your canvas. You need to Scale the pasted layer to fit within your canvas. You can do that using Free transform (Ctrl+T) or (CMD+T). If you do scale the layer you should hold the shift key down to constrain the transform so the image will not distort." [ref=f85e115] [cursor=pointer]:
+        - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcommunity.adobe.com%2Fquestions%2D712%2Fnew%2Dand%2Dneed%2Dhelp%2D1070761&rut=56d052ceaaf3c87c89ea5e73be03dbd0420cfce3d6a04cddf8faa96d58405c32
+    - button "Next" [ref=f85e118] [cursor=pointer]
+    - link "Feedback" [ref=f85e120] [cursor=pointer]:
+      - /url: //duckduckgo.com/feedback.html

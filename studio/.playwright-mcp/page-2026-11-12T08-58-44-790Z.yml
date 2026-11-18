@@ -1,0 +1,399 @@
+- generic [active] [ref=f93e1]:
+  - link "Skip to main content" [ref=f93e2] [cursor=pointer]:
+    - /url: "#breadcrumbs-target"
+  - main [ref=f93e3]:
+    - generic [ref=f93e6]:
+      - link "Go to homepage" [ref=f93e8] [cursor=pointer]:
+        - /url: https://adobe.com/community/
+        - img "Adobe DME Logo" [ref=f93e9]
+      - generic [ref=f93e11]:
+        - navigation [ref=f93e13]:
+          - list [ref=f93e14]:
+            - listitem [ref=f93e15]:
+              - listitem [ref=f93e16]:
+                - button "Toggle Featured Communities submenu" [ref=f93e18] [cursor=pointer]:
+                  - generic [ref=f93e19]: Featured Communities
+            - listitem [ref=f93e23]:
+              - link "Announcements" [ref=f93e24] [cursor=pointer]:
+                - /url: /p/announcements
+            - listitem [ref=f93e25]:
+              - link "Events" [ref=f93e26] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=f93e27]:
+              - link "Feature Requests" [ref=f93e28] [cursor=pointer]:
+                - /url: /p/feature-requests
+            - listitem [ref=f93e29]:
+              - link "Inspiration Gallery" [ref=f93e30] [cursor=pointer]:
+                - /url: https://www.adobe.com/community/gallery
+        - button "Search" [ref=f93e34] [cursor=pointer]
+      - list [ref=f93e39]:
+        - listitem [ref=f93e40]:
+          - button "Select language" [ref=f93e43] [cursor=pointer]
+        - listitem [ref=f93e47]:
+          - button "Create a post" [ref=f93e48] [cursor=pointer]
+        - listitem [ref=f93e53]:
+          - button "Login" [ref=f93e54] [cursor=pointer]
+    - list [ref=f93e62]:
+      - listitem [ref=f93e63]:
+        - link "Home" [ref=f93e64] [cursor=pointer]:
+          - /url: https://adobe.com/community/
+          - text: / Home
+        - generic: /
+      - listitem [ref=f93e65]:
+        - link "App communities" [ref=f93e66] [cursor=pointer]:
+          - /url: https://community.adobe.com/community
+          - text: / App communities
+        - generic: /
+      - listitem [ref=f93e67]:
+        - link "Photoshop" [ref=f93e68] [cursor=pointer]:
+          - /url: https://community.adobe.com/photoshop-709
+          - text: / Photoshop
+        - generic: /
+      - listitem [ref=f93e69]:
+        - link "Questions" [ref=f93e70] [cursor=pointer]:
+          - /url: https://community.adobe.com/questions-712
+          - text: / Questions
+        - generic: /
+      - listitem [ref=f93e71]:
+        - generic [ref=f93e72]: / Automatically fit to canvas when place new image
+        - text: /
+    - generic [ref=f93e74]:
+      - region "Photoshop community" [ref=f93e76]:
+        - img "Photoshop community" [ref=f93e77]
+        - generic [ref=f93e78]: Photoshop
+        - link "Open Photoshop" [ref=f93e79] [cursor=pointer]:
+          - /url: https://creativecloud.adobe.com/apps/all/desktop/pdp/photoshop?trackingid=KCJMVLR9&mv=in-product
+      - generic [ref=f93e84]:
+        - article "Topic by nhungcamn" [ref=f93e85]:
+          - generic [ref=f93e87]:
+            - link [ref=f93e90] [cursor=pointer]:
+              - /url: https://community.adobe.com/members/nhungcamn-68211
+              - img "nhungcamn" [ref=f93e91]
+            - generic [ref=f93e92]:
+              - link "nhungcamn" [ref=f93e95] [cursor=pointer]:
+                - /url: https://community.adobe.com/members/nhungcamn-68211
+              - generic [ref=f93e96]:
+                - generic [ref=f93e97]: Known Participant·
+                - generic:
+                  - generic:
+                    - time: 4 years ago
+          - generic [ref=f93e98]:
+            - generic [ref=f93e99]: Question
+            - heading "Automatically fit to canvas when place new image" [level=1] [ref=f93e101]
+            - list [ref=f93e103]:
+              - listitem [ref=f93e104]:
+                - link "9 replies":
+                  - /url: "#comments"
+              - listitem: · 5094 views
+              - listitem [ref=f93e105]:
+                - button "Translate" [ref=f93e108] [cursor=pointer]
+          - generic [ref=f93e115]:
+            - paragraph [ref=f93e116]: Hi
+            - paragraph [ref=f93e117]: I have a file size 3000x3000px. When I drag and drop a 500x500px image onto the workspace, how does the image automatically fit the size of the workspace?
+            - paragraph [ref=f93e118]: I have a file size 3000x3000px. When I drag and drop a 500x500px image onto the workspace, how does the image automatically fit the size of the workspace?
+            - paragraph [ref=f93e119]: Currently the way it is working is that the image that I drag and drop is smaller than the canvas size and off the center of the canvas. I would then have to Ctrl T to resize the image if I wanted it to fit on the canvas. So if I drop multiple images of the same size 500x500px I will have to edit each one.
+            - paragraph [ref=f93e120]: I want to resize the image to fit the canvas, not resize the canvas, so Trim doesn't work
+          - list [ref=f93e122]:
+            - listitem [ref=f93e123]:
+              - link "Windows" [ref=f93e124] [cursor=pointer]:
+                - /url: /search?q=Windows&search_type=tag
+          - generic [ref=f93e126]:
+            - button "Like" [ref=f93e127] [cursor=pointer]
+            - button "Reply" [ref=f93e132] [cursor=pointer]
+            - button "Subscribe" [ref=f93e137] [cursor=pointer]
+            - button "Share" [ref=f93e144] [cursor=pointer]
+        - button "Open reply editor" [ref=f93e151] [cursor=pointer]:
+          - textbox "Leave a reply..." [ref=f93e160]
+        - generic [ref=f93e162]:
+          - generic [ref=f93e163]:
+            - heading "9 replies" [level=2] [ref=f93e165]
+            - navigation [ref=f93e166]:
+              - 'button ": Newest first" [ref=f93e169] [cursor=pointer]':
+                - generic [ref=f93e170]:
+                  - text: ":"
+                  - generic [ref=f93e171]: Newest first
+          - generic [ref=f93e174]:
+            - article "Reply by MiraiMinds" [ref=f93e176]:
+              - generic [ref=f93e178]:
+                - link [ref=f93e181] [cursor=pointer]:
+                  - /url: https://community.adobe.com/members/miraiminds-2150306
+                  - img "MiraiMinds" [ref=f93e182]: M
+                - generic [ref=f93e183]:
+                  - link "MiraiMinds" [ref=f93e186] [cursor=pointer]:
+                    - /url: https://community.adobe.com/members/miraiminds-2150306
+                  - generic [ref=f93e187]:
+                    - generic [ref=f93e188]: Participant·
+                    - generic:
+                      - generic:
+                        - time: 1 year ago
+              - generic [ref=f93e191]:
+                - paragraph [ref=f93e193]: Hi, I'm not sure if you solved this issue, but the easiest and fastest way to do it is by using the square selection tool to surround the image and then just click crop on the image menu. You'll keep the selected area around the image and the canvas will be adjusted.
+                - button "Translate" [ref=f93e196] [cursor=pointer]
+              - generic [ref=f93e200]:
+                - button "Like" [ref=f93e201] [cursor=pointer]
+                - button "Reply" [ref=f93e206] [cursor=pointer]
+            - generic [ref=f93e211]:
+              - article "Reply by Bojan Živković11378569" [ref=f93e212]:
+                - generic [ref=f93e214]:
+                  - link [ref=f93e217] [cursor=pointer]:
+                    - /url: https://community.adobe.com/members/bojan-zivkovic11378569-1156054
+                    - img "Bojan Živković11378569" [ref=f93e218]
+                    - img "Community Expert" [ref=f93e220]
+                  - generic [ref=f93e221]:
+                    - generic [ref=f93e222]:
+                      - link "Bojan Živković11378569" [ref=f93e224] [cursor=pointer]:
+                        - /url: https://community.adobe.com/members/bojan-zivkovic11378569-1156054
+                      - img "Community Expert" [ref=f93e225]
+                    - generic [ref=f93e226]:
+                      - generic [ref=f93e227]: Community Expert·
+                      - generic:
+                        - generic:
+                          - time: 4 years ago
+                - generic [ref=f93e230]:
+                  - generic [ref=f93e231]:
+                    - paragraph [ref=f93e232]: Photoshop is scaling placed images to fit canvas only when you have enough large file to scale down, it won't scale up or enlarge placed image.
+                    - paragraph [ref=f93e233]
+                    - paragraph [ref=f93e234]: Also beware of resolution of placed image. If resolution of placed image is higher then parent document, image may be scaled down to match parent document resolution.
+                  - button "Translate" [ref=f93e237] [cursor=pointer]
+                - generic [ref=f93e241]:
+                  - button "4 replies" [ref=f93e242] [cursor=pointer]
+                  - button "Like" [ref=f93e247] [cursor=pointer]
+                  - button "1 like" [ref=f93e255] [cursor=pointer]:
+                    - link [ref=f93e258]:
+                      - /url: https://community.adobe.com/members/c-pfaffenbichler-502839
+                      - img "c.pfaffenbichler" [ref=f93e259]
+                    - generic [aria-hidden] [ref=f93e260]: "1"
+                  - button "Reply" [ref=f93e261] [cursor=pointer]
+              - generic [ref=f93e268]:
+                - article "Reply by nhungcamn" [ref=f93e269]:
+                  - generic [ref=f93e271]:
+                    - link [ref=f93e274] [cursor=pointer]:
+                      - /url: https://community.adobe.com/members/nhungcamn-68211
+                      - img "nhungcamn" [ref=f93e275]
+                    - generic [ref=f93e276]:
+                      - link "nhungcamn" [ref=f93e279] [cursor=pointer]:
+                        - /url: https://community.adobe.com/members/nhungcamn-68211
+                      - generic [ref=f93e280]:
+                        - generic [ref=f93e281]: Known Participant·
+                        - generic:
+                          - generic:
+                            - time: 4 years ago
+                  - generic [ref=f93e283]:
+                    - generic [ref=f93e284]:
+                      - generic [ref=f93e285]:
+                        - paragraph [ref=f93e286]: Thank you!
+                        - paragraph [ref=f93e287]
+                        - paragraph [ref=f93e288]: Here I have a video to describe the current situation. When dragging and dropping the image, it will not be in the center of the canvas. I can open each image with PTS if there are only a few images. But I have more than 300 images to drop into the same PTS file, it will take a long time :((
+                        - paragraph [ref=f93e289]: In the video, my image is 3000x3000px, 72DPI
+                      - button "Translate" [ref=f93e292] [cursor=pointer]
+                    - generic [ref=f93e295]:
+                      - heading [level=5] [ref=f93e296]:
+                        - strong [ref=f93e297]: 1 Attachment
+                      - link "nhungcamn.zip" [ref=f93e301] [cursor=pointer]:
+                        - /url: https://community.adobe.com/topic/trackAttachment?file_uuid=27d60ccf-cc6b-11f0-b9d7-88aedd688ac4&redirect=1
+                  - generic [ref=f93e307]:
+                    - button "3 replies" [ref=f93e308] [cursor=pointer]
+                    - button "Like" [ref=f93e313] [cursor=pointer]
+                    - button "Reply" [ref=f93e318] [cursor=pointer]
+                - generic [ref=f93e323]:
+                  - article "Reply by Stephen Marsh" [ref=f93e326]:
+                    - generic [ref=f93e328]:
+                      - link [ref=f93e331] [cursor=pointer]:
+                        - /url: https://community.adobe.com/members/stephen-marsh-850451
+                        - img "Stephen Marsh" [ref=f93e332]
+                        - img "Community Expert" [ref=f93e334]
+                      - generic [ref=f93e335]:
+                        - generic [ref=f93e336]:
+                          - link "Stephen Marsh" [ref=f93e338] [cursor=pointer]:
+                            - /url: https://community.adobe.com/members/stephen-marsh-850451
+                          - img "Community Expert" [ref=f93e339]
+                        - generic [ref=f93e340]:
+                          - generic [ref=f93e341]: Community Expert·
+                          - generic:
+                            - generic:
+                              - time: 4 years ago
+                    - generic [ref=f93e344]:
+                      - generic [ref=f93e345]:
+                        - paragraph [ref=f93e346]:
+                          - link "@nhungcamn" [ref=f93e347] [cursor=pointer]:
+                            - /url: /members/nhungcamn-68211
+                        - paragraph [ref=f93e348]
+                        - paragraph [ref=f93e349]: All you need is a simple action to vertically and horizontally align the layer to a selection, such as select all.
+                        - paragraph [ref=f93e350]
+                        - paragraph [ref=f93e351]: What file format and pixel dimensions are the dog images? I know the target image is 3000px square.
+                        - paragraph [ref=f93e352]
+                        - paragraph [ref=f93e353]: "There are scripts to stack files into layers, however 300 layers at 3000px square may well eat into memory when processing and saving:"
+                        - paragraph [ref=f93e354]
+                        - paragraph [ref=f93e355]: Files > Scripts > Load Files Into Stack
+                        - paragraph [ref=f93e356]
+                        - paragraph [ref=f93e357]: or
+                        - paragraph [ref=f93e358]
+                        - paragraph [ref=f93e359]:
+                          - link "https://morris-photographics.com/photoshop/scripts/import-folder.html" [ref=f93e360] [cursor=pointer]:
+                            - /url: https://morris-photographics.com/photoshop/scripts/import-folder.html
+                        - paragraph [ref=f93e361]
+                        - paragraph [ref=f93e362]: or
+                        - paragraph [ref=f93e363]
+                        - paragraph [ref=f93e364]:
+                          - link "https://community.adobe.com/t5/photoshop-ecosystem-discussions/images-to-layers-large-volumes/m-p/12841319" [ref=f93e365] [cursor=pointer]:
+                            - /url: https://community.adobe.com/t5/photoshop-ecosystem-discussions/images-to-layers-large-volumes/m-p/12841319
+                        - paragraph [ref=f93e366]
+                        - paragraph [ref=f93e367]: Then another script could be run to align and or fit each layer to the canvas.
+                        - paragraph [ref=f93e368]
+                        - paragraph [ref=f93e369]: A custom script could do both in a single step.
+                        - paragraph [ref=f93e370]
+                        - paragraph [ref=f93e371]: There are many ways to automate this.
+                      - button "Translate" [ref=f93e374] [cursor=pointer]
+                    - generic [ref=f93e378]:
+                      - button "Like" [ref=f93e379] [cursor=pointer]
+                      - button "2 likes" [ref=f93e387] [cursor=pointer]:
+                        - link [ref=f93e390]:
+                          - /url: https://community.adobe.com/members/c-pfaffenbichler-502839
+                          - img "c.pfaffenbichler" [ref=f93e391]
+                        - link [ref=f93e394]:
+                          - /url: https://community.adobe.com/members/nhungcamn-68211
+                          - img "nhungcamn" [ref=f93e395]
+                        - generic [aria-hidden] [ref=f93e396]: "2"
+                      - button "Reply" [ref=f93e397] [cursor=pointer]
+                  - button "Show 2 more replies" [ref=f93e403] [cursor=pointer]
+            - generic [ref=f93e410]:
+              - article "Reply by lambiloon" [ref=f93e411]:
+                - generic [ref=f93e413]:
+                  - link [ref=f93e416] [cursor=pointer]:
+                    - /url: https://community.adobe.com/members/lambiloon-679395
+                    - img "lambiloon" [ref=f93e417]
+                    - img "Community Expert" [ref=f93e419]
+                  - generic [ref=f93e420]:
+                    - generic [ref=f93e421]:
+                      - link "lambiloon" [ref=f93e423] [cursor=pointer]:
+                        - /url: https://community.adobe.com/members/lambiloon-679395
+                      - img "Community Expert" [ref=f93e424]
+                    - generic [ref=f93e425]:
+                      - generic [ref=f93e426]: Community Expert·
+                      - generic:
+                        - generic:
+                          - time: 4 years ago
+                - generic [ref=f93e428]:
+                  - generic [ref=f93e429]:
+                    - generic [ref=f93e430]:
+                      - paragraph [ref=f93e431]: Hi, you can turn off this option from preferences and convert the place object to a smart object then it will be ok
+                      - paragraph [ref=f93e432]
+                      - paragraph [ref=f93e433]: or
+                      - paragraph [ref=f93e434]
+                      - paragraph [ref=f93e435]: Another way is simply to open the file in photoshop then drag it with move tool in your canvas...regards
+                    - button "Translate" [ref=f93e438] [cursor=pointer]
+                  - generic [ref=f93e441]: Ali Sajjad / Graphic Design Trainer / Freelancer / Adobe Certified Professional
+                - generic [ref=f93e443]:
+                  - button "2 replies" [ref=f93e444] [cursor=pointer]
+                  - button "Like" [ref=f93e449] [cursor=pointer]
+                  - button "1 like" [ref=f93e457] [cursor=pointer]:
+                    - link [ref=f93e460]:
+                      - /url: https://community.adobe.com/members/nhungcamn-68211
+                      - img "nhungcamn" [ref=f93e461]
+                    - generic [aria-hidden] [ref=f93e462]: "1"
+                  - button "Reply" [ref=f93e463] [cursor=pointer]
+              - generic [ref=f93e470]:
+                - article "Reply by nhungcamn" [ref=f93e471]:
+                  - generic [ref=f93e473]:
+                    - link [ref=f93e476] [cursor=pointer]:
+                      - /url: https://community.adobe.com/members/nhungcamn-68211
+                      - img "nhungcamn" [ref=f93e477]
+                    - generic [ref=f93e478]:
+                      - link "nhungcamn" [ref=f93e481] [cursor=pointer]:
+                        - /url: https://community.adobe.com/members/nhungcamn-68211
+                      - generic [ref=f93e482]:
+                        - generic [ref=f93e483]: Known Participant·
+                        - generic:
+                          - generic:
+                            - time: 4 years ago
+                  - generic [ref=f93e485]:
+                    - generic [ref=f93e486]:
+                      - generic [ref=f93e487]:
+                        - paragraph [ref=f93e488]: Thank you!
+                        - paragraph [ref=f93e489]
+                        - paragraph [ref=f93e490]: Here I have a video to describe the current situation. When dragging and dropping the image, it will not be in the center of the canvas. I can open each image with PTS if there are only a few images. But I have more than 300 images to drop into the same PTS file, it will take a long time :((
+                        - paragraph [ref=f93e491]
+                      - button "Translate" [ref=f93e494] [cursor=pointer]
+                    - generic [ref=f93e497]:
+                      - heading [level=5] [ref=f93e498]:
+                        - strong [ref=f93e499]: 1 Attachment
+                      - link "nhungcamn.zip" [ref=f93e503] [cursor=pointer]:
+                        - /url: https://community.adobe.com/topic/trackAttachment?file_uuid=27d60ca5-cc6b-11f0-b9d7-88aedd688ac4&redirect=1
+                  - generic [ref=f93e509]:
+                    - button "1 reply" [ref=f93e510] [cursor=pointer]
+                    - button "Like" [ref=f93e515] [cursor=pointer]
+                    - button "Reply" [ref=f93e520] [cursor=pointer]
+                - article "Reply by nhungcamn" [ref=f93e528]:
+                  - generic [ref=f93e530]:
+                    - link [ref=f93e533] [cursor=pointer]:
+                      - /url: https://community.adobe.com/members/nhungcamn-68211
+                      - img "nhungcamn" [ref=f93e534]
+                    - generic [ref=f93e535]:
+                      - link "nhungcamn" [ref=f93e538] [cursor=pointer]:
+                        - /url: https://community.adobe.com/members/nhungcamn-68211
+                      - generic [ref=f93e539]:
+                        - generic [ref=f93e540]: Known Participant·
+                        - generic:
+                          - generic:
+                            - time: 4 years ago
+                  - generic [ref=f93e543]:
+                    - paragraph [ref=f93e545]: In the video, my image is 3000x3000px, 72DPI
+                    - button "Translate" [ref=f93e548] [cursor=pointer]
+                  - generic [ref=f93e552]:
+                    - button "Like" [ref=f93e553] [cursor=pointer]
+                    - button "Reply" [ref=f93e558] [cursor=pointer]
+      - generic [ref=f93e563]:
+        - generic [ref=f93e564]:
+          - link "Firefly Challenge — The Firefly Fashion AI Lab Step into the role of Fashion Creative Director and design an avant-garde, high-fashion garment that fuses the organic with the synthetic. Join challenge" [ref=f93e568] [cursor=pointer]:
+            - /url: https://www.adobe.com/community/gallery/challenges/f9e395d2-50d8-4f00-af6a-494e478739c2?sdid=VY36JLWT&mv=webpush
+            - generic [ref=f93e571]:
+              - generic [ref=f93e573]:
+                - paragraph [ref=f93e574]: Firefly Challenge — The Firefly Fashion AI Lab
+                - paragraph [ref=f93e575]: Step into the role of Fashion Creative Director and design an avant-garde, high-fashion garment that fuses the organic with the synthetic.
+              - generic [ref=f93e576]: Join challenge
+          - generic [ref=f93e579]:
+            - generic [aria-hidden]:
+              - heading [level=3]
+              - list:
+                - listitem:
+                  - heading [level=4]
+                - listitem:
+                  - heading [level=4]
+                - listitem:
+                  - heading [level=4]
+                - listitem:
+                  - heading [level=4]
+                - listitem:
+                  - heading [level=4]
+        - generic [ref=f93e580]:
+          - generic [ref=f93e581]: Was this post helpful?
+          - generic [ref=f93e582]:
+            - generic [ref=f93e583] [cursor=pointer]: Yes, thanks
+            - generic [ref=f93e584] [cursor=pointer]: Not really
+    - generic [ref=f93e588]:
+      - link "Powered by Gainsight" [ref=f93e590] [cursor=pointer]:
+        - /url: https://www.gainsight.com/customer-communities/
+      - generic [ref=f93e591]:
+        - link "Terms & Conditions" [ref=f93e592] [cursor=pointer]:
+          - /url: /site/terms
+        - link "Accessibility statement" [ref=f93e593] [cursor=pointer]:
+          - /url: https://www.gainsight.com/policy/accessibility-cc/
+      - text: 
+    - text: 
+    - generic [ref=f93e596]:
+      - generic [ref=f93e597]: Copyright © 2026 Adobe. All rights reserved.
+      - generic [ref=f93e598]:
+        - link "Using the community" [ref=f93e599] [cursor=pointer]:
+          - /url: /topic-95
+        - link "Terms of use" [ref=f93e600] [cursor=pointer]:
+          - /url: https://www.adobe.com/legal/terms.html
+        - link "Privacy" [ref=f93e601] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy.html
+        - generic [ref=f93e602] [cursor=pointer]: Cookie preferences
+        - link "Do not sell or share my personal information" [ref=f93e603] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/us-rights.html
+        - link [ref=f93e604] [cursor=pointer]:
+          - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads
+          - img "ad choices" [ref=f93e605]
+          - text: AdChoices
+  - status [ref=f93e606]

@@ -1,0 +1,169 @@
+- generic [ref=f41e3]:
+  - generic [ref=f41e4]:
+    - text: "| | | | |"
+    - generic [ref=f41e8]:
+      - paragraph [ref=f41e9]:
+        - paragraph [ref=f41e10]:
+          - strong [ref=f41e11]: Join us at Adobe MAX — The Creativity Conference Nov 10–12 in Miami Beach.
+      - link "Learn more" [ref=f41e12] [cursor=pointer]:
+        - /url: https://max.adobe.com/?promoid=49F59961&mv=other&mv2=helpx
+    - banner [ref=f41e13]:
+      - navigation "Main" [ref=f41e15]:
+        - generic [ref=f41e16]:
+          - text: ☰
+          - link "Adobe" [ref=f41e17] [cursor=pointer]:
+            - /url: https://www.adobe.com/
+            - img "Adobe, Inc." [ref=f41e19]
+        - list [ref=f41e21]:
+          - listitem [ref=f41e22]:
+            - button "Creativity & Design" [ref=f41e23] [cursor=pointer]
+          - listitem [ref=f41e24]:
+            - button "PDFs & E-signatures" [ref=f41e25] [cursor=pointer]
+          - listitem [ref=f41e26]:
+            - button "Marketing & Commerce" [ref=f41e27] [cursor=pointer]
+          - listitem [ref=f41e28]:
+            - button "Learn & Support" [ref=f41e29] [cursor=pointer]
+          - listitem [ref=f41e30]
+  - generic [ref=f41e39]:
+    - generic [ref=f41e42]:
+      - link [ref=f41e43] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/desktop.html
+        - img "Photoshop" [ref=f41e44]
+      - paragraph [ref=f41e46]:
+        - link "Photoshop Help" [ref=f41e47] [cursor=pointer]:
+          - /url: /content/help/in/en/photoshop/desktop.html
+    - generic [ref=f41e51]:
+      - link "Desktop" [ref=f41e53] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/desktop.html
+      - link "Tablet" [ref=f41e57] [cursor=pointer]:
+        - /url: /photoshop/ipad.html
+      - link "Mobile" [ref=f41e61] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/mobile.html
+      - link "Web" [ref=f41e65] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/web.html
+    - generic [ref=f41e68]:
+      - generic [ref=f41e69] [cursor=pointer]
+      - generic [ref=f41e71] [cursor=pointer]
+      - link "Photoshop Open app" [ref=f41e73] [cursor=pointer]:
+        - /url: https://www.adobe.com/download/photoshop
+  - main [ref=f41e74]:
+    - generic [ref=f41e76]:
+      - generic [ref=f41e82]:
+        - heading "Apply transformations" [level=1] [ref=f41e85]
+        - generic [ref=f41e86]: Last updated on Feb 23, 2026
+        - generic [ref=f41e97]:
+          - paragraph [ref=f41e100]: Learn how to use Transform in Adobe Photoshop to scale, rotate, skew, distort, add perspective, or warp layers or selections.
+          - generic [ref=f41e102]:
+            - paragraph [ref=f41e103]: Transformations help you change the appearance of selected objects, such as resizing, rotating, or altering perspective. Photoshop offers flexible tools to apply these modifications directly to layers, text, shapes, or selections.
+            - heading "Transform an object or layer" [level=2] [ref=f41e104]
+          - generic [ref=f41e106]:
+            - generic [ref=f41e107]: Note
+            - paragraph [ref=f41e110]:
+              - text: You can only transform the active layer or selection. To transform a background layer, first convert it into a regular layer by selecting the lock icon next to it in the
+              - generic [ref=f41e113]: Layers
+              - text: panel.
+          - generic [ref=f41e116]:
+            - paragraph [ref=f41e120]: Select the layer or area you want to transform.
+            - generic [ref=f41e123]:
+              - paragraph [ref=f41e124]:
+                - text: Go to
+                - generic [ref=f41e125]: Edit
+                - text: ">"
+                - generic [ref=f41e126]: Transform
+                - text: ", then select a transformation type:"
+              - list [ref=f41e127]:
+                - listitem [ref=f41e128]:
+                  - generic [ref=f41e129]: Scale
+                  - text: to resize
+                - listitem [ref=f41e130]:
+                  - generic [ref=f41e131]: Rotate
+                  - text: to turn
+                - listitem [ref=f41e132]:
+                  - generic [ref=f41e133]: Skew
+                  - text: to slant
+                - listitem [ref=f41e134]:
+                  - generic [ref=f41e135]: Distort
+                  - text: to stretch
+                - listitem [ref=f41e136]:
+                  - generic [ref=f41e137]: Perspective
+                  - text: to shift depth
+                - listitem [ref=f41e138]:
+                  - generic [ref=f41e139]: Warp
+                  - text: to bend and curve freely
+            - paragraph [ref=f41e143]:
+              - text: Press
+              - generic [ref=f41e144]: Enter
+              - text: (Windows),
+              - generic [ref=f41e145]: Return
+              - text: (macOS), or select
+              - generic [ref=f41e146]: Done
+              - text: to confirm the transformation.
+          - generic [ref=f41e148]:
+            - heading "Repeat a transformation" [level=2] [ref=f41e149]
+            - paragraph [ref=f41e150]:
+              - text: You must apply at least one transformation using
+              - generic [ref=f41e151]: Transform
+              - text: or
+              - generic [ref=f41e152]: Free Transform
+              - text: before
+              - generic [ref=f41e153]: Again
+              - text: becomes available.
+          - generic [ref=f41e156]:
+            - paragraph [ref=f41e160]: Select the layer or object you want to transform again.
+            - paragraph [ref=f41e164]:
+              - text: Select
+              - generic [ref=f41e165]: Edit
+              - text: ">"
+              - generic [ref=f41e166]: Transform
+              - text: ">"
+              - generic [ref=f41e167]: Again
+              - text: from the menu bar.
+            - paragraph [ref=f41e171]:
+              - text: Press
+              - generic [ref=f41e172]: Enter
+              - text: (Windows),
+              - generic [ref=f41e173]: Return
+              - text: (macOS), or select
+              - generic [ref=f41e174]: Done
+              - text: .
+        - generic [ref=f41e179]:
+          - generic [ref=f41e192]:
+            - img "Adobe Photoshop logo" [ref=f41e200]
+            - generic [ref=f41e206]:
+              - paragraph [ref=f41e209]: Create stunning images with Photoshop Edit, retouch, and transform photos with the industry-leading creative tools you know and love.
+              - link "Open the app" [ref=f41e212] [cursor=pointer]:
+                - /url: https://www.adobe.com/download/photoshop
+          - group [ref=f41e223]:
+            - paragraph [ref=f41e224]: Was this page helpful?
+            - generic "Was this page helpful?" [ref=f41e225]:
+              - button "Yes, thanks" [ref=f41e226] [cursor=pointer]
+              - button "Not really" [ref=f41e234] [cursor=pointer]
+        - generic [ref=f41e243]:
+          - link "Previous Duplicate objects as you transform" [ref=f41e244] [cursor=pointer]:
+            - /url: /photoshop/desktop/crop-resize-transform/transform-manipulate-reshape/duplicate-objects-as-you-transform.html
+            - paragraph [ref=f41e245]: Previous
+            - paragraph [ref=f41e246]: Duplicate objects as you transform
+          - link "Next Move reference point for transformations" [ref=f41e247] [cursor=pointer]:
+            - /url: /photoshop/desktop/crop-resize-transform/transform-manipulate-reshape/move-reference-point-for-transformations.html
+            - paragraph [ref=f41e248]: Next
+            - paragraph [ref=f41e249]: Move reference point for transformations
+      - generic [ref=f41e263]:
+        - link [ref=f41e268] [cursor=pointer]:
+          - /url: https://www.adobe.com/learn
+          - generic [ref=f41e269]:
+            - heading "Learn" [level=3] [ref=f41e271]
+            - img "card-link-icon" [ref=f41e273]
+          - paragraph [ref=f41e274]: Learn with step-by-step video tutorials and hands-on guidance right in the app.
+        - link [ref=f41e279] [cursor=pointer]:
+          - /url: https://www.adobe.com/community
+          - generic [ref=f41e280]:
+            - heading "Community" [level=3] [ref=f41e282]
+            - img "card-link-icon" [ref=f41e284]
+          - paragraph [ref=f41e285]: Join discussions, find answers, learn from experts, and share your knowledge.
+        - link [ref=f41e290] [cursor=pointer]:
+          - /url: https://www.adobe.com
+          - generic [ref=f41e291]:
+            - heading "Adobe Home" [level=3] [ref=f41e293]
+            - img "card-link-icon" [ref=f41e295]
+          - paragraph [ref=f41e296]: Access your favorite Creative Cloud apps, services, file management, and more.
+  - generic: / / / / / /

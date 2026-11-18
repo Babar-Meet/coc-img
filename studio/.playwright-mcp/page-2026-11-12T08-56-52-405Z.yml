@@ -1,0 +1,135 @@
+- generic [active] [ref=f17e1]:
+  - generic [ref=f17e3]:
+    - generic [ref=f17e4]:
+      - text: "| | | | |"
+      - generic [ref=f17e8]:
+        - paragraph [ref=f17e9]:
+          - paragraph [ref=f17e10]:
+            - strong [ref=f17e11]: Join us at Adobe MAX — The Creativity Conference Nov 10–12 in Miami Beach.
+        - link "Learn more" [ref=f17e12] [cursor=pointer]:
+          - /url: https://max.adobe.com/?promoid=49F59961&mv=other&mv2=helpx
+      - banner [ref=f17e13]:
+        - navigation "Main" [ref=f17e15]:
+          - generic [ref=f17e16]:
+            - text: ☰
+            - link "Adobe" [ref=f17e17] [cursor=pointer]:
+              - /url: https://www.adobe.com/
+              - img "Adobe, Inc." [ref=f17e19]
+          - list [ref=f17e21]:
+            - listitem [ref=f17e22]:
+              - button "Creativity & Design" [ref=f17e23] [cursor=pointer]
+            - listitem [ref=f17e24]:
+              - button "PDFs & E-signatures" [ref=f17e25] [cursor=pointer]
+            - listitem [ref=f17e26]:
+              - button "Marketing & Commerce" [ref=f17e27] [cursor=pointer]
+            - listitem [ref=f17e28]:
+              - button "Learn & Support" [ref=f17e29] [cursor=pointer]
+            - listitem [ref=f17e30]:
+              - link "Buy now" [ref=f17e32] [cursor=pointer]:
+                - /url: /photoshop/desktop/crop-resize-transform/transform-manipulate-reshape/rotate-or-flip-images.html#commerce-buy-now@buy-now
+          - generic [ref=f17e35]:
+            - button "App switcher" [ref=f17e36] [cursor=pointer]
+            - button "Sign in" [ref=f17e49] [cursor=pointer]
+    - generic [ref=f17e57]:
+      - generic [ref=f17e60]:
+        - link [ref=f17e61] [cursor=pointer]:
+          - /url: /content/help/in/en/photoshop/desktop.html
+          - img "Photoshop" [ref=f17e62]
+        - paragraph [ref=f17e64]:
+          - link "Photoshop Help" [ref=f17e65] [cursor=pointer]:
+            - /url: /content/help/in/en/photoshop/desktop.html
+      - generic [ref=f17e69]:
+        - link "Desktop" [ref=f17e71] [cursor=pointer]:
+          - /url: /content/help/in/en/photoshop/desktop.html
+        - link "Tablet" [ref=f17e75] [cursor=pointer]:
+          - /url: /photoshop/ipad.html
+        - link "Mobile" [ref=f17e79] [cursor=pointer]:
+          - /url: /content/help/in/en/photoshop/mobile.html
+        - link "Web" [ref=f17e83] [cursor=pointer]:
+          - /url: /content/help/in/en/photoshop/web.html
+      - generic [ref=f17e86]:
+        - generic [ref=f17e87] [cursor=pointer]
+        - generic [ref=f17e89] [cursor=pointer]
+        - link "Photoshop Open app" [ref=f17e91] [cursor=pointer]:
+          - /url: https://www.adobe.com/download/photoshop
+    - main [ref=f17e92]:
+      - generic [ref=f17e94]:
+        - generic [ref=f17e100]:
+          - heading "Rotate or flip images" [level=1] [ref=f17e103]
+          - generic [ref=f17e104]: Last updated on Feb 23, 2026
+          - generic [ref=f17e115]:
+            - paragraph [ref=f17e118]: Learn how to rotate or flip images, layers, or selections in Adobe Photoshop using Transform commands for precise orientation control.
+            - paragraph [ref=f17e121]: You can rotate or flip specific parts of your image, such as a layer or selection, without affecting the entire document.
+            - generic [ref=f17e124]:
+              - paragraph [ref=f17e128]:
+                - text: Select
+                - generic [ref=f17e129]: Edit
+                - text: ">"
+                - generic [ref=f17e130]: Transform
+                - text: .
+              - generic [ref=f17e131]:
+                - generic [ref=f17e133]:
+                  - paragraph [ref=f17e134]: "Select one of the following options:"
+                  - list [ref=f17e135]:
+                    - listitem [ref=f17e136]:
+                      - generic [ref=f17e137]: Rotate 180°
+                      - text: ": Turns the image upside down."
+                    - listitem [ref=f17e138]:
+                      - generic [ref=f17e139]: Rotate 90° Clockwise
+                      - text: ": Rotates the image 90 degrees to the right."
+                    - listitem [ref=f17e140]:
+                      - generic [ref=f17e141]: Rotate 90° Counter Clockwise
+                      - text: ": Rotates the image 90 degrees to the left."
+                    - listitem [ref=f17e142]:
+                      - generic [ref=f17e143]: Flip Horizontal
+                      - text: ": Mirrors the image from left to right."
+                    - listitem [ref=f17e144]:
+                      - generic [ref=f17e145]: Flip Vertical
+                      - text: ": Flips the image upside down along the vertical axis."
+                - generic [ref=f17e147]:
+                  - figure "Access rotation and flip commands from the Transform submenu in the Edit menu." [ref=f17e149]:
+                    - img "Workspace with the Edit menu expanded to the Transform submenu, showing rotate and flip options above an open image." [ref=f17e151]
+                  - paragraph
+          - generic [ref=f17e157]:
+            - generic [ref=f17e170]:
+              - img "Adobe Photoshop logo" [ref=f17e178]
+              - generic [ref=f17e184]:
+                - paragraph [ref=f17e187]: Create stunning images with Photoshop Edit, retouch, and transform photos with the industry-leading creative tools you know and love.
+                - link "Open the app" [ref=f17e190] [cursor=pointer]:
+                  - /url: https://www.adobe.com/download/photoshop
+            - group [ref=f17e201]:
+              - paragraph [ref=f17e202]: Was this page helpful?
+              - generic "Was this page helpful?" [ref=f17e203]:
+                - button "Yes, thanks" [ref=f17e204] [cursor=pointer]
+                - button "Not really" [ref=f17e212] [cursor=pointer]
+          - generic [ref=f17e221]:
+            - link "Previous Transformation options in Photoshop" [ref=f17e222] [cursor=pointer]:
+              - /url: /photoshop/desktop/crop-resize-transform/transform-manipulate-reshape/transformation-options-in-adobe-photoshop.html
+              - paragraph [ref=f17e223]: Previous
+              - paragraph [ref=f17e224]: Transformation options in Photoshop
+            - link "Next Adjust scale, rotation, and perspective" [ref=f17e225] [cursor=pointer]:
+              - /url: /photoshop/desktop/crop-resize-transform/transform-manipulate-reshape/adjust-scale-rotation-and-perspective.html
+              - paragraph [ref=f17e226]: Next
+              - paragraph [ref=f17e227]: Adjust scale, rotation, and perspective
+        - generic [ref=f17e241]:
+          - link [ref=f17e246] [cursor=pointer]:
+            - /url: https://www.adobe.com/learn
+            - generic [ref=f17e247]:
+              - heading "Learn" [level=3] [ref=f17e249]
+              - img "card-link-icon" [ref=f17e251]
+            - paragraph [ref=f17e252]: Learn with step-by-step video tutorials and hands-on guidance right in the app.
+          - link [ref=f17e257] [cursor=pointer]:
+            - /url: https://www.adobe.com/community
+            - generic [ref=f17e258]:
+              - heading "Community" [level=3] [ref=f17e260]
+              - img "card-link-icon" [ref=f17e262]
+            - paragraph [ref=f17e263]: Join discussions, find answers, learn from experts, and share your knowledge.
+          - link [ref=f17e268] [cursor=pointer]:
+            - /url: https://www.adobe.com
+            - generic [ref=f17e269]:
+              - heading "Adobe Home" [level=3] [ref=f17e271]
+              - img "card-link-icon" [ref=f17e273]
+            - paragraph [ref=f17e274]: Access your favorite Creative Cloud apps, services, file management, and more.
+    - generic: / / / / / /
+  - contentinfo [ref=f17e275]
+  - button "Chat with us" [ref=f17e276] [cursor=pointer]

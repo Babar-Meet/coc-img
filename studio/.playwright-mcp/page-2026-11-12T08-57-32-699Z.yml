@@ -1,0 +1,277 @@
+- generic [ref=f52e3]:
+  - generic [ref=f52e4]:
+    - text: "| | | | |"
+    - generic [ref=f52e8]:
+      - paragraph [ref=f52e9]:
+        - paragraph [ref=f52e10]:
+          - strong [ref=f52e11]: Join us at Adobe MAX — The Creativity Conference Nov 10–12 in Miami Beach.
+      - link "Learn more" [ref=f52e12] [cursor=pointer]:
+        - /url: https://max.adobe.com/?promoid=49F59961&mv=other&mv2=helpx
+    - banner [ref=f52e13]:
+      - navigation "Main" [ref=f52e15]:
+        - generic [ref=f52e16]:
+          - text: ☰
+          - link "Adobe" [ref=f52e17] [cursor=pointer]:
+            - /url: https://www.adobe.com/
+            - img "Adobe, Inc." [ref=f52e19]
+        - list [ref=f52e21]:
+          - listitem [ref=f52e22]:
+            - button "Creativity & Design" [ref=f52e23] [cursor=pointer]
+          - listitem [ref=f52e24]:
+            - button "PDFs & E-signatures" [ref=f52e25] [cursor=pointer]
+          - listitem [ref=f52e26]:
+            - button "Marketing & Commerce" [ref=f52e27] [cursor=pointer]
+          - listitem [ref=f52e28]:
+            - button "Learn & Support" [ref=f52e29] [cursor=pointer]
+          - listitem [ref=f52e30]
+  - generic [ref=f52e39]:
+    - generic [ref=f52e42]:
+      - link [ref=f52e43] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/desktop.html
+        - img "Photoshop" [ref=f52e44]
+      - paragraph [ref=f52e46]:
+        - link "Photoshop Help" [ref=f52e47] [cursor=pointer]:
+          - /url: /content/help/in/en/photoshop/desktop.html
+    - generic [ref=f52e51]:
+      - link "Desktop" [ref=f52e53] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/desktop.html
+      - link "Tablet" [ref=f52e57] [cursor=pointer]:
+        - /url: /photoshop/ipad.html
+      - link "Mobile" [ref=f52e61] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/mobile.html
+      - link "Web" [ref=f52e65] [cursor=pointer]:
+        - /url: /content/help/in/en/photoshop/web.html
+    - generic [ref=f52e68]:
+      - generic [ref=f52e69] [cursor=pointer]
+      - generic [ref=f52e71] [cursor=pointer]
+      - link "Photoshop Open app" [ref=f52e73] [cursor=pointer]:
+        - /url: https://www.adobe.com/download/photoshop
+  - main [ref=f52e74]:
+    - generic [ref=f52e76]:
+      - generic [ref=f52e82]:
+        - heading "Transform images, shapes, and paths" [level=1] [ref=f52e85]
+        - generic [ref=f52e86]: Last updated on Sep 28, 2026
+        - generic [ref=f52e97]:
+          - paragraph [ref=f52e100]: Learn how to apply scaling, rotation, skewing, distortion, perspective, and warp transformations in a single continuous operation in Adobe Photoshop on desktop.
+          - generic [ref=f52e102]:
+            - paragraph [ref=f52e103]:
+              - generic [ref=f52e104]: Free Transform
+              - text: combines multiple transformation types into a single operation. Use it to resize, rotate, or reshape pixel-based layers, vector shapes, paths, and selections without switching between separate commands.
+            - paragraph [ref=f52e105]:
+              - text: For advanced content-aware resizing, use
+              - generic [ref=f52e106]: Content-Aware Scale
+              - text: instead. For complex mesh-based deformations, use the
+              - generic [ref=f52e107]: Puppet Warp
+              - text: tool.
+            - paragraph [ref=f52e108]:
+              - text: By default, when you drag a corner handle, Photoshop scales proportionally. The
+              - generic [ref=f52e109]: Maintain aspect ratio
+              - text: icon is ON in the
+              - generic [ref=f52e111]: Options
+              - text: bar. Select
+              - generic [ref=f52e112]: Shift
+              - text: while transforming to toggle between proportional and non-proportional scaling. Photoshop remembers your last scaling behavior setting and applies it when you launch the application.
+            - heading "Enter Free Transform mode" [level=2] [ref=f52e113]
+          - generic [ref=f52e116]:
+            - paragraph [ref=f52e120]:
+              - text: Select the layer, shape, path, or selection you want to transform in the
+              - generic [ref=f52e121]: Layers
+              - text: panel.
+            - paragraph [ref=f52e125]:
+              - text: Select
+              - generic [ref=f52e126]: Edit
+              - text: ">"
+              - generic [ref=f52e127]: Free Transform
+              - text: ", or press"
+              - generic [ref=f52e128]: Ctrl
+              - text: +
+              - generic [ref=f52e129]: T
+              - text: (Windows) or
+              - generic [ref=f52e130]: Command
+              - text: +
+              - generic [ref=f52e131]: T
+              - text: (macOS).
+          - generic [ref=f52e133]:
+            - paragraph [ref=f52e134]:
+              - text: Alternatively, select
+              - generic [ref=f52e135]: Show Transform Controls
+              - text: in the Options bar when using the Move tool for pixel-based content or the
+              - generic [ref=f52e136]: Path Selection
+              - text: tool for vector content. This displays the transform bounding box whenever you select a transformable element.
+            - heading "Apply transformations" [level=2] [ref=f52e137]
+          - generic [ref=f52e140]:
+            - paragraph [ref=f52e144]:
+              - text: To scale proportionally, drag a corner handle with the
+              - generic [ref=f52e145]: Maintain aspect ratio
+              - text: icon turned ON in the
+              - generic [ref=f52e147]: Options
+              - text: bar.
+            - paragraph [ref=f52e151]:
+              - text: To scale non-proportionally, turn OFF the
+              - generic [ref=f52e152]: maintain aspect ratio
+              - text: dialog, then drag a corner or a side handle.
+            - generic [ref=f52e155]:
+              - paragraph [ref=f52e156]: To rotate, move the pointer outside the bounding border until it becomes a curved two-sided arrow, then drag.
+              - list [ref=f52e157]:
+                - listitem [ref=f52e158]:
+                  - text: Select
+                  - generic [ref=f52e159]: Shift
+                  - text: to constrain rotation to 15-degree increments.
+                - listitem [ref=f52e160]:
+                  - text: To skew, select
+                  - generic [ref=f52e161]: Ctrl
+                  - text: +
+                  - generic [ref=f52e162]: Shift
+                  - text: (Windows) or
+                  - generic [ref=f52e163]: Command
+                  - text: +
+                  - generic [ref=f52e164]: Shift
+                  - text: (macOS) and drag a side handle.
+                - listitem [ref=f52e165]:
+                  - text: To distort freely, select
+                  - generic [ref=f52e166]: Ctrl
+                  - text: (Windows) or
+                  - generic [ref=f52e167]: Command
+                  - text: (macOS) and drag any handle.
+                - listitem [ref=f52e168]:
+                  - text: To apply perspective, select
+                  - generic [ref=f52e169]: Ctrl
+                  - text: +
+                  - generic [ref=f52e170]: Alt
+                  - text: +
+                  - generic [ref=f52e171]: Shift
+                  - text: (Windows) or
+                  - generic [ref=f52e172]: Command
+                  - text: +
+                  - generic [ref=f52e173]: Option
+                  - text: +
+                  - generic [ref=f52e174]: Shift
+                  - text: (macOS) and drag a corner handle.
+            - paragraph [ref=f52e178]:
+              - text: To move the entire selection, drag inside the bounding box. Enter values in the
+              - generic [ref=f52e179]: X
+              - text: and
+              - generic [ref=f52e180]: "Y"
+              - text: text boxes in the
+              - generic [ref=f52e181]: Options
+              - text: bar for precise positioning.
+            - paragraph [ref=f52e185]:
+              - text: Enter percentages in the
+              - generic [ref=f52e186]: Width
+              - text: (W) and
+              - generic [ref=f52e187]: Height
+              - text: (H) fields to scale numerically or enter degrees in the rotation field to rotate by a specific angle. Select the
+              - generic [ref=f52e188]: Link
+              - text: icon between
+              - generic [ref=f52e190]: Width
+              - text: and
+              - generic [ref=f52e191]: Height
+              - text: to maintain the aspect ratio when entering values.
+          - heading "Adjust the reference point." [level=2] [ref=f52e194]
+          - generic [ref=f52e197]:
+            - paragraph [ref=f52e201]:
+              - text: Select any square on the reference point locator in the
+              - generic [ref=f52e202]: Options
+              - text: bar to change the transformation center point.
+            - paragraph [ref=f52e206]: Alternatively, drag the center point directly on the canvas to reposition it.
+          - generic [ref=f52e208]:
+            - paragraph [ref=f52e209]: All scaling, rotation, and other transformations occur relative to this reference point. Moving it to a corner causes rotations to pivot around that corner instead of the center.
+            - heading "Apply warp transformations" [level=2] [ref=f52e210]
+          - generic [ref=f52e213]:
+            - paragraph [ref=f52e217]:
+              - text: Select the
+              - generic [ref=f52e218]: Switch Between Free Transform And Warp Modes
+              - text: button in the
+              - generic [ref=f52e219]: Options
+              - text: bar.
+            - paragraph [ref=f52e223]:
+              - text: Drag control points to manipulate the shape or select a preset style from the
+              - generic [ref=f52e224]: Warp
+              - text: dropdown menu in the
+              - generic [ref=f52e225]: Options
+              - text: bar.
+            - paragraph [ref=f52e229]: After choosing a warp style, drag the square handles to adjust the intensity and direction of the warp effect.
+          - heading "Commit or cancel the transformation" [level=2] [ref=f52e232]
+          - generic [ref=f52e235]:
+            - paragraph [ref=f52e239]:
+              - text: To apply the transformation, press
+              - generic [ref=f52e240]: Enter
+              - text: (Windows) or
+              - generic [ref=f52e241]: Return
+              - text: (macOS), select the
+              - generic [ref=f52e242]: Commit
+              - text: button in the
+              - generic [ref=f52e243]: Options
+              - text: bar, or click outside the canvas area.
+            - paragraph [ref=f52e247]:
+              - text: To cancel the transformation, press
+              - generic [ref=f52e248]: Esc
+              - text: or click the
+              - generic [ref=f52e249]: Cancel
+              - text: button in the
+              - generic [ref=f52e250]: Options
+              - text: bar.
+          - generic [ref=f52e252]:
+            - paragraph [ref=f52e253]: When transforming bitmap content, the image becomes slightly less sharp each time you commit a transformation. Apply multiple transformations in a single operation before committing to minimize quality loss. Smart Objects preserve image quality through repeated transformations.
+            - paragraph [ref=f52e254]:
+              - text: To revert to the legacy transform behavior where dragging a corner handle scales non-proportionally by default, select
+              - generic [ref=f52e255]: Edit
+              - text: ">"
+              - generic [ref=f52e256]: Preferences
+              - text: ">"
+              - generic [ref=f52e257]: General
+              - text: (Windows) or
+              - generic [ref=f52e258]: Photoshop
+              - text: ">"
+              - generic [ref=f52e259]: Preferences
+              - text: ">"
+              - generic [ref=f52e260]: General
+              - text: (macOS), then turn on
+              - generic [ref=f52e261]: Legacy Free Transform
+              - text: .
+            - paragraph [ref=f52e262]:
+              - text: To correct perspective distortion while cropping, use the
+              - link "Perspective Crop tool" [ref=f52e263] [cursor=pointer]:
+                - /url: https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/crop-straighten/transform-perspective-while-cropping.html
+              - text: .
+        - generic [ref=f52e268]:
+          - generic [ref=f52e281]:
+            - img "Adobe Photoshop logo" [ref=f52e289]
+            - generic [ref=f52e295]:
+              - paragraph [ref=f52e298]: Create stunning images with Photoshop Edit, retouch, and transform photos with the industry-leading creative tools you know and love.
+              - link "Open the app" [ref=f52e301] [cursor=pointer]:
+                - /url: https://www.adobe.com/download/photoshop
+          - group [ref=f52e312]:
+            - paragraph [ref=f52e313]: Was this page helpful?
+            - generic "Was this page helpful?" [ref=f52e314]:
+              - button "Yes, thanks" [ref=f52e315] [cursor=pointer]
+              - button "Not really" [ref=f52e323] [cursor=pointer]
+        - generic [ref=f52e332]:
+          - link "Previous Effects of Crop tool on image dimensions" [ref=f52e333] [cursor=pointer]:
+            - /url: /photoshop/desktop/crop-resize-transform/resize-adjust-resolution/crop-tool-effects-on-image-dimensions.html
+            - paragraph [ref=f52e334]: Previous
+            - paragraph [ref=f52e335]: Effects of Crop tool on image dimensions
+          - link "Next Crop and straighten images" [ref=f52e336] [cursor=pointer]:
+            - /url: /photoshop/desktop/crop-resize-transform/resize-adjust-resolution/crop-and-straighten-images.html
+            - paragraph [ref=f52e337]: Next
+            - paragraph [ref=f52e338]: Crop and straighten images
+      - generic [ref=f52e352]:
+        - link [ref=f52e357] [cursor=pointer]:
+          - /url: https://www.adobe.com/learn
+          - generic [ref=f52e358]:
+            - heading "Learn" [level=3] [ref=f52e360]
+            - img "card-link-icon" [ref=f52e362]
+          - paragraph [ref=f52e363]: Learn with step-by-step video tutorials and hands-on guidance right in the app.
+        - link [ref=f52e368] [cursor=pointer]:
+          - /url: https://www.adobe.com/community
+          - generic [ref=f52e369]:
+            - heading "Community" [level=3] [ref=f52e371]
+            - img "card-link-icon" [ref=f52e373]
+          - paragraph [ref=f52e374]: Join discussions, find answers, learn from experts, and share your knowledge.
+        - link [ref=f52e379] [cursor=pointer]:
+          - /url: https://www.adobe.com
+          - generic [ref=f52e380]:
+            - heading "Adobe Home" [level=3] [ref=f52e382]
+            - img "card-link-icon" [ref=f52e384]
+          - paragraph [ref=f52e385]: Access your favorite Creative Cloud apps, services, file management, and more.
+  - generic: / / / / / /

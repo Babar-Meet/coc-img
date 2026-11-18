@@ -1,0 +1,370 @@
+- generic [active] [ref=f138e1]:
+  - list:
+    - listitem:
+      - link "Skip to main content" [ref=f138e2] [cursor=pointer]:
+        - /url: "#content"
+    - listitem:
+      - link "Skip to search" [ref=f138e3] [cursor=pointer]:
+        - /url: "#mdn-search"
+  - banner [ref=f138e7]:
+    - navigation [ref=f138e8]:
+      - link "MDN" [ref=f138e10] [cursor=pointer]:
+        - /url: /en-US/
+        - img "MDN" [ref=f138e11]
+      - button "Search the site" [ref=f138e17] [cursor=pointer]
+      - button "Toggle navigation" [ref=f138e21] [cursor=pointer]
+      - text: (external) (external)
+    - generic [ref=f138e22]:
+      - button "Toggle sidebar" [ref=f138e25] [cursor=pointer]
+      - list [ref=f138e29]:
+        - listitem [ref=f138e30]:
+          - link "Web" [ref=f138e31] [cursor=pointer]:
+            - /url: /en-US/docs/Web
+        - listitem [ref=f138e32]:
+          - link "Web APIs" [ref=f138e33] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API
+        - listitem [ref=f138e34]:
+          - link "HTMLCanvasElement" [ref=f138e35] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/HTMLCanvasElement
+        - listitem [ref=f138e36]:
+          - link "toBlob()" [ref=f138e37] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/HTMLCanvasElement/toBlob
+      - button "Switch color theme" [ref=f138e41] [cursor=pointer]:
+        - generic [ref=f138e42]: Theme
+      - generic [ref=f138e45]:
+        - button "English (US)" [ref=f138e46] [cursor=pointer]
+        - generic: Remember language
+  - main [ref=f138e50]:
+    - generic [ref=f138e51]:
+      - 'heading "HTMLCanvasElement: toBlob() method" [level=1] [ref=f138e52]'
+      - group [ref=f138e53]:
+        - generic "Baseline Check Baseline Widely available Chrome check Edge check Firefox check Safari check" [ref=f138e54] [cursor=pointer]:
+          - img "Baseline Check" [ref=f138e55]
+          - generic [ref=f138e56]: Baseline
+          - generic [ref=f138e57]: Widely available
+          - generic [ref=f138e58]:
+            - generic "Supported in Chrome and Edge" [ref=f138e59]:
+              - img "Chrome check" [ref=f138e60]
+              - img "Edge check" [ref=f138e61]
+            - generic "Supported in Firefox" [ref=f138e62]:
+              - img "Firefox check" [ref=f138e63]
+            - generic "Supported in Safari" [ref=f138e64]:
+              - img "Safari check" [ref=f138e65]
+      - generic [ref=f138e67]:
+        - paragraph [ref=f138e68]:
+          - text: The
+          - strong [ref=f138e69]:
+            - code [ref=f138e70]: HTMLCanvasElement.toBlob()
+          - text: method creates a
+          - link [ref=f138e71] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/Blob
+            - code [ref=f138e72]: Blob
+          - text: object representing the image contained in the canvas. This file may be cached on the disk or stored in memory at the discretion of the user agent.
+        - paragraph [ref=f138e73]:
+          - text: The desired file format and image quality may be specified. If the file format is not specified, or if the given format is not supported, then the data will be exported as
+          - code [ref=f138e74]: image/png
+          - text: . Browsers are required to support
+          - code [ref=f138e75]: image/png
+          - text: ; many will support additional formats including
+          - code [ref=f138e76]: image/jpeg
+          - text: and
+          - code [ref=f138e77]: image/webp
+          - text: .
+        - paragraph [ref=f138e78]: The created image will have a resolution of 96dpi for file formats that support encoding resolution metadata.
+    - complementary [ref=f138e79]:
+      - navigation [ref=f138e80]:
+        - heading "In this article" [level=2] [ref=f138e81]
+        - list [ref=f138e82]:
+          - listitem [ref=f138e83]:
+            - link "Syntax" [ref=f138e84] [cursor=pointer]:
+              - /url: "#syntax"
+          - listitem [ref=f138e85]:
+            - link "Examples" [ref=f138e86] [cursor=pointer]:
+              - /url: "#examples"
+          - listitem [ref=f138e87]:
+            - link "Specifications" [ref=f138e88] [cursor=pointer]:
+              - /url: "#specifications"
+          - listitem [ref=f138e89]:
+            - link "Browser compatibility" [ref=f138e90] [cursor=pointer]:
+              - /url: "#browser_compatibility"
+          - listitem [ref=f138e91]:
+            - link "See also" [ref=f138e92] [cursor=pointer]:
+              - /url: "#see_also"
+    - generic [ref=f138e93]:
+      - region "Syntax" [ref=f138e94]:
+        - heading [level=2] [ref=f138e95]:
+          - link "Syntax" [ref=f138e96] [cursor=pointer]:
+            - /url: "#syntax"
+        - generic [ref=f138e98]:
+          - generic [ref=f138e99]:
+            - generic [ref=f138e100]: js
+            - button "Copy" [ref=f138e103] [cursor=pointer]
+          - code [ref=f138e106]: toBlob(callback) toBlob(callback, type) toBlob(callback, type, quality)
+      - region "Parameters" [ref=f138e107]:
+        - heading [level=3] [ref=f138e108]:
+          - link "Parameters" [ref=f138e109] [cursor=pointer]:
+            - /url: "#parameters"
+        - generic [ref=f138e110]:
+          - term [ref=f138e111]:
+            - link [ref=f138e112] [cursor=pointer]:
+              - /url: "#callback"
+              - code [ref=f138e113]: callback
+          - definition [ref=f138e114]:
+            - paragraph [ref=f138e115]:
+              - text: A callback function with the resulting
+              - link [ref=f138e116] [cursor=pointer]:
+                - /url: /en-US/docs/Web/API/Blob
+                - code [ref=f138e117]: Blob
+              - text: object as a single argument.
+              - code [ref=f138e118]: "null"
+              - text: may be passed if the image cannot be created for any reason.
+          - term [ref=f138e119]:
+            - link [ref=f138e120] [cursor=pointer]:
+              - /url: "#type"
+              - code [ref=f138e121]: type
+              - text: Optional
+          - definition [ref=f138e122]:
+            - paragraph [ref=f138e123]:
+              - text: A string indicating the image format. The default type is
+              - code [ref=f138e124]: image/png
+              - text: ; that type is also used if the given type isn't supported.
+          - term [ref=f138e125]:
+            - link [ref=f138e126] [cursor=pointer]:
+              - /url: "#quality"
+              - code [ref=f138e127]: quality
+              - text: Optional
+          - definition [ref=f138e128]:
+            - paragraph [ref=f138e129]:
+              - text: A
+              - link [ref=f138e130] [cursor=pointer]:
+                - /url: /en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+                - code [ref=f138e131]: Number
+              - text: between
+              - code [ref=f138e132]: "0"
+              - text: and
+              - code [ref=f138e133]: "1"
+              - text: indicating the image quality to be used when creating images using file formats that support lossy compression (such as
+              - code [ref=f138e134]: image/jpeg
+              - text: or
+              - code [ref=f138e135]: image/webp
+              - text: ). A user agent will use its default quality value if this option is not specified, or if the number is outside the allowed range.
+      - region "Return value" [ref=f138e136]:
+        - heading [level=3] [ref=f138e137]:
+          - link "Return value" [ref=f138e138] [cursor=pointer]:
+            - /url: "#return_value"
+        - paragraph [ref=f138e139]:
+          - text: None (
+          - link [ref=f138e140] [cursor=pointer]:
+            - /url: /en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined
+            - code [ref=f138e141]: undefined
+          - text: ).
+      - region "Exceptions" [ref=f138e142]:
+        - heading [level=3] [ref=f138e143]:
+          - link "Exceptions" [ref=f138e144] [cursor=pointer]:
+            - /url: "#exceptions"
+        - generic [ref=f138e145]:
+          - term [ref=f138e146]:
+            - code [ref=f138e147]: SecurityError
+            - link [ref=f138e148] [cursor=pointer]:
+              - /url: /en-US/docs/Web/API/DOMException
+              - code [ref=f138e149]: DOMException
+          - definition [ref=f138e150]:
+            - paragraph [ref=f138e151]: The canvas's bitmap is not origin-clean; at least some of its contents have or may have been loaded from a site other than the one from which the document itself was loaded.
+      - region "Examples" [ref=f138e152]:
+        - heading [level=2] [ref=f138e153]:
+          - link "Examples" [ref=f138e154] [cursor=pointer]:
+            - /url: "#examples"
+      - region "Getting a file representing the canvas" [ref=f138e155]:
+        - heading [level=3] [ref=f138e156]:
+          - link "Getting a file representing the canvas" [ref=f138e157] [cursor=pointer]:
+            - /url: "#getting_a_file_representing_the_canvas"
+        - paragraph [ref=f138e158]:
+          - text: Once you have drawn content into a canvas, you can convert it into a file of any supported image format. The code snippet below, for example, takes the image in the
+          - link [ref=f138e159] [cursor=pointer]:
+            - /url: /en-US/docs/Web/HTML/Reference/Elements/canvas
+            - code [ref=f138e160]: <canvas>
+          - text: element whose ID is "canvas", obtains a copy of it as a PNG image, then appends a new
+          - link [ref=f138e161] [cursor=pointer]:
+            - /url: /en-US/docs/Web/HTML/Reference/Elements/img
+            - code [ref=f138e162]: <img>
+          - text: element to the document, whose source image is the one created using the canvas.
+        - generic [ref=f138e164]:
+          - generic [ref=f138e165]:
+            - generic [ref=f138e166]: js
+            - button "Copy" [ref=f138e169] [cursor=pointer]
+          - code [ref=f138e172]: "const canvas = document.getElementById(\"canvas\"); canvas.toBlob((blob) => { const newImg = document.createElement(\"img\"); const url = URL.createObjectURL(blob); newImg.src = url; document.body.appendChild(newImg); });"
+        - paragraph [ref=f138e173]:
+          - text: Note that here we're creating a PNG image; if you add a second parameter to the
+          - code [ref=f138e174]: toBlob()
+          - text: "call, you can specify another image type supported by the user agent. For example, to get the image in JPEG format:"
+        - generic [ref=f138e176]:
+          - generic [ref=f138e177]:
+            - generic [ref=f138e178]: js
+            - button "Copy" [ref=f138e181] [cursor=pointer]
+          - code [ref=f138e184]: "canvas.toBlob( (blob) => { /* … */ }, \"image/jpeg\", 0.95, ); // JPEG at 95% quality"
+        - paragraph [ref=f138e185]:
+          - text: Note that we don't immediately revoke the object URL after the image has loaded, because doing so would make the image unusable for user interactions (such as right-clicking to save the image or opening it in a new tab). For long-lived applications, you should revoke object URLs when they're no longer needed (such as when the image is removed from the DOM) to free up memory by calling the
+          - link [ref=f138e186] [cursor=pointer]:
+            - /url: /en-US/docs/Web/API/URL/revokeObjectURL_static
+            - code [ref=f138e187]: URL.revokeObjectURL()
+          - text: method and passing in the object URL string.
+      - region "Specifications" [ref=f138e188]:
+        - heading [level=2] [ref=f138e189]:
+          - link "Specifications" [ref=f138e190] [cursor=pointer]:
+            - /url: "#specifications"
+        - table [ref=f138e191]:
+          - rowgroup [ref=f138e192]:
+            - row [ref=f138e193]:
+              - columnheader "Specification" [ref=f138e194]
+          - rowgroup [ref=f138e195]:
+            - row [ref=f138e196]:
+              - cell [ref=f138e197]:
+                - 'link "HTML # dom-canvas-toblob-dev (external)" [ref=f138e198] [cursor=pointer]':
+                  - /url: https://html.spec.whatwg.org/multipage/canvas.html#dom-canvas-toblob-dev
+                  - text: HTML# dom-canvas-toblob-dev (external)
+      - region "Browser compatibility" [ref=f138e199]:
+        - heading [level=2] [ref=f138e200]:
+          - link "Browser compatibility" [ref=f138e201] [cursor=pointer]:
+            - /url: "#browser_compatibility"
+        - generic:
+          - paragraph
+      - region "See also" [ref=f138e202]:
+        - heading [level=2] [ref=f138e203]:
+          - link "See also" [ref=f138e204] [cursor=pointer]:
+            - /url: "#see_also"
+        - list [ref=f138e205]:
+          - listitem [ref=f138e206]:
+            - link [ref=f138e207] [cursor=pointer]:
+              - /url: /en-US/docs/Web/API/Blob
+              - code [ref=f138e208]: Blob
+      - region "Help improve MDN" [ref=f138e209]:
+        - generic [ref=f138e210]:
+          - heading "Help improve MDN" [level=2] [ref=f138e218]
+          - group [ref=f138e220]:
+            - generic [ref=f138e221]: Was this page helpful to you?
+            - generic [ref=f138e222]:
+              - button "Yes" [ref=f138e224] [cursor=pointer]
+              - button "No" [ref=f138e230] [cursor=pointer]
+          - link "Learn how to contribute" [ref=f138e235] [cursor=pointer]:
+            - /url: /en-US/docs/MDN/Community/Getting_started
+          - paragraph [ref=f138e236]:
+            - text: This page was last modified on
+            - time [ref=f138e237]: Oct 12, 2026
+            - text: by
+            - link "MDN contributors" [ref=f138e238] [cursor=pointer]:
+              - /url: /en-US/docs/Web/API/HTMLCanvasElement/toBlob/contributors.txt
+            - text: .
+          - generic [ref=f138e239]:
+            - link "View this page on GitHub (external)" [ref=f138e240] [cursor=pointer]:
+              - /url: https://github.com/mdn/content/blob/main/files/en-us/web/api/htmlcanvaselement/toblob/index.md?plain=1
+            - text: •
+            - link "Report a problem with this content (external)" [ref=f138e241] [cursor=pointer]:
+              - /url: https://github.com/mdn/content/issues/new?template=page-report.yml&mdn-url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAPI%2FHTMLCanvasElement%2FtoBlob&metadata=%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EPage+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Fapi%2Fhtmlcanvaselement%2Ftoblob%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAPI%2FHTMLCanvasElement%2FtoBlob%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Fapi%2Fhtmlcanvaselement%2Ftoblob%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F5b85e27155260155bd829fc6d4b98ca2c476b2d1%0A*+Document+last+modified%3A+2026-10-12T16%3A45%3A26.000Z%0A%0A%3C%2Fdetails%3E
+  - contentinfo [ref=f138e243]:
+    - generic [ref=f138e244]:
+      - generic [ref=f138e245]:
+        - link "MDN logo" [ref=f138e246] [cursor=pointer]:
+          - /url: /
+          - img "MDN" [ref=f138e247]
+        - paragraph [ref=f138e249]: Your blueprint for a better internet.
+      - list [ref=f138e250]:
+        - listitem [ref=f138e251]:
+          - link "MDN on GitHub" [ref=f138e252] [cursor=pointer]:
+            - /url: https://github.com/mdn/
+        - listitem [ref=f138e253]:
+          - link "MDN on Bluesky" [ref=f138e254] [cursor=pointer]:
+            - /url: https://bsky.app/profile/developer.mozilla.org
+        - listitem [ref=f138e255]:
+          - link "MDN on X" [ref=f138e256] [cursor=pointer]:
+            - /url: https://x.com/mozdevnet
+        - listitem [ref=f138e257]:
+          - link "MDN on Mastodon" [ref=f138e258] [cursor=pointer]:
+            - /url: https://mastodon.social/@mdn
+        - listitem [ref=f138e259]:
+          - link "MDN blog RSS feed" [ref=f138e260] [cursor=pointer]:
+            - /url: /en-US/blog/rss.xml
+      - generic [ref=f138e261]:
+        - term [ref=f138e262]: MDN
+        - definition [ref=f138e263]:
+          - list [ref=f138e264]:
+            - listitem [ref=f138e265]:
+              - link "About" [ref=f138e266] [cursor=pointer]:
+                - /url: /en-US/about
+            - listitem [ref=f138e267]:
+              - link "Blog" [ref=f138e268] [cursor=pointer]:
+                - /url: /en-US/blog/
+            - listitem [ref=f138e269]:
+              - link "Mozilla careers (external)" [ref=f138e270] [cursor=pointer]:
+                - /url: https://www.mozilla.org/en-US/careers/listings/
+            - listitem [ref=f138e271]:
+              - link "Advertise with us" [ref=f138e272] [cursor=pointer]:
+                - /url: /en-US/advertising
+            - listitem [ref=f138e273]:
+              - link "MDN Plus" [ref=f138e274] [cursor=pointer]:
+                - /url: /en-US/plus
+            - listitem [ref=f138e275]:
+              - link "Product help (external)" [ref=f138e276] [cursor=pointer]:
+                - /url: https://support.mozilla.org/products/mdn-plus
+      - generic [ref=f138e277]:
+        - term [ref=f138e278]: Contribute
+        - definition [ref=f138e279]:
+          - list [ref=f138e280]:
+            - listitem [ref=f138e281]:
+              - link "MDN Community" [ref=f138e282] [cursor=pointer]:
+                - /url: /en-US/community
+            - listitem [ref=f138e283]:
+              - link "Community resources" [ref=f138e284] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Community
+            - listitem [ref=f138e285]:
+              - link "Writing guidelines" [ref=f138e286] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Writing_guidelines
+            - listitem [ref=f138e287]:
+              - link "MDN Discord (external)" [ref=f138e288] [cursor=pointer]:
+                - /url: /discord
+            - listitem [ref=f138e289]:
+              - link "MDN on GitHub (external)" [ref=f138e290] [cursor=pointer]:
+                - /url: https://github.com/mdn
+      - generic [ref=f138e291]:
+        - term [ref=f138e292]: Developers
+        - definition [ref=f138e293]:
+          - list [ref=f138e294]:
+            - listitem [ref=f138e295]:
+              - link "Web technologies" [ref=f138e296] [cursor=pointer]:
+                - /url: /en-US/docs/Web
+            - listitem [ref=f138e297]:
+              - link "Learn web development" [ref=f138e298] [cursor=pointer]:
+                - /url: /en-US/docs/Learn_web_development
+            - listitem [ref=f138e299]:
+              - link "Guides" [ref=f138e300] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Guides
+            - listitem [ref=f138e301]:
+              - link "Tutorials" [ref=f138e302] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Tutorials
+            - listitem [ref=f138e303]:
+              - link "Glossary" [ref=f138e304] [cursor=pointer]:
+                - /url: /en-US/docs/Glossary
+            - listitem [ref=f138e305]:
+              - link "Hacks blog (external)" [ref=f138e306] [cursor=pointer]:
+                - /url: https://hacks.mozilla.org/
+    - generic [ref=f138e307]:
+      - link "Mozilla logo" [ref=f138e308] [cursor=pointer]:
+        - /url: https://www.mozilla.org/
+        - img "Mozilla" [ref=f138e309]
+      - list [ref=f138e311]:
+        - listitem [ref=f138e312]:
+          - link "Website Privacy Notice (external)" [ref=f138e313] [cursor=pointer]:
+            - /url: https://www.mozilla.org/privacy/websites/
+        - listitem [ref=f138e314]:
+          - link "Telemetry Settings (external)" [ref=f138e315] [cursor=pointer]:
+            - /url: https://www.mozilla.org/en-US/privacy/websites/data-preferences/
+        - listitem [ref=f138e316]:
+          - link "Legal (external)" [ref=f138e317] [cursor=pointer]:
+            - /url: https://www.mozilla.org/about/legal/terms/mozilla
+        - listitem [ref=f138e318]:
+          - link "Community Participation Guidelines (external)" [ref=f138e319] [cursor=pointer]:
+            - /url: https://www.mozilla.org/about/governance/policies/participation/
+      - paragraph [ref=f138e320]:
+        - text: Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under
+        - link "a Creative Commons license" [ref=f138e321] [cursor=pointer]:
+          - /url: /docs/MDN/Writing_guidelines/Attrib_copyright_license
+        - text: .

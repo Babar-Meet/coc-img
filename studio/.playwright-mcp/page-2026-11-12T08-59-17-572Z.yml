@@ -1,0 +1,445 @@
+- generic [active] [ref=f111e1]:
+  - link "Skip to content" [ref=f111e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f111e4]:
+    - generic [ref=f111e5]:
+      - link "WCAG 2.2 Understanding Docs" [ref=f111e7] [cursor=pointer]:
+        - /url: https://www.w3.org/WAI/WCAG22/Understanding/
+      - paragraph [ref=f111e8]: Informative explanations, not required to meet WCAG
+      - link "About WCAG Understanding Docs" [ref=f111e10] [cursor=pointer]:
+        - /url: https://www.w3.org/WAI/WCAG22/Understanding/about
+    - generic [ref=f111e12]:
+      - link "W3C homepage" [ref=f111e13] [cursor=pointer]:
+        - /url: https://www.w3.org/
+        - img "W3C homepage" [ref=f111e14]
+      - link "Web Accessibility Initiative (WAI) homepage" [ref=f111e22] [cursor=pointer]:
+        - /url: https://www.w3.org/WAI/
+        - img "Web Accessibility Initiative (WAI) homepage" [ref=f111e23]
+  - navigation "Understanding Docs" [ref=f111e29]:
+    - list [ref=f111e30]:
+      - listitem [ref=f111e31]:
+        - link "All Understanding Docs" [ref=f111e32] [cursor=pointer]:
+          - /url: .
+      - listitem [ref=f111e33]:
+        - 'link "Guideline: Input Modalities" [ref=f111e34] [cursor=pointer]':
+          - /url: input-modalities
+      - listitem [ref=f111e37]:
+        - 'link "Previous SC: Dragging Movements" [ref=f111e38] [cursor=pointer]':
+          - /url: dragging-movements
+  - generic [ref=f111e41]:
+    - complementary [ref=f111e42]:
+      - generic [ref=f111e43]: Page Contents
+      - navigation "page contents" [ref=f111e45]:
+        - list [ref=f111e46]:
+          - listitem [ref=f111e47]:
+            - link "In Brief" [ref=f111e48] [cursor=pointer]:
+              - /url: "#brief"
+          - listitem [ref=f111e49]:
+            - link "Success Criterion" [ref=f111e50] [cursor=pointer]:
+              - /url: "#success-criterion"
+          - listitem [ref=f111e51]:
+            - link "Intent" [ref=f111e52] [cursor=pointer]:
+              - /url: "#intent"
+          - listitem [ref=f111e53]:
+            - link "Benefits" [ref=f111e54] [cursor=pointer]:
+              - /url: "#benefits"
+          - listitem [ref=f111e55]:
+            - link "Examples" [ref=f111e56] [cursor=pointer]:
+              - /url: "#examples"
+          - listitem [ref=f111e57]:
+            - link "Related Resources" [ref=f111e58] [cursor=pointer]:
+              - /url: "#resources"
+          - listitem [ref=f111e59]:
+            - link "Techniques" [ref=f111e60] [cursor=pointer]:
+              - /url: "#techniques"
+          - listitem [ref=f111e61]:
+            - link "Key Terms" [ref=f111e62] [cursor=pointer]:
+              - /url: "#key-terms"
+    - main [ref=f111e63]:
+      - heading [level=1] [ref=f111e64]:
+        - generic [ref=f111e65]:
+          - text: Understanding
+          - link "SC 2.5.8" [ref=f111e66] [cursor=pointer]:
+            - /url: https://w3.org/TR/WCAG22#target-size-minimum
+        - text: Target Size (Minimum) (Level AA)
+      - generic [ref=f111e67]:
+        - heading "In Brief" [level=2] [ref=f111e68]
+        - generic [ref=f111e69]:
+          - term [ref=f111e70]: Goal
+          - definition [ref=f111e71]: Make controls easier to activate.
+          - term [ref=f111e72]: What to do
+          - definition [ref=f111e73]: Ensure targets meet a minimum size or have sufficient spacing around them.
+          - term [ref=f111e74]: Why it's important
+          - definition [ref=f111e75]: Some people with physical impairments cannot click small buttons that are close together.
+      - generic [ref=f111e76]:
+        - heading "Success Criterion (SC)" [level=2] [ref=f111e77]
+        - generic [ref=f111e78]:
+          - paragraph [ref=f111e79]:
+            - text: The size of the
+            - link "target" [ref=f111e80] [cursor=pointer]:
+              - /url: "#dfn-target"
+            - text: for
+            - link "pointer inputs" [ref=f111e81] [cursor=pointer]:
+              - /url: "#dfn-pointer-input"
+            - text: is at least 24 by 24
+            - link "CSS pixels" [ref=f111e82] [cursor=pointer]:
+              - /url: "#dfn-css-pixel"
+            - text: ", except when:"
+          - generic [ref=f111e83]:
+            - term [ref=f111e84]: Spacing
+            - definition [ref=f111e85]:
+              - text: Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the
+              - link "bounding box" [ref=f111e86] [cursor=pointer]:
+                - /url: "#dfn-minimum-bounding-box"
+              - text: of each, the circles do not intersect another target or the circle for another undersized target;
+            - term [ref=f111e87]: Equivalent
+            - definition [ref=f111e88]: The function can be achieved through a different control on the same page that meets this criterion;
+            - term [ref=f111e89]: Inline
+            - definition [ref=f111e90]: The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;
+            - term [ref=f111e91]: User Agent Control
+            - definition [ref=f111e92]:
+              - text: The size of the target is determined by the
+              - link "user agent" [ref=f111e93] [cursor=pointer]:
+                - /url: "#dfn-user-agent"
+              - text: and is not modified by the author;
+            - term [ref=f111e94]: Essential
+            - definition [ref=f111e95]:
+              - text: A particular
+              - link "presentation" [ref=f111e96] [cursor=pointer]:
+                - /url: "#dfn-presentation"
+              - text: of the target is
+              - link "essential" [ref=f111e97] [cursor=pointer]:
+                - /url: "#dfn-essential"
+              - text: or is legally required for the information being conveyed.
+          - generic [ref=f111e98]:
+            - paragraph [ref=f111e99]: Note 1
+            - paragraph [ref=f111e100]: Targets that allow for values to be selected spatially based on position within the target are considered one target for the purpose of the success criterion. Examples include sliders, color pickers displaying a gradient of colors, or editable areas where you position the cursor.
+          - generic [ref=f111e101]:
+            - paragraph [ref=f111e102]: Note 2
+            - paragraph [ref=f111e103]: For inline targets the line-height should be interpreted as perpendicular to the flow of text. For example, in a language displayed vertically, the line-height would be horizontal.
+      - generic [ref=f111e104]:
+        - heading "Intent" [level=2] [ref=f111e105]
+        - paragraph [ref=f111e106]: The intent of this success criterion is to help ensure targets can be easily activated without accidentally activating an adjacent target. Users with dexterity limitations and those who have difficulty with fine motor movement find it difficult to accurately activate small targets when there are other targets that are too close. Providing sufficient size, or sufficient spacing between targets, will reduce the likelihood of accidentally activating the wrong control.
+        - paragraph [ref=f111e107]: Disabilities addressed by this requirement include hand tremors, spasticity, and quadriplegia. Some people with disabilities use specialized input devices instead of a computer mouse or trackpad. Typically these types of input device do not provide as much accuracy as mainstream pointing devices. Meeting this requirement also ensures that touchscreen interfaces are easier to use.
+        - generic [ref=f111e108]:
+          - paragraph [ref=f111e109]: Note
+          - paragraph [ref=f111e110]:
+            - text: This success criterion defines a
+            - emphasis [ref=f111e111]: minimum size
+            - text: and, if this can't be met, a
+            - emphasis [ref=f111e112]: minimum spacing
+            - text: . It is still possible to have very small, and difficult to activate, targets and meet the requirements of this success criterion, provided that the targets don't have any adjacent targets that are too close. However, using larger target sizes will help many people use targets more easily.
+            - emphasis [ref=f111e113]: While not normatively required
+            - text: ", authors are encouraged to at least meet the"
+            - emphasis [ref=f111e114]: minimum size
+            - text: requirement of the success criterion, regardless of spacing. For important links/controls, consider aiming for the stricter
+            - link "2.5.5 Target Size (Enhanced)" [ref=f111e115] [cursor=pointer]:
+              - /url: target-size-enhanced
+            - text: .
+        - generic [ref=f111e116]:
+          - paragraph [ref=f111e117]: Note
+          - paragraph [ref=f111e119]:
+            - text: When creating this success criterion, the Working Group reviewed existing research and guidelines. The majority of this material centers around
+            - emphasis [ref=f111e120]: touchscreen
+            - text: interactions, and suggests relatively large minimum sizes. In contrast, this criterion is scoped to all pointer input modalities – not just touch, but also mouse, trackpad, stylus and others. Requiring large, touch-optimized minimum sizes would not have been appropriate as a threshold for all pointer inputs. For this reason – after reviewing the average target size of various high-traffic sites – the Working Group settled on the smaller measure of 24 by 24 CSS pixels for the "(Minimum)" version of this criterion, while
+            - link "2.5.5 Target Size (Enhanced)" [ref=f111e121] [cursor=pointer]:
+              - /url: target-size-enhanced
+            - text: uses the larger 44 by 44 CSS pixel measure as its threshold size.
+        - generic [ref=f111e122]:
+          - heading "Exceptions" [level=3] [ref=f111e123]
+          - paragraph [ref=f111e124]: "The requirement is for targets to be at least 24 by 24 CSS pixels in size. There are five exceptions:"
+          - list [ref=f111e125]:
+            - listitem [ref=f111e126]:
+              - strong [ref=f111e127]: "Spacing:"
+              - text: Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the
+              - link "bounding box" [ref=f111e128] [cursor=pointer]:
+                - /url: "#dfn-minimum-bounding-box"
+              - text: of each, the circles do not intersect another target or the circle for another undersized target.
+            - listitem [ref=f111e129]:
+              - strong [ref=f111e130]: "Equivalent:"
+              - text: In cases where a target does not have a size equivalent to 24 by 24 CSS pixels, but there is another control that can achieve the underlying function that
+              - emphasis [ref=f111e131]: does
+              - text: meet the requirements of this success criterion, the target can be excepted based on the "Equivalent" exception.
+            - listitem [ref=f111e132]:
+              - strong [ref=f111e133]: "Inline:"
+              - text: The success criterion does not apply to inline targets in sentences, or where the size of the target is constrained by the line-height of non-target text. This exception is allowed because text reflow based on viewport size makes it impossible for authors to anticipate where links may be positioned relative to one another. Applying this success criterion when multiple links are embedded in blocks of smaller text often results in an undesirable design. It is more important to set the line height to a value that improves readability.
+            - listitem [ref=f111e134]:
+              - strong [ref=f111e135]: "User agent control:"
+              - text: Browsers have default renderings of some controls, such as the days of the month calendar in an
+              - code [ref=f111e136]: <input type="date">
+              - text: . As long as the author has not modified the user agent default size, the target size for a User agent control is excepted.
+            - listitem [ref=f111e137]:
+              - strong [ref=f111e138]: "Essential:"
+              - text: If the size and spacing of the targets is fundamental to the information being conveyed, the Essential exception applies. For example, in digital maps, the position of pins is analogous to the position of places shown on the map. If there are many pins close together, the spacing between pins and neighboring pins will often be below 24 CSS pixels. It is essential to show the pins at the correct map location, therefore the Essential exception applies. A similar example is an interactive data visualization where targets are necessarily dense. Another example is where jurisdictions legally require online forms to replicate paper forms, which can impose constraints on the size of targets. In such jurisdictions, any legal requirement to replicate small targets can be considered essential. When the "Essential" exception is applicable, authors are strongly encouraged to provide equivalent functionality through alternative means to the extent practical.
+        - generic [ref=f111e139]:
+          - heading "Size requirement" [level=3] [ref=f111e140]
+          - paragraph [ref=f111e141]: For a target to be "at least 24 by 24 CSS pixels", it must be conceptually possible to draw a solid 24 by 24 CSS pixel square, aligned to the horizontal and vertical axis such that the square is completely within the target (does not extend outside the target's area).
+          - figure "Figure 1. Where targets are at least a 24 by 24 CSS pixel square, they meet the size requirement of the criterion and pass (image shown to scale - see the scalable original version)" [ref=f111e142]:
+            - img "Three square boxes next to each other, each with a height and width of 24px" [ref=f111e143]
+            - paragraph [ref=f111e145]:
+              - text: Figure 1. Where targets are at least a 24 by 24 CSS pixel square, they meet the size requirement of the criterion and pass (image shown to scale -
+              - link "see the scalable original version" [ref=f111e146] [cursor=pointer]:
+                - /url: img/target-size-basic.svg
+              - text: )
+          - paragraph [ref=f111e147]: The 24 by 24px square has to be aligned with the page, although the target itself could be skewed.
+          - figure "Figure 2. So long as there is a solid 24 by 24px square within the target, it meets the size requirement of the criterion and passes (image shown to scale - see the scalable original version)" [ref=f111e148]:
+            - img "A skewed rectangle that includes a 24 by 24px square within it." [ref=f111e149]
+            - paragraph [ref=f111e151]:
+              - text: Figure 2. So long as there is a solid 24 by 24px square within the target, it meets the size requirement of the criterion and passes (image shown to scale -
+              - link "see the scalable original version" [ref=f111e152] [cursor=pointer]:
+                - /url: img/target-size-skewed.svg
+              - text: )
+          - paragraph [ref=f111e153]:
+            - text: If a target is not large enough to allow for a 24 by 24px square to be drawn inside it, it is considered
+            - emphasis [ref=f111e154]: undersized
+            - text: ", and does not pass the size requirement of the success criterion. However, if it has sufficient space around it without adjacent targets, it may still pass the criterion thanks to the spacing exception (below)."
+          - figure "Figure 3. The rounded corners do not leave sufficient space to draw a 24 by 24px square inside the target, making the target undersized. Depending on the spacing to other targets, it may still pass if it has sufficient clearance (image shown at 1:1 and 2:1 scale - see the scalable original version)" [ref=f111e155]:
+            - img "A circle with a diameter of 24px, but not filling up a 24px square." [ref=f111e156]
+            - paragraph [ref=f111e158]:
+              - text: Figure 3. The rounded corners do not leave sufficient space to draw a 24 by 24px square inside the target, making the target
+              - emphasis [ref=f111e159]: undersized
+              - text: . Depending on the spacing to other targets, it may still pass if it has sufficient clearance (image shown at 1:1 and 2:1 scale -
+              - link "see the scalable original version" [ref=f111e160] [cursor=pointer]:
+                - /url: img/target-size-undersized-rounded.svg
+              - text: )
+          - paragraph [ref=f111e161]: The requirement is independent of the zoom factor of the page; when users zoom in, the CSS pixel size of elements does not change. This means that authors cannot meet it by claiming that the target will have enough spacing or sufficient size if the user zooms into the page.
+          - paragraph [ref=f111e162]: "The requirement does not apply to targets while they are obscured by content displayed as a result of a user interaction or scripted behavior of content, for example:"
+          - list [ref=f111e163]:
+            - listitem [ref=f111e164]: interacting with a combobox shows a dropdown list of suggestions
+            - listitem [ref=f111e165]: activating a button displays a modal dialog
+            - listitem [ref=f111e166]: content displays a cookie banner after page load
+            - listitem [ref=f111e167]: content displays a "Take a survey" dialog after some period of user inactivity
+          - paragraph [ref=f111e168]: The requirement does however apply to targets in any new content that appears on top of other content.
+          - paragraph [ref=f111e169]: While the success criterion primarily helps touch users by providing target sizing to prevent accidental triggering of adjacent targets, it is also useful for mouse or pen users. It reduces the chances of erroneous activation due to either a tremor or reduced precision, whether because of reduced fine motor control or input imprecision.
+        - generic [ref=f111e170]:
+          - heading "Spacing" [level=3] [ref=f111e171]
+          - paragraph [ref=f111e172]: When the minimum size for a target is not met, spacing can at least improve the user experience. There is less chance of accidentally activating a neighboring target if a target is not immediately adjacent to another. Touchscreen devices and user agents generally have internal heuristics to identify which link or control is closest to a user's touch interaction - this means that sufficient spacing between targets can work as effectively as a larger target size itself.
+          - paragraph [ref=f111e173]:
+            - text: When a target is smaller than 24 by 24 CSS pixels, it is
+            - emphasis [ref=f111e174]: undersized
+            - text: . In this case, we check if it at least has sufficient
+            - emphasis [ref=f111e175]: spacing
+            - text: by drawing an imaginary 24 CSS pixel diameter circle over the undersized target, centered on the target's
+            - link "bounding box" [ref=f111e176] [cursor=pointer]:
+              - /url: "#dfn-minimum-bounding-box"
+            - text: . For rectangular targets, the bounding box coincides with the target itself – thus, the circle is placed on the center of the target. If the target is
+            - emphasis [ref=f111e177]: not
+            - text: rectangular – for instance, if the target is clipped, has rounded corners, or if it's a more complex clickable SVG shape – we need to first determine the bounding box, and then find the box's center. Note that for concave shapes, the center of the bounding box may be outside of the target itself. Now, we center the circle on the center of the bounding box.
+          - figure "Figure 4. For a square/rectangular target, the 24 CSS pixel diameter circle is centered on the target itself. For convex and concave targets, it is centered on the bounding box of the shape. Note the concave target, where in this case the center of the bounding box is outside of the actual target (image shown to scale - see the scalable original version)" [ref=f111e178]:
+            - img "Three undersized targets - a square target, a convex target, and a concave target; the concave and convex targets have a bounding box around them; all three targets have a 24 CSS pixel circle centered on the center of their bounding box" [ref=f111e179]
+            - paragraph [ref=f111e181]:
+              - text: Figure 4. For a square/rectangular target, the 24 CSS pixel diameter circle is centered on the target itself. For convex and concave targets, it is centered on the bounding box of the shape. Note the concave target, where in this case the center of the bounding box is outside of the actual target (image shown to scale -
+              - link "see the scalable original version" [ref=f111e182] [cursor=pointer]:
+                - /url: img/target-size-bounding-boxes.svg
+              - text: )
+          - paragraph [ref=f111e183]: We repeat this process for all adjacent undersized targets. To determine if an undersized target has sufficient spacing (to pass this Success Criterion's spacing exception), we check that the 24 CSS pixel diameter circle of the target does not intersect another target or the circle of any other adjacent undersized targets.
+          - paragraph [ref=f111e184]: "The following example shows three versions of a horizontal row of six icon-based buttons:"
+          - list [ref=f111e185]:
+            - listitem [ref=f111e186]: In the top row, the dimensions of each target are 24 by 24 CSS pixels, passing this success criterion.
+            - listitem [ref=f111e187]: In the second row, the same targets are only 20 by 20 CSS pixels, but have a 4 CSS pixel space between them – as the target size is below 24 by 24 CSS pixels, these need to be evaluated against the Success Criterion's spacing exception, and they pass.
+            - listitem [ref=f111e188]: In the last row, the targets are again 20 by 20 CSS pixels, but have no space between them – these fail the spacing exception. This is because the imaginary 24 CSS pixel diameter circles over the targets would intersect.
+          - figure "Figure 5. Three rows of targets, illustrating two ways of meeting this success criterion and one way of failing it (image shown to scale - see the scalable original version)" [ref=f111e189]:
+            - img "The first toolbar's targets have a dimension of 24 by 24 CSS pixels, so pass. The second toolbar, with smaller targets, shows 24 CSS pixel circles drawn on each target for assessment. The circles do not intersect and so the targets have enough space to pass. The third toolbar shows similar circles on the targets, but the circles intersect due to the lack of spacing between targets, so the toolbar fails." [ref=f111e190]
+            - paragraph [ref=f111e192]:
+              - text: Figure 5. Three rows of targets, illustrating two ways of meeting this success criterion and one way of failing it (image shown to scale -
+              - link "see the scalable original version" [ref=f111e193] [cursor=pointer]:
+                - /url: img/target-spacing-toolbar.svg
+              - text: )
+          - paragraph [ref=f111e194]: The next two illustrations show sets of buttons which are only 16 CSS pixels tall. In the first set, there are no targets immediately above or below the buttons, so they pass. In the second illustration, there are further buttons, and they have been stacked on top of one another, resulting in a fail.
+          - figure "Figure 6. While the height of the targets is only 16 CSS pixels, the lack of adjacent targets above and below means that the targets pass this success criterion (image shown to scale - see the scalable original version)" [ref=f111e195]:
+            - img "A row of buttons which are more than 44px wide and 16 CSS pixels high. There are no close targets above or below. The buttons are overlaid with the 24 CSS pixel diameter circles, and do not intersect each other nor any other targets." [ref=f111e196]
+            - paragraph [ref=f111e198]:
+              - text: Figure 6. While the height of the targets is only 16 CSS pixels, the lack of adjacent targets above and below means that the targets pass this success criterion (image shown to scale -
+              - link "see the scalable original version" [ref=f111e199] [cursor=pointer]:
+                - /url: img/target-text-buttons-single-row.svg
+              - text: )
+          - figure "Figure 7. Two rows of buttons, both with a height of only 16 CSS pixels. The rows are close, with only a 1 CSS pixel gap between them. This means that the 24 CSS pixel spacing circles of the targets in one row will intersect the targets (and their circles, depending on their respective widths) in the other line, thus failing the success criterion. Image shown to scale - see the scalable original version." [ref=f111e200]:
+            - img "Two rows of buttons only 16 CSS pixels high, with no spacing between them. The buttons are overlaid with the 24 CSS pixel diameter circles, and all the circles either overlap another circle, or another target." [ref=f111e201]
+            - paragraph [ref=f111e203]:
+              - text: Figure 7. Two rows of buttons, both with a height of only 16 CSS pixels. The rows are close, with only a 1 CSS pixel gap between them. This means that the 24 CSS pixel spacing circles of the targets in one row will
+              - emphasis [ref=f111e204]: intersect
+              - text: the targets (and their circles, depending on their respective widths) in the other line, thus failing the success criterion. Image shown to scale -
+              - link "see the scalable original version" [ref=f111e205] [cursor=pointer]:
+                - /url: img/target-text-buttons-two-rows.svg
+              - text: .
+          - paragraph [ref=f111e206]: The following two illustrations show how menu items can be adjusted to properly meet this requirement. In the first illustration, the About us menu has been activated, showing that each of the menu item targets has a 24 CSS pixel height (text and padding), and so passes. In the second illustration, the same menu is expanded, but the menu items only achieve 18 CSS pixels in height, and so fail.
+          - figure "Figure 8. The menu items with a height of 24 CSS pixels pass. For the menu items that are only 18 CSS pixels high, the 24 CSS pixel spacing circles of the targets in one row will intersect the adjacent menu item targets and circles, and fail (image shown to scale - see the scalable original version)" [ref=f111e207]:
+            - img "Two examples of a dropdown menu - a pass example with menu items 24 CSS pixels high, and a fail example with menu items only 18 CSS pixels high. One item has a 24 CSS pixel diameter circle which intersects adjacent targets." [ref=f111e208]
+            - paragraph [ref=f111e210]:
+              - text: Figure 8. The menu items with a height of 24 CSS pixels pass. For the menu items that are only 18 CSS pixels high, the 24 CSS pixel spacing circles of the targets in one row will intersect the adjacent menu item targets and circles, and fail (image shown to scale -
+              - link "see the scalable original version" [ref=f111e211] [cursor=pointer]:
+                - /url: img/target-dropdown.svg
+              - text: )
+          - paragraph [ref=f111e212]: The following example has one large target (an image that links to a new page related to that image) and a very small second target (a control with a magnifier icon to open a zoomed-in preview, possibly in a modal, of the image).
+          - paragraph [ref=f111e213]:
+            - text: In the top row, the small target overlaps - or, to be more technically accurate,
+            - emphasis [ref=f111e214]: clips
+            - text: "- the large target. The small target itself has a size of 24 by 24 CSS pixels, so passes. In the second row, we see that if the second target is any smaller – in this case 16 by 16 CSS pixels – it fails the criterion, as the imaginary circle with a 24 CSS pixel diameter we draw over the small target will intersect the large target itself."
+          - figure "Figure 9. The 24 by 24 CSS pixel small target passes, while the 16 by 16 CSS pixel small target fails, since the 24 CSS pixel diameter circle used for undersized targets intersect the large target (image shown to scale - see the scalable original version)" [ref=f111e215]:
+            - img "Two rows showing a small target clipping a large target" [ref=f111e216]
+            - paragraph [ref=f111e218]:
+              - text: Figure 9. The 24 by 24 CSS pixel small target passes, while the 16 by 16 CSS pixel small target fails, since the 24 CSS pixel diameter circle used for undersized targets intersect the large target (image shown to scale -
+              - link "see the scalable original version" [ref=f111e219] [cursor=pointer]:
+                - /url: img/target-large-small-clipping.svg
+              - text: )
+          - paragraph [ref=f111e220]: In the following example, we have the same two targets – a large target and a small target. This time, the small target touches/abuts the large target. If the small target is smaller than 24 by 24 CSS pixels, the imaginary circle with a 24 CSS pixel diameter we draw over the small target will intersect the large target itself, failing the requirement. The undersized target must be spaced further away from the large target until its circle doesn't intersect the large target.
+          - figure "Figure 10. In the first row, the 16 by 16 CSS pixel target touching/abutting the large target fails, as its 24 CSS pixel diameter circle used for undersized targets intersects the large target. In the second row we see that the only way the undersized target can pass is by adding a 4 CSS pixel spacing gap between the targets (image shown to scale - see the scalable original version)" [ref=f111e221]:
+            - img "Two rows showing a small target and a large target touching/abutting" [ref=f111e222]
+            - paragraph [ref=f111e224]:
+              - text: Figure 10. In the first row, the 16 by 16 CSS pixel target touching/abutting the large target fails, as its 24 CSS pixel diameter circle used for undersized targets intersects the large target. In the second row we see that the only way the undersized target can pass is by adding a 4 CSS pixel spacing gap between the targets (image shown to scale -
+              - link "see the scalable original version" [ref=f111e225] [cursor=pointer]:
+                - /url: img/target-large-small-touching.svg
+              - text: )
+          - generic [ref=f111e226]:
+            - paragraph [ref=f111e227]: Note
+            - paragraph [ref=f111e228]: Users with different disabilities have different needs for control sizes. It can be beneficial to provide an option to increase the active target area without increasing the visible target size. Another option is to provide a mechanism to control the density of layout and thereby change target size or spacing, or both. This can be beneficial for a wide range of users. For example, users with visual field loss may prefer a more condensed layout with smaller sized controls while users with other forms of low vision may prefer large controls.
+        - generic [ref=f111e229]:
+          - heading "User agent control" [level=3] [ref=f111e230]
+          - paragraph [ref=f111e231]: This success criterion has an exception for the size of targets determined by a user agent and not modified by the author. An example of this kind of target is a browser's scrollbars. If a scrollbar's dimensions have been modified by the author then there must be a passing amount of spacing between the scrollbar and the content of the page. The following example shows a passing and a failing design.
+          - figure "Figure 11. The passing example has enough space between the link and the scrollbar for a 24 CSS pixel diameter circle, placed over the scrollbar, to not overlap the link. The failing example has no space between the link and the scrollbar, which fails the criterion because the 24 CSS pixel diameter circle overlaps the link. (Image shown to scale - see the scalable original version)" [ref=f111e232]:
+            - img "A page's scrollbar has been modified to give it custom track and thumb colors. The track is less than 24px wide and the thumb is narrower. The page has a back-to-top link that is next to the scrollbar." [ref=f111e233]
+            - paragraph [ref=f111e235]:
+              - text: Figure 11. The passing example has enough space between the link and the scrollbar for a 24 CSS pixel diameter circle, placed over the scrollbar, to not overlap the link. The failing example has no space between the link and the scrollbar, which fails the criterion because the 24 CSS pixel diameter circle overlaps the link. (Image shown to scale -
+              - link "see the scalable original version" [ref=f111e236] [cursor=pointer]:
+                - /url: img/target-custom-scrollbar-spacing.svg
+              - text: )
+      - generic [ref=f111e237]:
+        - heading "Benefits" [level=2] [ref=f111e238]
+        - paragraph [ref=f111e239]: "Having targets with sufficient size - or at least sufficient target spacing - can help all users who may have difficulty in confidently targeting or operating small controls. Users who benefit include, but are not limited to:"
+        - list [ref=f111e240]:
+          - listitem [ref=f111e241]: People who use a mobile device where the touchscreen is the primary mode of interaction;
+          - listitem [ref=f111e242]: People using mouse, stylus or touch input who have mobility impairments such as hand tremors;
+          - listitem [ref=f111e243]: People using a device in environments where they are exposed to shaking such as public transportation;
+          - listitem [ref=f111e244]: Mouse users who have difficulty with fine motor movements;
+          - listitem [ref=f111e245]: People who access a device using one hand;
+          - listitem [ref=f111e246]: People with large fingers, or who are operating the device with only a part of their finger or knuckle.
+      - generic [ref=f111e247]:
+        - heading "Examples" [level=2] [ref=f111e248]
+        - list [ref=f111e249]:
+          - listitem [ref=f111e250]: Three buttons are on-screen and the target size of each button is 24 by 24 CSS pixels. Since the target size itself is 24 by 24 CSS pixels, no additional spacing is required, the success criterion passes.
+          - listitem [ref=f111e251]: A row of buttons, each of which has a horizontal width of more than 24 CSS pixels, a height of only 20 CSS pixels, and vertical margin of 4 CSS pixels above and below the row of buttons. Since there is sufficient spacing both above and below the row of buttons, the success criterion passes.
+          - listitem [ref=f111e252]: Links within a paragraph of text have varying target dimensions. Links within paragraphs of text do not need to meet the 24 by 24 CSS pixels requirements, so the success criterion passes.
+      - generic [ref=f111e253]:
+        - heading "Related Resources" [level=2] [ref=f111e254]
+        - paragraph [ref=f111e255]: Resources are for information purposes only, no endorsement implied.
+        - list [ref=f111e256]:
+          - listitem [ref=f111e257]:
+            - link "Target size study for one-handed thumb use on small touchscreen devices" [ref=f111e258] [cursor=pointer]:
+              - /url: https://dl.acm.org/doi/10.1145/1152215.1152260
+      - generic [ref=f111e259]:
+        - heading "Techniques" [level=2] [ref=f111e260]
+        - paragraph [ref=f111e261]:
+          - text: Each item in this section represents a technique or combination of techniques that the Accessibility Guidelines Working Group deems sufficient for meeting this success criterion. A technique may go beyond the minimum requirement of the criterion. There may be other ways of meeting the criterion not covered by these techniques. For information on using other techniques, see
+          - link "Understanding Techniques for WCAG Success Criteria" [ref=f111e262] [cursor=pointer]:
+            - /url: understanding-techniques
+          - text: ", particularly the \"Other Techniques\" section."
+        - generic [ref=f111e263]:
+          - heading "Sufficient Techniques" [level=3] [ref=f111e264]
+          - list [ref=f111e265]:
+            - listitem [ref=f111e266]:
+              - 'link "C42: Using min-height and min-width on target container to ensure sufficient target spacing" [ref=f111e267] [cursor=pointer]':
+                - /url: https://www.w3.org/WAI/WCAG22/Techniques/css/C42
+      - group [ref=f111e269]:
+        - heading "+ Key Terms" [level=2] [ref=f111e271] [cursor=pointer]
+      - link "Back to Top" [ref=f111e272] [cursor=pointer]:
+        - /url: "#top"
+    - complementary [ref=f111e276]:
+      - heading "Help improve this page" [level=2] [ref=f111e280]
+      - generic [ref=f111e281]:
+        - paragraph [ref=f111e282]:
+          - text: Please share your ideas, suggestions, or comments via email to the publicly-archived list
+          - link "public-agwg-comments@w3.org" [ref=f111e283] [cursor=pointer]:
+            - /url: mailto:public-agwg-comments@w3.org?subject=%5BUnderstanding%20and%20Techniques%20Feedback%5D
+          - text: or via GitHub
+        - generic [ref=f111e284]:
+          - link "Email" [ref=f111e285] [cursor=pointer]:
+            - /url: mailto:public-agwg-comments@w3.org?subject=%5BUnderstanding%20and%20Techniques%20Feedback%5D
+          - link "Fork & Edit on GitHub" [ref=f111e287] [cursor=pointer]:
+            - /url: https://github.com/w3c/wcag/edit/main/understanding/22/target-size-minimum.html
+          - link "New GitHub Issue" [ref=f111e289] [cursor=pointer]:
+            - /url: https://github.com/w3c/wcag/issues/new
+  - contentinfo "Page" [ref=f111e291]:
+    - generic [ref=f111e292]:
+      - paragraph [ref=f111e293]:
+        - strong [ref=f111e294]: "Date:"
+        - text: Updated 02 November 2026.
+        - link "View this page's revision history." [ref=f111e295] [cursor=pointer]:
+          - /url: https://github.com/w3c/wcag/commits/main/understanding/22/target-size-minimum.html
+      - paragraph [ref=f111e296]:
+        - strong [ref=f111e297]: Developed by
+        - link "Accessibility Guidelines Working Group (AG WG) Participants" [ref=f111e298] [cursor=pointer]:
+          - /url: https://www.w3.org/groups/wg/ag/participants
+        - text: "(Co-Chairs: Adam Page, Alastair Campbell, Rachael Bradley Montgomery. W3C Staff Contact: Kevin White)."
+      - paragraph [ref=f111e299]:
+        - text: The content was developed as part of the
+        - link "WAI-Core projects" [ref=f111e300] [cursor=pointer]:
+          - /url: https://www.w3.org/WAI/about/projects/#us
+        - text: funded by U.S. Federal funds. The user interface was designed by the Education and Outreach Working Group (
+        - link "EOWG" [ref=f111e301] [cursor=pointer]:
+          - /url: https://www.w3.org/groups/wg/eowg/participants
+        - text: ) with contributions from Shadi Abou-Zahra, Steve Lee, and Shawn Lawton Henry as part of the
+        - link "WAI-Guide" [ref=f111e302] [cursor=pointer]:
+          - /url: https://www.w3.org/WAI/about/projects/wai-guide/
+        - text: project, co-funded by the European Commission.
+  - contentinfo "Site" [ref=f111e303]:
+    - generic [ref=f111e304]:
+      - generic [ref=f111e305]:
+        - link "W3C Web Accessibility Initiative (WAI)" [ref=f111e307] [cursor=pointer]:
+          - /url: https://www.w3.org/WAI/
+        - generic [ref=f111e308]: Strategies, standards, resources to make the Web accessible to people with disabilities
+        - list [ref=f111e310]:
+          - listitem [ref=f111e311]:
+            - link "Get News in Email" [ref=f111e313] [cursor=pointer]:
+              - /url: https://www.w3.org/WAI/news/subscribe/
+          - listitem [ref=f111e314]:
+            - link "LinkedIn" [ref=f111e316] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/w3c-wai/
+          - listitem [ref=f111e317]:
+            - link "Mastodon" [ref=f111e319] [cursor=pointer]:
+              - /url: https://w3c.social/@wai
+          - listitem [ref=f111e320]:
+            - link "YouTube" [ref=f111e322] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/
+      - list [ref=f111e325]:
+        - listitem [ref=f111e326]:
+          - link "Home" [ref=f111e327] [cursor=pointer]:
+            - /url: https://www.w3.org/WAI/
+        - listitem [ref=f111e328]:
+          - link "Contact" [ref=f111e329] [cursor=pointer]:
+            - /url: https://www.w3.org/WAI/about/contacting/
+        - listitem [ref=f111e330]:
+          - link "Site map" [ref=f111e331] [cursor=pointer]:
+            - /url: https://www.w3.org/WAI/sitemap/
+        - listitem [ref=f111e332]:
+          - link "Support WAI" [ref=f111e333] [cursor=pointer]:
+            - /url: https://www.w3.org/WAI/about/support/
+        - listitem [ref=f111e334]:
+          - link "News" [ref=f111e335] [cursor=pointer]:
+            - /url: https://www.w3.org/WAI/news/
+        - listitem [ref=f111e336]:
+          - link "Accessibility statement" [ref=f111e337] [cursor=pointer]:
+            - /url: https://www.w3.org/WAI/about/accessibility-statement/
+        - listitem [ref=f111e338]:
+          - link "All Translations" [ref=f111e339] [cursor=pointer]:
+            - /url: https://www.w3.org/WAI/translations/
+        - listitem [ref=f111e340]:
+          - link "Resources for roles" [ref=f111e341] [cursor=pointer]:
+            - /url: https://www.w3.org/WAI/roles/
+      - paragraph [ref=f111e342]:
+        - text: Copyright © 2026
+        - link "World Wide Web Consortium" [ref=f111e343] [cursor=pointer]:
+          - /url: https://www.w3.org/
+        - text: . W3C
+        - superscript [ref=f111e344]: ®
+        - link "liability" [ref=f111e345] [cursor=pointer]:
+          - /url: https://www.w3.org/policies/#disclaimers
+        - text: ","
+        - link "trademark" [ref=f111e346] [cursor=pointer]:
+          - /url: https://www.w3.org/policies/#trademarks
+        - text: and
+        - link "permissive license" [ref=f111e347] [cursor=pointer]:
+          - /url: https://www.w3.org/copyright/software-license/
+        - text: rules apply unless otherwise noted. See
+        - link "Permission to Use WAI Material" [ref=f111e348] [cursor=pointer]:
+          - /url: https://www.w3.org/WAI/about/using-wai-material/
+        - text: .

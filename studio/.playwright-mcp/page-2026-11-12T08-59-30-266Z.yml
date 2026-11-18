@@ -1,0 +1,894 @@
+- generic [active] [ref=f116e1]:
+  - list:
+    - listitem:
+      - link "Skip to main content" [ref=f116e2] [cursor=pointer]:
+        - /url: "#content"
+    - listitem:
+      - link "Skip to search" [ref=f116e3] [cursor=pointer]:
+        - /url: "#mdn-search"
+  - banner [ref=f116e7]:
+    - navigation [ref=f116e8]:
+      - link "MDN" [ref=f116e10] [cursor=pointer]:
+        - /url: /en-US/
+        - img "MDN" [ref=f116e11]
+      - button "Search the site" [ref=f116e17] [cursor=pointer]
+      - button "Toggle navigation" [ref=f116e21] [cursor=pointer]
+      - text: (external) (external)
+    - generic [ref=f116e22]:
+      - button "Toggle sidebar" [ref=f116e25] [cursor=pointer]
+      - list [ref=f116e29]:
+        - listitem [ref=f116e30]:
+          - link "Web" [ref=f116e31] [cursor=pointer]:
+            - /url: /en-US/docs/Web
+        - listitem [ref=f116e32]:
+          - link "CSS" [ref=f116e33] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS
+        - listitem [ref=f116e34]:
+          - link "Reference" [ref=f116e35] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Reference
+        - listitem [ref=f116e36]:
+          - link "Properties" [ref=f116e37] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Reference/Properties
+        - listitem [ref=f116e38]:
+          - link "cursor" [ref=f116e39] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Reference/Properties/cursor
+      - button "Switch color theme" [ref=f116e43] [cursor=pointer]:
+        - generic [ref=f116e44]: Theme
+      - generic [ref=f116e47]:
+        - button "English (US)" [ref=f116e48] [cursor=pointer]
+        - generic: Remember language
+  - main [ref=f116e52]:
+    - generic [ref=f116e53]:
+      - heading [level=1] [ref=f116e54]:
+        - code [ref=f116e55]: cursor
+        - text: CSS property
+      - group [ref=f116e56]:
+        - generic "Baseline Check Baseline Widely available * Chrome check Edge check Firefox check Safari check" [ref=f116e57] [cursor=pointer]:
+          - img "Baseline Check" [ref=f116e58]
+          - generic [ref=f116e59]: Baseline
+          - generic [ref=f116e60]: Widely available
+          - generic [ref=f116e61]: "*"
+          - generic [ref=f116e62]:
+            - generic "Supported in Chrome and Edge" [ref=f116e63]:
+              - img "Chrome check" [ref=f116e64]
+              - img "Edge check" [ref=f116e65]
+            - generic "Supported in Firefox" [ref=f116e66]:
+              - img "Firefox check" [ref=f116e67]
+            - generic "Supported in Safari" [ref=f116e68]:
+              - img "Safari check" [ref=f116e69]
+        - generic [ref=f116e71]:
+          - paragraph [ref=f116e72]: This feature is well established and works across many devices and browser versions. It’s been available across browsers since December 2021.
+          - paragraph [ref=f116e73]:
+            - text: Want more browser support for this feature?
+            - link "Tell us why. (external)" [ref=f116e74] [cursor=pointer]:
+              - /url: https://github.com/web-platform-dx/developer-signals/issues/35
+          - paragraph [ref=f116e75]: "* Some parts of this feature may have varying levels of support."
+          - list [ref=f116e76]:
+            - listitem [ref=f116e77]:
+              - link "See full compatibility" [ref=f116e78] [cursor=pointer]:
+                - /url: "#browser_compatibility"
+            - listitem [ref=f116e79]:
+              - link "Learn more" [ref=f116e80] [cursor=pointer]:
+                - /url: /en-US/docs/Glossary/Baseline/Compatibility
+      - generic [ref=f116e81]:
+        - paragraph [ref=f116e82]:
+          - text: The
+          - strong [ref=f116e83]:
+            - code [ref=f116e84]: cursor
+          - link "CSS" [ref=f116e85] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS
+          - text: property sets the mouse cursor, if any, to show when the mouse pointer is over an element.
+        - paragraph [ref=f116e86]:
+          - text: "The cursor setting should inform users of the mouse operations that can be performed at the current location, including: text selection, activating help or context menus, copying content, resizing tables, and so on. You can specify either the"
+          - emphasis [ref=f116e87]: type
+          - text: of cursor using a keyword, or load a specific icon to use (with optional fallback images and mandatory keyword as a final fallback).
+    - complementary [ref=f116e88]:
+      - navigation [ref=f116e89]:
+        - heading "In this article" [level=2] [ref=f116e90]
+        - list [ref=f116e91]:
+          - listitem [ref=f116e92]:
+            - link "Try it" [ref=f116e93] [cursor=pointer]:
+              - /url: "#try_it"
+          - listitem [ref=f116e94]:
+            - link "Syntax" [ref=f116e95] [cursor=pointer]:
+              - /url: "#syntax"
+          - listitem [ref=f116e96]:
+            - link "Usage notes" [ref=f116e97] [cursor=pointer]:
+              - /url: "#usage_notes"
+          - listitem [ref=f116e98]:
+            - link "Formal definition" [ref=f116e99] [cursor=pointer]:
+              - /url: "#formal_definition"
+          - listitem [ref=f116e100]:
+            - link "Formal syntax" [ref=f116e101] [cursor=pointer]:
+              - /url: "#formal_syntax"
+          - listitem [ref=f116e102]:
+            - link "Examples" [ref=f116e103] [cursor=pointer]:
+              - /url: "#examples"
+          - listitem [ref=f116e104]:
+            - link "Specifications" [ref=f116e105] [cursor=pointer]:
+              - /url: "#specifications"
+          - listitem [ref=f116e106]:
+            - link "Browser compatibility" [ref=f116e107] [cursor=pointer]:
+              - /url: "#browser_compatibility"
+          - listitem [ref=f116e108]:
+            - link "See also" [ref=f116e109] [cursor=pointer]:
+              - /url: "#see_also"
+    - generic [ref=f116e110]:
+      - region "Try it" [ref=f116e111]:
+        - heading [level=2] [ref=f116e112]:
+          - link "Try it" [ref=f116e113] [cursor=pointer]:
+            - /url: "#try_it"
+        - generic [ref=f116e115]:
+          - generic [ref=f116e116]:
+            - 'heading "CSS Demo: cursor" [level=4] [ref=f116e117]'
+            - button "Reset" [disabled] [ref=f116e119]
+          - list "Value select" [ref=f116e121]:
+            - listitem [ref=f116e122]:
+              - textbox [ref=f116e127] [cursor=pointer]:
+                - generic [ref=f116e128]: "cursor: pointer;"
+            - listitem [ref=f116e129]:
+              - textbox [ref=f116e134] [cursor=pointer]:
+                - generic [ref=f116e135]: "cursor: help;"
+            - listitem [ref=f116e136]:
+              - textbox [ref=f116e141] [cursor=pointer]:
+                - generic [ref=f116e142]: "cursor: wait;"
+            - listitem [ref=f116e143]:
+              - textbox [ref=f116e148] [cursor=pointer]:
+                - generic [ref=f116e149]: "cursor: crosshair;"
+            - listitem [ref=f116e150]:
+              - textbox [ref=f116e155] [cursor=pointer]:
+                - generic [ref=f116e156]: "cursor: not-allowed;"
+            - listitem [ref=f116e157]:
+              - textbox [ref=f116e162] [cursor=pointer]:
+                - generic [ref=f116e163]: "cursor: zoom-in;"
+          - iframe [ref=f116e167]
+      - region "Syntax" [ref=f116e168]:
+        - heading [level=2] [ref=f116e169]:
+          - link "Syntax" [ref=f116e170] [cursor=pointer]:
+            - /url: "#syntax"
+        - generic [ref=f116e172]:
+          - generic [ref=f116e173]:
+            - generic [ref=f116e174]: css
+            - button "Copy" [ref=f116e177] [cursor=pointer]
+          - code [ref=f116e180]:
+            - text: "/* Keyword values */ cursor: auto; cursor: pointer; /* … */ cursor: zoom-out; /* URL with mandatory keyword fallback */ cursor:"
+            - generic [ref=f116e181]: url("hand.cur")
+            - text: ", pointer; /* URL and coordinates, with mandatory keyword fallback */ cursor:"
+            - generic [ref=f116e182]: url("cursor_1.png")
+            - text: "4 12, auto; cursor:"
+            - generic [ref=f116e183]: url("cursor_2.png")
+            - text: "2 2, pointer; /* URLs and fallback URLs (some with coordinates), with mandatory keyword fallback */ cursor:"
+            - generic [ref=f116e184]: url("cursor_1.svg")
+            - text: 4 5,
+            - generic [ref=f116e185]: url("cursor_2.svg")
+            - text: ", /* …, */"
+            - generic [ref=f116e186]: url("cursor_n.cur")
+            - text: "5 5, progress; /* Global values */ cursor: inherit; cursor: initial; cursor: revert; cursor: revert-layer; cursor: unset;"
+        - paragraph [ref=f116e187]:
+          - text: The
+          - code [ref=f116e188]: cursor
+          - text: property is specified as zero or more
+          - code [ref=f116e189]: <url>
+          - text: values, separated by commas, followed by a single mandatory keyword value. Each
+          - code [ref=f116e190]: <url>
+          - text: should point to an image file. The browser will try to load the first image specified, falling back to the next if it can't, and falling back to the keyword value if no images could be loaded (or if none were specified).
+        - paragraph [ref=f116e191]:
+          - text: Each
+          - code [ref=f116e192]: <url>
+          - text: may be optionally followed by a pair of space-separated numbers, which set the
+          - code [ref=f116e193]: <x>
+          - text: and
+          - code [ref=f116e194]: <y>
+          - text: coordinates of the cursor's hotspot relative to the top-left corner of the image.
+      - region "Values" [ref=f116e195]:
+        - heading [level=3] [ref=f116e196]:
+          - link "Values" [ref=f116e197] [cursor=pointer]:
+            - /url: "#values"
+        - generic [ref=f116e198]:
+          - term [ref=f116e199]:
+            - link [ref=f116e200] [cursor=pointer]:
+              - /url: "#url"
+              - code [ref=f116e201]: <url>
+              - text: Optional
+          - definition [ref=f116e202]:
+            - paragraph [ref=f116e203]:
+              - text: A
+              - code [ref=f116e204]: url()
+              - text: or a comma separated list
+              - code [ref=f116e205]: url(), url(), …
+              - text: ", pointing to an image file. More than one"
+              - link [ref=f116e206] [cursor=pointer]:
+                - /url: /en-US/docs/Web/CSS/Reference/Values/url_value
+                - code [ref=f116e207]: <url>
+              - text: may be provided as fallbacks, in case some cursor image types are not supported. A non-URL fallback (one or more of the keyword values)
+              - emphasis [ref=f116e208]: must
+              - text: be at the end of the fallback list.
+          - term [ref=f116e209]:
+            - link [ref=f116e210] [cursor=pointer]:
+              - /url: "#x"
+              - code [ref=f116e211]: <x>
+              - text: ","
+              - code [ref=f116e212]: <y>
+              - text: Optional
+          - definition [ref=f116e213]:
+            - paragraph [ref=f116e214]: Optional x- and y-coordinates indicating the cursor hotspot; the precise position within the cursor that is being pointed to.
+            - paragraph [ref=f116e215]:
+              - text: The numbers are in units of image pixels. They are relative to the top left corner of the image, which corresponds to
+              - code [ref=f116e216]: 0 0
+              - text: ", and are clamped within the boundaries of the cursor image. If these values are not specified, they may be read from the file itself, and will otherwise default to the top-left corner of the image."
+          - term [ref=f116e217]:
+            - link [ref=f116e218] [cursor=pointer]:
+              - /url: "#keyword"
+              - code [ref=f116e219]: keyword
+          - definition [ref=f116e220]:
+            - paragraph [ref=f116e221]:
+              - text: A keyword value
+              - emphasis [ref=f116e222]: must
+              - text: be specified, indicating either the type of cursor to use, or the fallback cursor to use if all specified icons fail to load.
+            - paragraph [ref=f116e223]:
+              - text: The available keywords are listed in the table below. Other than
+              - code [ref=f116e224]: none
+              - text: ", which means no cursor, there is an image showing how the cursors used to be rendered. You can hover your mouse over the table rows to see the effect of the different cursor keyword values on your browser today."
+            - figure [ref=f116e225]:
+              - table [ref=f116e226]:
+                - rowgroup [ref=f116e227]:
+                  - row [ref=f116e228]:
+                    - columnheader "Category" [ref=f116e229]
+                    - columnheader "Keyword" [ref=f116e230]
+                    - columnheader "Example" [ref=f116e231]
+                    - columnheader "Description" [ref=f116e232]
+                - rowgroup [ref=f116e233]:
+                  - row [ref=f116e234]:
+                    - rowheader "General" [ref=f116e235]
+                    - cell [ref=f116e236]:
+                      - code [ref=f116e237]: auto
+                    - cell [ref=f116e238]
+                    - cell [ref=f116e239]:
+                      - text: The UA will determine the cursor to display based on the current context. E.g., equivalent to
+                      - code [ref=f116e240]: text
+                      - text: when hovering text.
+                  - row [ref=f116e241]:
+                    - cell [ref=f116e242]:
+                      - code [ref=f116e243]: default
+                    - cell [ref=f116e244]:
+                      - img "wide arrow pointing up and to the left" [ref=f116e245]
+                    - cell "The platform-dependent default cursor. Typically an arrow." [ref=f116e246]
+                  - row [ref=f116e247]:
+                    - cell [ref=f116e248]:
+                      - code [ref=f116e249]: none
+                    - cell [ref=f116e250]
+                    - cell "No cursor is rendered." [ref=f116e251]
+                  - row [ref=f116e252]:
+                    - rowheader "Links & status" [ref=f116e253]
+                    - cell [ref=f116e254]:
+                      - code [ref=f116e255]: context-menu
+                    - cell [ref=f116e256]:
+                      - img "wide arrow pointing up and to the left slightly obscuring a menu icon" [ref=f116e257]
+                    - cell "A context menu is available." [ref=f116e258]
+                  - row [ref=f116e259]:
+                    - cell [ref=f116e260]:
+                      - code [ref=f116e261]: help
+                    - cell [ref=f116e262]:
+                      - img "wide arrow pointing up and to the left next to a question mark" [ref=f116e263]
+                    - cell "Help information is available." [ref=f116e264]
+                  - row [ref=f116e265] [cursor=pointer]:
+                    - cell [ref=f116e266]:
+                      - code [ref=f116e267]: pointer
+                    - cell [ref=f116e268]:
+                      - img "right hand with an index finger pointing up" [ref=f116e269]
+                    - cell "The cursor is a pointer that indicates a link. Typically an image of a pointing hand." [ref=f116e270]
+                  - row [ref=f116e271]:
+                    - cell [ref=f116e272]:
+                      - code [ref=f116e273]: progress
+                    - cell [ref=f116e274]:
+                      - img "wide arrow and hour glass" [ref=f116e275]
+                    - cell [ref=f116e276]:
+                      - text: The program is busy in the background, but the user can still interact with the interface (in contrast to
+                      - code [ref=f116e277]: wait
+                      - text: ).
+                  - row [ref=f116e278]:
+                    - cell [ref=f116e279]:
+                      - code [ref=f116e280]: wait
+                    - cell [ref=f116e281]:
+                      - img "hour glass" [ref=f116e282]
+                    - cell [ref=f116e283]:
+                      - text: The program is busy, and the user can't interact with the interface (in contrast to
+                      - code [ref=f116e284]: progress
+                      - text: ). Sometimes an image of an hourglass or a watch.
+                  - row [ref=f116e285]:
+                    - rowheader "Selection" [ref=f116e286]
+                    - cell [ref=f116e287]:
+                      - code [ref=f116e288]: cell
+                    - cell [ref=f116e289]:
+                      - img "wide plus symbol" [ref=f116e290]
+                    - cell "The table cell or set of cells can be selected." [ref=f116e291]
+                  - row [ref=f116e292]:
+                    - cell [ref=f116e293]:
+                      - code [ref=f116e294]: crosshair
+                    - cell [ref=f116e295]:
+                      - img "plus symbol composed of two thin lines." [ref=f116e296]
+                    - cell "Cross cursor, often used to indicate selection in a bitmap." [ref=f116e297]
+                  - row [ref=f116e298]:
+                    - cell [ref=f116e299]:
+                      - code [ref=f116e300]: text
+                    - cell [ref=f116e301]:
+                      - img "vertical i-beam" [ref=f116e302]
+                    - cell "The text can be selected. Typically the shape of an I-beam." [ref=f116e303]
+                  - row [ref=f116e304]:
+                    - cell [ref=f116e305]:
+                      - code [ref=f116e306]: vertical-text
+                    - cell [ref=f116e307]:
+                      - img "horizontal i-beam" [ref=f116e308]
+                    - cell "The vertical text can be selected. Typically the shape of a sideways I-beam." [ref=f116e309]
+                  - row [ref=f116e310]:
+                    - rowheader "Drag & drop" [ref=f116e311]
+                    - cell [ref=f116e312]:
+                      - code [ref=f116e313]: alias
+                    - cell [ref=f116e314]:
+                      - img "wide arrow pointing up and to the left partially obscuring a smaller folder icon with a curved arrow pointing up and to the right" [ref=f116e315]
+                    - cell "An alias or shortcut is to be created." [ref=f116e316]
+                  - row [ref=f116e317]:
+                    - cell [ref=f116e318]:
+                      - code [ref=f116e319]: copy
+                    - cell [ref=f116e320]:
+                      - img "wide arrow pointing up and to the left partially obscuring a smaller folder icon with a plus sign" [ref=f116e321]
+                    - cell "Something is to be copied." [ref=f116e322]
+                  - row [ref=f116e323]:
+                    - cell [ref=f116e324]:
+                      - code [ref=f116e325]: move
+                    - cell [ref=f116e326]:
+                      - img "plus sign made of two thin lines. The four points are small arrows facing out" [ref=f116e327]
+                    - cell "Something is to be moved." [ref=f116e328]
+                  - row [ref=f116e329]:
+                    - cell [ref=f116e330]:
+                      - code [ref=f116e331]: no-drop
+                    - cell [ref=f116e332]:
+                      - img "pointer icon and a not allowed icon" [ref=f116e333]
+                    - cell [ref=f116e334]:
+                      - text: An item may not be dropped at the current location.
+                      - link "Firefox bug 275173 (external)" [ref=f116e335] [cursor=pointer]:
+                        - /url: https://bugzil.la/275173
+                      - text: ": On Windows and macOS,"
+                      - code [ref=f116e336]: no-drop
+                      - text: is the same as
+                      - code [ref=f116e337]: not-allowed
+                      - text: .
+                  - row [ref=f116e338]:
+                    - cell [ref=f116e339]:
+                      - code [ref=f116e340]: not-allowed
+                    - cell [ref=f116e341]:
+                      - img "Not allowed icon, which is a circle with a line through it" [ref=f116e342]
+                    - cell "The requested action will not be carried out." [ref=f116e343]
+                  - row [ref=f116e344]:
+                    - cell [ref=f116e345]:
+                      - code [ref=f116e346]: grab
+                    - cell [ref=f116e347]:
+                      - img "fully opened hand icon" [ref=f116e348]
+                    - cell "Something can be grabbed (dragged to be moved)." [ref=f116e349]
+                  - row [ref=f116e350]:
+                    - cell [ref=f116e351]:
+                      - code [ref=f116e352]: grabbing
+                    - cell [ref=f116e353]:
+                      - img "closed hand icon, of the back of the hand" [ref=f116e354]
+                    - cell "Something is being grabbed (dragged to be moved)." [ref=f116e355]
+                  - row [ref=f116e356]:
+                    - rowheader "Resizing & scrolling" [ref=f116e357]
+                    - cell [ref=f116e358]:
+                      - code [ref=f116e359]: all-scroll
+                    - cell [ref=f116e360]:
+                      - img "icon of a medium size dot with four triangles around it." [ref=f116e361]
+                    - cell [ref=f116e362]:
+                      - text: Something can be scrolled in any direction (panned).
+                      - link "Firefox bug 275174 (external)" [ref=f116e363] [cursor=pointer]:
+                        - /url: https://bugzil.la/275174
+                      - text: ": On Windows,"
+                      - code [ref=f116e364]: all-scroll
+                      - text: is the same as
+                      - code [ref=f116e365]: move
+                      - text: .
+                  - row [ref=f116e366]:
+                    - cell [ref=f116e367]:
+                      - code [ref=f116e368]: col-resize
+                    - cell [ref=f116e369]:
+                      - img "col-resize.gif" [ref=f116e370]
+                    - cell "The item/column can be resized horizontally. Often rendered as arrows pointing left and right with a vertical bar separating them." [ref=f116e371]
+                  - row [ref=f116e372]:
+                    - cell [ref=f116e373]:
+                      - code [ref=f116e374]: row-resize
+                    - cell [ref=f116e375]:
+                      - img "two narrow parallel horizontal lines with a small arrow pointing up and another pointing down" [ref=f116e376]
+                    - cell "The item/row can be resized vertically. Often rendered as arrows pointing up and down with a horizontal bar separating them." [ref=f116e377]
+                  - row [ref=f116e378]:
+                    - cell [ref=f116e379]:
+                      - code [ref=f116e380]: n-resize
+                    - cell [ref=f116e381]:
+                      - img "thin long arrow pointing towards the top" [ref=f116e382]
+                    - cell [ref=f116e383]:
+                      - text: Some edge is to be moved. For example, the
+                      - code [ref=f116e384]: se-resize
+                      - text: cursor is used when the movement starts from the
+                      - emphasis [ref=f116e385]: south-east
+                      - text: corner of the box. In some environments, an equivalent bidirectional resize cursor is shown. For example,
+                      - code [ref=f116e386]: n-resize
+                      - text: and
+                      - code [ref=f116e387]: s-resize
+                      - text: are the same as
+                      - code [ref=f116e388]: ns-resize
+                      - text: .
+                  - row [ref=f116e389]:
+                    - cell [ref=f116e390]:
+                      - code [ref=f116e391]: e-resize
+                    - cell [ref=f116e392]:
+                      - img "thin long arrow pointing towards the right" [ref=f116e393]
+                  - row [ref=f116e394]:
+                    - cell [ref=f116e395]:
+                      - code [ref=f116e396]: s-resize
+                    - cell [ref=f116e397]:
+                      - img "thin long arrow pointing down" [ref=f116e398]
+                  - row [ref=f116e399]:
+                    - cell [ref=f116e400]:
+                      - code [ref=f116e401]: w-resize
+                    - cell [ref=f116e402]:
+                      - img "thin long arrow pointing towards the left" [ref=f116e403]
+                  - row [ref=f116e404]:
+                    - cell [ref=f116e405]:
+                      - code [ref=f116e406]: ne-resize
+                    - cell [ref=f116e407]:
+                      - img "thin long arrow pointing top-right" [ref=f116e408]
+                  - row [ref=f116e409]:
+                    - cell [ref=f116e410]:
+                      - code [ref=f116e411]: nw-resize
+                    - cell [ref=f116e412]:
+                      - img "thin long arrow pointing top-left" [ref=f116e413]
+                  - row [ref=f116e414]:
+                    - cell [ref=f116e415]:
+                      - code [ref=f116e416]: se-resize
+                    - cell [ref=f116e417]:
+                      - img "thin long arrow pointing bottom-right" [ref=f116e418]
+                  - row [ref=f116e419]:
+                    - cell [ref=f116e420]:
+                      - code [ref=f116e421]: sw-resize
+                    - cell [ref=f116e422]:
+                      - img "thin long arrow pointing bottom-left" [ref=f116e423]
+                  - row [ref=f116e424]:
+                    - cell [ref=f116e425]:
+                      - code [ref=f116e426]: ew-resize
+                    - cell [ref=f116e427]:
+                      - img "thin long arrow pointing left and right" [ref=f116e428]
+                    - cell "Bidirectional resize cursor." [ref=f116e429]
+                  - row [ref=f116e430]:
+                    - cell [ref=f116e431]:
+                      - code [ref=f116e432]: ns-resize
+                    - cell [ref=f116e433]:
+                      - img "thin long arrow pointing up and down" [ref=f116e434]
+                  - row [ref=f116e435]:
+                    - cell [ref=f116e436]:
+                      - code [ref=f116e437]: nesw-resize
+                    - cell [ref=f116e438]:
+                      - img "thin long arrow pointing both to the top-right and bottom-left" [ref=f116e439]
+                  - row [ref=f116e440]:
+                    - cell [ref=f116e441]:
+                      - code [ref=f116e442]: nwse-resize
+                    - cell [ref=f116e443]:
+                      - img "thin long arrow pointing both to the top-left and bottom-right" [ref=f116e444]
+                  - row [ref=f116e445]:
+                    - rowheader "Zooming" [ref=f116e446]
+                    - cell [ref=f116e447]:
+                      - code [ref=f116e448]: zoom-in
+                    - cell [ref=f116e449]:
+                      - img "magnifying glass with a plus sign" [ref=f116e450]
+                    - cell [ref=f116e451]:
+                      - paragraph [ref=f116e452]: Something can be zoomed (magnified) in or out.
+                  - row [ref=f116e453]:
+                    - cell [ref=f116e454]:
+                      - code [ref=f116e455]: zoom-out
+                    - cell [ref=f116e456]:
+                      - img "magnifying glass with a minus sign" [ref=f116e457]
+      - region "Usage notes" [ref=f116e458]:
+        - heading [level=2] [ref=f116e459]:
+          - link "Usage notes" [ref=f116e460] [cursor=pointer]:
+            - /url: "#usage_notes"
+      - region "Icon size limits" [ref=f116e461]:
+        - heading [level=3] [ref=f116e462]:
+          - link "Icon size limits" [ref=f116e463] [cursor=pointer]:
+            - /url: "#icon_size_limits"
+        - paragraph [ref=f116e464]:
+          - text: While the specification does not limit the
+          - code [ref=f116e465]: cursor
+          - text: image size,
+          - link "user agents" [ref=f116e466] [cursor=pointer]:
+            - /url: /en-US/docs/Glossary/User_agent
+          - text: commonly restrict them to avoid potential misuse. For example, on Firefox and Chromium cursor images are restricted to 128x128 pixels by default, but it is recommended to limit the cursor image size to 32x32 pixels. Cursor changes using images that are larger than the user-agent maximum supported size will generally just be ignored.
+      - region "Supported image file formats" [ref=f116e467]:
+        - heading [level=3] [ref=f116e468]:
+          - link "Supported image file formats" [ref=f116e469] [cursor=pointer]:
+            - /url: "#supported_image_file_formats"
+        - paragraph [ref=f116e470]:
+          - text: User agents are required by the specification to support PNG files, SVG v1.1 files in secure static mode that contain a natural size, and any other non-animated image file formats that they support for images in other properties. Desktop browsers also broadly support the
+          - code [ref=f116e471]: .cur
+          - text: file format.
+        - paragraph [ref=f116e472]:
+          - text: The specification further indicates that user agents
+          - emphasis [ref=f116e473]: should
+          - text: also support SVG v1.1 files in secure animated mode that contain a natural size, along with any other animated images file formats they support for images in other properties. User agents
+          - emphasis [ref=f116e474]: may
+          - text: support both static and animated SVG images that do not contain a natural size.
+      - region "iPadOS" [ref=f116e475]:
+        - heading [level=3] [ref=f116e476]:
+          - link "iPadOS" [ref=f116e477] [cursor=pointer]:
+            - /url: "#ipados"
+        - paragraph [ref=f116e478]:
+          - text: iPadOS supports pointer devices like trackpads and mouses. By default, the iPad cursor is displayed as a circle, and the only supported value that will change an appearance of the pointer is
+          - code [ref=f116e479]: text
+          - text: .
+      - region "Other notes" [ref=f116e480]:
+        - heading [level=3] [ref=f116e481]:
+          - link "Other notes" [ref=f116e482] [cursor=pointer]:
+            - /url: "#other_notes"
+        - paragraph [ref=f116e483]: Cursor changes that intersect toolbar areas are commonly blocked to avoid spoofing.
+      - region "Formal definition" [ref=f116e484]:
+        - heading [level=2] [ref=f116e485]:
+          - link "Formal definition" [ref=f116e486] [cursor=pointer]:
+            - /url: "#formal_definition"
+        - figure [ref=f116e487]:
+          - table [ref=f116e488]:
+            - rowgroup [ref=f116e489]:
+              - row [ref=f116e490]:
+                - rowheader "Initial value" [ref=f116e491]:
+                  - link "Initial value" [ref=f116e492] [cursor=pointer]:
+                    - /url: /en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value
+                - cell [ref=f116e493]:
+                  - code [ref=f116e494]: auto
+              - row [ref=f116e495]:
+                - rowheader "Applies to" [ref=f116e496]
+                - cell "all elements" [ref=f116e497]
+              - row [ref=f116e498]:
+                - rowheader "Inherited" [ref=f116e499]:
+                  - link "Inherited" [ref=f116e500] [cursor=pointer]:
+                    - /url: /en-US/docs/Web/CSS/Guides/Cascade/Inheritance
+                - cell "yes" [ref=f116e501]
+              - row [ref=f116e502]:
+                - rowheader "Computed value" [ref=f116e503]:
+                  - link "Computed value" [ref=f116e504] [cursor=pointer]:
+                    - /url: /en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value
+                - cell [ref=f116e505]:
+                  - text: as specified, but with
+                  - link [ref=f116e506] [cursor=pointer]:
+                    - /url: /en-US/docs/Web/CSS/Reference/Values/url_value
+                    - code [ref=f116e507]: <url>
+                  - text: values made absolute
+              - row [ref=f116e508]:
+                - rowheader "Animation type" [ref=f116e509]:
+                  - link "Animation type" [ref=f116e510] [cursor=pointer]:
+                    - /url: /en-US/docs/Web/CSS/Guides/Animations/Animatable_properties
+                - cell "discrete" [ref=f116e511]
+      - region "Formal syntax" [ref=f116e512]:
+        - heading [level=2] [ref=f116e513]:
+          - link "Formal syntax" [ref=f116e514] [cursor=pointer]:
+            - /url: "#formal_syntax"
+        - generic [ref=f116e515]:
+          - text: cursor =
+          - link "[" [ref=f116e516] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#brackets
+          - text: <cursor-image> ,
+          - link "]" [ref=f116e517] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#brackets
+          - link "*" [ref=f116e518] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#asterisk
+          - text: <cursor-predefined> <cursor-image> =
+          - link "[" [ref=f116e519] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#brackets
+          - link "<url>" [ref=f116e520] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Reference/Values/url_value
+          - link "|" [ref=f116e521] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: <url-set>
+          - link "]" [ref=f116e522] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#brackets
+          - link "<number>" [ref=f116e523] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Reference/Values/number
+          - 'link "{2}" [ref=f116e524] [cursor=pointer]':
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#curly_braces
+          - link "?" [ref=f116e525] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#question_mark
+          - text: <cursor-predefined> = auto
+          - link "|" [ref=f116e526] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: default
+          - link "|" [ref=f116e527] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: none
+          - link "|" [ref=f116e528] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: context-menu
+          - link "|" [ref=f116e529] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: help
+          - link "|" [ref=f116e530] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: pointer
+          - link "|" [ref=f116e531] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: progress
+          - link "|" [ref=f116e532] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: wait
+          - link "|" [ref=f116e533] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: cell
+          - link "|" [ref=f116e534] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: crosshair
+          - link "|" [ref=f116e535] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: text
+          - link "|" [ref=f116e536] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: vertical-text
+          - link "|" [ref=f116e537] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: alias
+          - link "|" [ref=f116e538] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: copy
+          - link "|" [ref=f116e539] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: move
+          - link "|" [ref=f116e540] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: no-drop
+          - link "|" [ref=f116e541] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: not-allowed
+          - link "|" [ref=f116e542] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: grab
+          - link "|" [ref=f116e543] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: grabbing
+          - link "|" [ref=f116e544] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: e-resize
+          - link "|" [ref=f116e545] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: n-resize
+          - link "|" [ref=f116e546] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: ne-resize
+          - link "|" [ref=f116e547] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: nw-resize
+          - link "|" [ref=f116e548] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: s-resize
+          - link "|" [ref=f116e549] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: se-resize
+          - link "|" [ref=f116e550] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: sw-resize
+          - link "|" [ref=f116e551] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: w-resize
+          - link "|" [ref=f116e552] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: ew-resize
+          - link "|" [ref=f116e553] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: ns-resize
+          - link "|" [ref=f116e554] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: nesw-resize
+          - link "|" [ref=f116e555] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: nwse-resize
+          - link "|" [ref=f116e556] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: col-resize
+          - link "|" [ref=f116e557] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: row-resize
+          - link "|" [ref=f116e558] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: all-scroll
+          - link "|" [ref=f116e559] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: zoom-in
+          - link "|" [ref=f116e560] [cursor=pointer]:
+            - /url: /en-US/docs/Web/CSS/Guides/Values_and_units/Value_definition_syntax#single_bar
+          - text: zoom-out
+        - generic [ref=f116e561]:
+          - text: This syntax reflects the latest standard as per
+          - link "CSS Basic User Interface Module Level 4 (external)" [ref=f116e562] [cursor=pointer]:
+            - /url: https://drafts.csswg.org/css-ui-4/
+          - text: . Not all browsers may have implemented every part. See
+          - link "Browser compatibility" [ref=f116e563] [cursor=pointer]:
+            - /url: "#browser_compatibility"
+          - text: for support information.
+      - region "Examples" [ref=f116e564]:
+        - heading [level=2] [ref=f116e565]:
+          - link "Examples" [ref=f116e566] [cursor=pointer]:
+            - /url: "#examples"
+      - region "Setting cursor types" [ref=f116e567]:
+        - heading [level=3] [ref=f116e568]:
+          - link "Setting cursor types" [ref=f116e569] [cursor=pointer]:
+            - /url: "#setting_cursor_types"
+        - generic [ref=f116e571]:
+          - generic [ref=f116e572]:
+            - generic [ref=f116e573]: css
+            - button "Copy" [ref=f116e576] [cursor=pointer]
+          - code [ref=f116e579]:
+            - text: ".foo { cursor: crosshair; } .bar { cursor: zoom-in; } /* A fallback keyword value is required when using a URL */ .baz { cursor:"
+            - generic [ref=f116e580]: url("hyper.cur")
+            - text: ", auto; }"
+      - region "Specifications" [ref=f116e581]:
+        - heading [level=2] [ref=f116e582]:
+          - link "Specifications" [ref=f116e583] [cursor=pointer]:
+            - /url: "#specifications"
+        - table [ref=f116e584]:
+          - rowgroup [ref=f116e585]:
+            - row [ref=f116e586]:
+              - columnheader "Specification" [ref=f116e587]
+          - rowgroup [ref=f116e588]:
+            - row [ref=f116e589]:
+              - cell [ref=f116e590]:
+                - 'link "CSS Basic User Interface Module Level 4 # cursor (external)" [ref=f116e591] [cursor=pointer]':
+                  - /url: https://drafts.csswg.org/css-ui/#cursor
+                  - text: CSS Basic User Interface Module Level 4# cursor (external)
+      - region "Browser compatibility" [ref=f116e592]:
+        - heading [level=2] [ref=f116e593]:
+          - link "Browser compatibility" [ref=f116e594] [cursor=pointer]:
+            - /url: "#browser_compatibility"
+        - generic:
+          - paragraph
+      - region "See also" [ref=f116e595]:
+        - heading [level=2] [ref=f116e596]:
+          - link "See also" [ref=f116e597] [cursor=pointer]:
+            - /url: "#see_also"
+        - list [ref=f116e598]:
+          - listitem [ref=f116e599]:
+            - link [ref=f116e600] [cursor=pointer]:
+              - /url: /en-US/docs/Web/CSS/Reference/Properties/pointer-events
+              - code [ref=f116e601]: pointer-events
+          - listitem [ref=f116e602]:
+            - link [ref=f116e603] [cursor=pointer]:
+              - /url: /en-US/docs/Web/CSS/Reference/Values/url_value
+              - code [ref=f116e604]: <url>
+            - text: type
+          - listitem [ref=f116e605]:
+            - text: SVG
+            - link [ref=f116e606] [cursor=pointer]:
+              - /url: /en-US/docs/Web/SVG/Reference/Attribute/cursor
+              - code [ref=f116e607]: cursor
+            - text: attribute
+      - region "Help improve MDN" [ref=f116e608]:
+        - generic [ref=f116e609]:
+          - heading "Help improve MDN" [level=2] [ref=f116e617]
+          - group [ref=f116e619]:
+            - generic [ref=f116e620]: Was this page helpful to you?
+            - generic [ref=f116e621]:
+              - button "Yes" [ref=f116e623] [cursor=pointer]
+              - button "No" [ref=f116e629] [cursor=pointer]
+          - link "Learn how to contribute" [ref=f116e634] [cursor=pointer]:
+            - /url: /en-US/docs/MDN/Community/Getting_started
+          - paragraph [ref=f116e635]:
+            - text: This page was last modified on
+            - time [ref=f116e636]: Nov 10, 2026
+            - text: by
+            - link "MDN contributors" [ref=f116e637] [cursor=pointer]:
+              - /url: /en-US/docs/Web/CSS/Reference/Properties/cursor/contributors.txt
+            - text: .
+          - generic [ref=f116e638]:
+            - link "View this page on GitHub (external)" [ref=f116e639] [cursor=pointer]:
+              - /url: https://github.com/mdn/content/blob/main/files/en-us/web/css/reference/properties/cursor/index.md?plain=1
+            - text: •
+            - link "Report a problem with this content (external)" [ref=f116e640] [cursor=pointer]:
+              - /url: https://github.com/mdn/content/issues/new?template=page-report.yml&mdn-url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2FReference%2FProperties%2Fcursor&metadata=%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EPage+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Fcss%2Freference%2Fproperties%2Fcursor%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2FReference%2FProperties%2Fcursor%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Fcss%2Freference%2Fproperties%2Fcursor%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2Fc4e64810ce10fb5cb1eebfcd8b6f526866fd0982%0A*+Document+last+modified%3A+2026-11-10T03%3A19%3A00.000Z%0A%0A%3C%2Fdetails%3E
+  - contentinfo [ref=f116e642]:
+    - generic [ref=f116e643]:
+      - generic [ref=f116e644]:
+        - link "MDN logo" [ref=f116e645] [cursor=pointer]:
+          - /url: /
+          - img "MDN" [ref=f116e646]
+        - paragraph [ref=f116e648]: Your blueprint for a better internet.
+      - list [ref=f116e649]:
+        - listitem [ref=f116e650]:
+          - link "MDN on GitHub" [ref=f116e651] [cursor=pointer]:
+            - /url: https://github.com/mdn/
+        - listitem [ref=f116e652]:
+          - link "MDN on Bluesky" [ref=f116e653] [cursor=pointer]:
+            - /url: https://bsky.app/profile/developer.mozilla.org
+        - listitem [ref=f116e654]:
+          - link "MDN on X" [ref=f116e655] [cursor=pointer]:
+            - /url: https://x.com/mozdevnet
+        - listitem [ref=f116e656]:
+          - link "MDN on Mastodon" [ref=f116e657] [cursor=pointer]:
+            - /url: https://mastodon.social/@mdn
+        - listitem [ref=f116e658]:
+          - link "MDN blog RSS feed" [ref=f116e659] [cursor=pointer]:
+            - /url: /en-US/blog/rss.xml
+      - generic [ref=f116e660]:
+        - term [ref=f116e661]: MDN
+        - definition [ref=f116e662]:
+          - list [ref=f116e663]:
+            - listitem [ref=f116e664]:
+              - link "About" [ref=f116e665] [cursor=pointer]:
+                - /url: /en-US/about
+            - listitem [ref=f116e666]:
+              - link "Blog" [ref=f116e667] [cursor=pointer]:
+                - /url: /en-US/blog/
+            - listitem [ref=f116e668]:
+              - link "Mozilla careers (external)" [ref=f116e669] [cursor=pointer]:
+                - /url: https://www.mozilla.org/en-US/careers/listings/
+            - listitem [ref=f116e670]:
+              - link "Advertise with us" [ref=f116e671] [cursor=pointer]:
+                - /url: /en-US/advertising
+            - listitem [ref=f116e672]:
+              - link "MDN Plus" [ref=f116e673] [cursor=pointer]:
+                - /url: /en-US/plus
+            - listitem [ref=f116e674]:
+              - link "Product help (external)" [ref=f116e675] [cursor=pointer]:
+                - /url: https://support.mozilla.org/products/mdn-plus
+      - generic [ref=f116e676]:
+        - term [ref=f116e677]: Contribute
+        - definition [ref=f116e678]:
+          - list [ref=f116e679]:
+            - listitem [ref=f116e680]:
+              - link "MDN Community" [ref=f116e681] [cursor=pointer]:
+                - /url: /en-US/community
+            - listitem [ref=f116e682]:
+              - link "Community resources" [ref=f116e683] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Community
+            - listitem [ref=f116e684]:
+              - link "Writing guidelines" [ref=f116e685] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Writing_guidelines
+            - listitem [ref=f116e686]:
+              - link "MDN Discord (external)" [ref=f116e687] [cursor=pointer]:
+                - /url: /discord
+            - listitem [ref=f116e688]:
+              - link "MDN on GitHub (external)" [ref=f116e689] [cursor=pointer]:
+                - /url: https://github.com/mdn
+      - generic [ref=f116e690]:
+        - term [ref=f116e691]: Developers
+        - definition [ref=f116e692]:
+          - list [ref=f116e693]:
+            - listitem [ref=f116e694]:
+              - link "Web technologies" [ref=f116e695] [cursor=pointer]:
+                - /url: /en-US/docs/Web
+            - listitem [ref=f116e696]:
+              - link "Learn web development" [ref=f116e697] [cursor=pointer]:
+                - /url: /en-US/docs/Learn_web_development
+            - listitem [ref=f116e698]:
+              - link "Guides" [ref=f116e699] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Guides
+            - listitem [ref=f116e700]:
+              - link "Tutorials" [ref=f116e701] [cursor=pointer]:
+                - /url: /en-US/docs/MDN/Tutorials
+            - listitem [ref=f116e702]:
+              - link "Glossary" [ref=f116e703] [cursor=pointer]:
+                - /url: /en-US/docs/Glossary
+            - listitem [ref=f116e704]:
+              - link "Hacks blog (external)" [ref=f116e705] [cursor=pointer]:
+                - /url: https://hacks.mozilla.org/
+    - generic [ref=f116e706]:
+      - link "Mozilla logo" [ref=f116e707] [cursor=pointer]:
+        - /url: https://www.mozilla.org/
+        - img "Mozilla" [ref=f116e708]
+      - list [ref=f116e710]:
+        - listitem [ref=f116e711]:
+          - link "Website Privacy Notice (external)" [ref=f116e712] [cursor=pointer]:
+            - /url: https://www.mozilla.org/privacy/websites/
+        - listitem [ref=f116e713]:
+          - link "Telemetry Settings (external)" [ref=f116e714] [cursor=pointer]:
+            - /url: https://www.mozilla.org/en-US/privacy/websites/data-preferences/
+        - listitem [ref=f116e715]:
+          - link "Legal (external)" [ref=f116e716] [cursor=pointer]:
+            - /url: https://www.mozilla.org/about/legal/terms/mozilla
+        - listitem [ref=f116e717]:
+          - link "Community Participation Guidelines (external)" [ref=f116e718] [cursor=pointer]:
+            - /url: https://www.mozilla.org/about/governance/policies/participation/
+      - paragraph [ref=f116e719]:
+        - text: Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under
+        - link "a Creative Commons license" [ref=f116e720] [cursor=pointer]:
+          - /url: /docs/MDN/Writing_guidelines/Attrib_copyright_license
+        - text: .
